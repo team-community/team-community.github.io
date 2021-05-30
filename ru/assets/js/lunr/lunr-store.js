@@ -5,6 +5,12 @@ var store = [{
         "url": "https://teamredminer.info/ru/download/5.6d/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
+        "title": "Прогнозы на Биткоин и Криптовалюту&#58; Как Они Работают?",
+        "excerpt":"   Как работают предсказания знаменитых китов отрасли CZ, Барри Зильберта, Чарли Ли, Энтони Помпиллиано, на примере твитов Помпиллиано.   Здесь только карта предсказаний Помпа. Но по всем остальным предсказателям можно составить аналогичные карты. Всё сходится. Ну не могут они ошибаться во всех 100% случаев. Даже мой кот предсказывает точнее.   Если провести глубокое расследование, всех их твитов и балансов их кошельков, то всё будет ещё инетреснее.  ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/prediction-29-05/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
         "title": "TeamRedMiner&#58; Комиссия, Системные Требования и Лимиты [2021]",
         "excerpt":"TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.3 отсюда:   Скачать сейчас   Скачать (зеркало)   ","categories": ["documentation"],
         "tags": ["TeamRedMiner"],
