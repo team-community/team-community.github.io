@@ -1,6 +1,6 @@
 var store = [{
-        "title": "PhoenixMiner command line arguments [2021]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by PhoenixMiner.    You can download PhoenixMiner 0.8.3 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace PhoenixMiner.exe with ./PhoenixMiner in the command-line examples below.   Note that PhoenixMiner supports most of the command-line options of Claymore’s dual Ethereum miner so you can use the same command line options as the ones you would have used with Claymore’s miner.   ","categories": ["documentation"],
+        "title": "TeamRedMiner command line arguments [2021]",
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 0.8.3 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["TeamRedMiner"],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"

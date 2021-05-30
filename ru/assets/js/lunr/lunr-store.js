@@ -5,8 +5,8 @@ var store = [{
         "url": "https://teamredminer.info/ru/download/5.6d/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "PhoenixMiner&#58; Комиссия, Системные Требования и Лимиты [2021]",
-        "excerpt":"PhoenixMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию PhoenixMiner 0.8.3 отсюда:   Скачать сейчас   Скачать (зеркало)   ","categories": ["documentation"],
+        "title": "TeamRedMiner&#58; Комиссия, Системные Требования и Лимиты [2021]",
+        "excerpt":"TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.3 отсюда:   Скачать сейчас   Скачать (зеркало)   ","categories": ["documentation"],
         "tags": ["TeamRedMiner"],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
