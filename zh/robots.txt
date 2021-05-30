@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://phoenixminer.org/sitemap_index.xml
+Sitemap: https://teamredminer.info/sitemap_index.xml

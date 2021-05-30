@@ -151,7 +151,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 		 <h1 id="page-title" class="page__title" itemprop="headline">Download Team Red Miner  0.8.3 - AMD+NVIDIA GPU Miner
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  3 minute read
+  less than 1 minute read
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -159,11 +159,6 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
            <nav class="toc">
             <header><h4 class="nav__title">
 <i class="fas fa-file-alt"></i> On this page</h4></header>
-             <ul class="toc__menu">
- <li>
-<a href="#changelog">Changelog</a>
-</li>
-</ul>
            </nav>
          </aside>
 <section class="tim-down2">
@@ -187,52 +182,14 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 	</div>
 </div>
 </section>
-<p><img srcset="/assets/images/download/mobile/5.6d.webp 323w,              /assets/images/download/webp/5.6d.webp 517w,              /assets/images/download/large/5.6d.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/download/jpeg/5.6d.png" alt="phoenixminer" loading="lazy" decoding="async">
-<em>The new PhoenixMiner stale version is ready.</em></p>
-<p>You can download PhoenixMiner 5.6d from here:</p>
-<p><a href="https://cutt.ly/yvQOmm8" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download Now</a></p>
-<p><a href="https://cutt.ly/ObSHpq8" class="btn btn--danger btn--x-large" rel="nofollow noopener" target="_blank">Download (mirror)</a></p>
+<p><img srcset="/assets/images/download/mobile/0.8.3.webp 323w,              /assets/images/download/webp/0.8.3.webp 517w,              /assets/images/download/large/0.8.3.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/download/jpeg/0.8.3.png" alt="TeamRedMiner" loading="lazy" decoding="async">
+<em>The new TeamRedMiner stale version is ready.</em></p>
+<p>You can download TeamRedMiner 0.8.3 from here:</p>
+<p><a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download Now</a></p>
+<p><a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" class="btn btn--danger btn--x-large" rel="nofollow noopener" target="_blank">Download (mirror)</a></p>
 <p>The file contains the link to download the .zip archive and the password (<code class="phe-blu">phoenix</code>) to unlock it.</p>
 <p>Inside the archive you will find a file README.txt with installation instructions.</p>
 <p><span class="red">Make sure to replace the pool and wallet address by what you’re using in all files.</span></p>
-<h2 id="changelog">Changelog</h2>
-<p>The new features in this release (since 5.6d) are:</p>
-<p>The problem with the missing GPU temperatures on Nvidia GPUs is fixed and we released new version with the fix: PhoenixMiner 5.6d. You can find the download links and checksums in this post.</p>
-<p>If you are already running 5.6c and your rigs are not showing GPU temperatures, the easiest fix is to add the command-line option <code class="language-plaintext highlighter-rouge">-hstats 2</code></p>
-<p>Of course, you can also upgrade to PhoenixMiner 5.6d but the only difference between 5.6c and 5.6d is the fixed problem with GPU temperatures not shown with some Nvidia cards.</p>
-<p>Sorry about this regression, we happen to run all of our test rigs with <code class="language-plaintext highlighter-rouge">-hstats 2</code> and that’s why we didn’t detect the problem sooner.</p>
-<p>The changes of the previous beta (5.6d) since the last version (5.5c) are:</p>
-<ul>
- <li>Added <strong>native kernels for AMD RX6700 GPUs</strong>. These are faster than the generic kernels and produce a lot less stale shares
- </li>
-<li>Increase the max supported DAG epoch to 550 (should be enough to about Jan 2023)
- </li>
-<li>Full support for setting clocks, fan speeds, voltages, and memory timings of AMD RX6900/6800/6700 cards
- </li>
-<li>The specific hashrate is now shown in the form of kilo hashes per joule (kH/J). Example: if a GPU has hashrate of 30 MH/s with 100W power usage, the specific hashrate is 300 kH/J
- </li>
-<li>Added new command-line parameters <code class="language-plaintext highlighter-rouge">-ttj</code> and <code class="language-plaintext highlighter-rouge">-ttmem</code>, allowing automatic fan speed control based on GPU hotspot (junction), and memory temperatures respectively. Example: <code class="language-plaintext highlighter-rouge">-ttmem 83</code> will keep the GPU memory temperature at or bellow 83C by increasing the fan speed as necessary. These parameters can be combined with <code class="language-plaintext highlighter-rouge">-tt</code>, as well as with each other. These options are supported only on AMD GPUs that report junction and memory temperatures
- </li>
-<li>Added new command-line parameters <code class="language-plaintext highlighter-rouge">-tmaxj</code> and <code class="language-plaintext highlighter-rouge">-tmaxmem</code>, allowing to decrease the GPU usage when the GPU hotspot (junction), or GPU memory temperatures are above the specified thresholds. These options are supported only on AMD GPUs that report junction and memory temperatures
- </li>
-<li>Added support for AMD Windows drivers 21.3.2, and 21.3.1
- </li>
-<li>Added support for AMD Linux drivers 20.50.x. Use this drivers only if you have Polaris or older GPUs, or the latest RX6x000 GPUs. WARNING: Vega, Radeon VII, and Navi GPUs won’t work with these drivers!
- </li>
-<li>Turn off the zero fan feature on AMD cards whenever a fixed fan speed is used (e.g. <code class="language-plaintext highlighter-rouge">-tt -40</code>), or when an auto fan with min fan speed is used (e.g. <code class="language-plaintext highlighter-rouge">-tt 63 -minfan 35</code>). To disable this feature, add <code class="language-plaintext highlighter-rouge">-fanstop 1</code> command-line parameter
- </li>
-<li>When <code class="language-plaintext highlighter-rouge">-mcdag 1</code> is specified under Linux, the miner will not wait for the daggen.sh script to finish before starting to generate the DAGs. Instead it will for a fixed 7 seconds. This allows you to do all the following in the daggen.sh: turn off the overclocking of Nvidia GPUs, sleep for 30-60 seconds to allow time for DAG generation, and then re-apply the overclocking of the Nvidia GPUs
- </li>
-<li>Other small improvements and fixes
-</li>
-</ul>
-<p>The support for <code class="language-plaintext highlighter-rouge">-ttj</code>, <code class="language-plaintext highlighter-rouge">-ttmem</code>, <code class="language-plaintext highlighter-rouge">-tmaxj</code>, and <code class="language-plaintext highlighter-rouge">-tmaxmem</code> for Nvidia 3090 and 3080 GPUs is not yet ready for release. We hope to have it ready for the final 5.6 release.</p>
-<p>For more robust integrity check, you can use our GPG public key, which was verifyed with ETH transaction from our main devfee account as <a href="https://bitcointalk.org/index.php?topic=2647654.msg56755869#msg56755869" rel="nofollow noopener" target="_blank">explained here</a>.</p>
-<p>Here are the signatures for the files in this release:</p>
-<p><a href="https://github.com/PhoenixMinerDevTeam/PhoenixMiner/releases/download/5.6d/PhoenixMiner_5.6d_Windows.zip.asc" rel="nofollow noopener" target="_blank">PhoenixMiner_5.6d_Windows.zip.asc</a>
-<a href="https://github.com/PhoenixMinerDevTeam/PhoenixMiner/releases/download/5.6d/PhoenixMiner_5.6d_Linux.tar.gz.asc" rel="nofollow noopener" target="_blank">PhoenixMiner_5.6d_Linux.tar.gz.asc</a>
-<a href="https://raw.githubusercontent.com/PhoenixMinerDevTeam/files/main/PhoenixMiner_NVRTC_Windows.zip.asc" rel="nofollow noopener" target="_blank">PhoenixMiner_NVRTC_Windows.zip.asc</a></p>
-<p>Happy Mining!</p>
 <p><a href="/assets/images/mining/mining-rig-135.jpg" class="image-popup"> <img src="/assets/images/mining/mining-rig-135.jpg" alt="mining rig in the office" loading="lazy" decoding="async"> </a></p>
      </section>
 </div>
@@ -290,7 +247,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
-      <a href="/tags/phoenixminer" class="page__taxonomy-item" rel="tag">PhoenixMiner</a>
+      <a href="/tags/teamredminer" class="page__taxonomy-item" rel="tag">TeamRedMiner</a>
     </span>
  </p>
  <p class="page__taxonomy">
