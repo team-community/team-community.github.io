@@ -1,7 +1,7 @@
 var store = [{
         "title": "TeamRedMiner&#58; Setup - Readme [Full Documentation]",
         "excerpt":"we are actively working on bringing many new features in the future releases.    ","categories": ["documentation"],
-        "tags": ["PhoenixMiner"],
+        "tags": ["TeamRedMiner"],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
