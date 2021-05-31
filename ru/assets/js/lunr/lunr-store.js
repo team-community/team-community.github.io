@@ -17,9 +17,9 @@ var store = [{
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "Clear 05 30",
+        "title": "Clear 05 31",
         "excerpt":"   ","categories": ["articles"],
         "tags": [],
-        "url": "https://teamredminer.info/ru/articles/clear-05-30/",
+        "url": "https://teamredminer.info/ru/articles/clear-05-31/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },]
