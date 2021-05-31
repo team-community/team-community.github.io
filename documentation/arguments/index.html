@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<!-- begin _includes/seo.html --><title>TeamRedMiner: changelog</title>
+<meta name="description" content="**">
+ <meta name="author" content="TeamRedMiner">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TeamRedMiner">
+<meta property="og:title" content="TeamRedMiner: changelog">
+<meta property="og:url" content="https://teamredminer.info/documentation/arguments/">
+ <meta property="og:description" content="**">
+ <meta property="og:image" content="https://teamredminer.info/assets/images/site-logo.png">
+ <meta name="twitter:site" content="@teamredminer">
+ <meta name="twitter:title" content="TeamRedMiner: changelog">
+ <meta name="twitter:description" content="**">
+ <meta name="twitter:url" content="https://teamredminer.info/documentation/arguments/">
+   <meta name="twitter:card" content="summary">
+     <meta name="twitter:image" content="https://teamredminer.info/assets/images/site-logo.png">
+ <meta property="article:published_time" content="2021-05-29T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-05-29T00:00:00+00:00">
+<link rel="canonical" href="https://teamredminer.info/documentation/arguments/">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "TeamRedMiner",
+      "url": "https://teamredminer.info/",
+      "sameAs": ["https://www.facebook.com/teamredminer"]
+  }
+</script>
+ <meta name="google-site-verification" content="WLESE2hqeUs9Zis9Ug_IWbm4nQNFofxcUj68NFnM-p0">
+ <meta name="yandex-verification" content="b9e5bf6ac3a15279">
+<!-- end _includes/seo.html -->
+<meta name="description" content="**">
+ <meta name="author" content="TeamRedMiner">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TeamRedMiner Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="/assets/css/fontawesome/all.min.css" as="style" onload="this.rel='stylesheet'">
+<!-- For all browsers<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+  --> 
+ <style type="text/css">
+button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outline-offset:-2px}*{box-sizing:border-box}html{box-sizing:border-box;background-color:#fff;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}@media (min-width: 48em){html{font-size:18px}}@media (min-width: 64em){html{font-size:20px}}@media (min-width: 80em){html{font-size:22px}}body{margin:0}::-moz-selection{color:#fff;background:#000}::selection{color:#fff;background:#000}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}a{color:#2f7d95}a:hover,a:active{outline:0}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}#map_canvas img,.google-maps img{max-width:none}button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle}button,input{*overflow:visible;line-height:normal}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}label,select,button,input[type="button"],input[type="reset"],input[type="submit"],input[type="radio"],input[type="checkbox"]{cursor:pointer}input[type="search"]{box-sizing:border-box;-webkit-appearance:textfield}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}textarea{overflow:auto;vertical-align:top}html{position:relative;min-height:100%}body{margin:0;padding:0;color:#3d4144;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;line-height:1.5}body.overflow--hidden{overflow:hidden}h1,h2,h3,h4,h5,h6{margin:2em 0 0.5em;line-height:1.2;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-weight:bold}h1{margin-top:0;font-size:1.563em}h2{font-size:1.25em}h3{font-size:1.125em}h4{font-size:1.0625em}h5{font-size:1.03125em}h6{font-size:1em}small,.small{font-size:.75em}p{margin-bottom:1.3em}u,ins{text-decoration:none;border-bottom:1px solid #3d4144}u a,ins a{color:inherit}del a{color:inherit}p,pre,blockquote,ul,ol,dl,figure,table,fieldset{orphans:3;widows:3}abbr[title],abbr[data-original-title]{text-decoration:none;cursor:help;border-bottom:1px dotted #3d4144}blockquote{margin:2em 1em 2em 0;padding-left:1em;padding-right:1em;font-style:italic;border-left:0.25em solid #6f777d}blockquote cite{font-style:italic}blockquote cite:before{content:"\2014";padding-right:5px}a:visited{color:#4e91a5}a:hover{color:#235e70;outline:0}tt,code,kbd,samp,pre{font-family:Monaco,Consolas,"Lucida Console",monospace}pre{overflow-x:auto}p>code,a>code,li>code,figcaption>code,td>code{padding-top:0.1rem;padding-bottom:0.1rem;font-size:0.8em;background:#fafafa;border-radius:4px}p>code:before,p>code:after,a>code:before,a>code:after,li>code:before,li>code:after,figcaption>code:before,figcaption>code:after,td>code:before,td>code:after{letter-spacing:-0.2em;content:"\00a0"}hr{display:block;margin:1em 0;border:0;border-top:1px solid #f2f3f3}ul li,ol li{margin-bottom:0.5em}li ul,li ol{margin-top:0.5em}figure{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:start;align-items:flex-start;flex-wrap:wrap;margin:2em 0}figure img,figure iframe,figure .fluid-width-video-wrapper{margin-bottom:1em}figure img{width:100%;border-radius:4px;-webkit-transition:none;transition:none}figure>a{display:block}@media (min-width: 37.5em){figure.half>a,figure.half>img{width:calc(50% - 0.5em)}}figure.half figcaption{width:100%}@media (min-width: 37.5em){figure.third>a,figure.third>img{width:calc(33.3333% - 0.5em)}}figure.third figcaption{width:100%}figcaption{margin-bottom:0.5em;color:#646769;font-family:Georgia,Times,serif;font-size:.75em}figcaption a{-webkit-transition:none;transition:none}figcaption a:hover{color:#235e70}svg:not(:root){overflow:hidden}nav ul{margin:0;padding:0}nav li{list-style:none}nav a{text-decoration:none}nav ul li,nav ol li{margin-bottom:0}nav li ul,nav li ol{margin-top:0}b,i,strong,em,blockquote,p,q,span,figure,img,h1,h2,header,input,a,tr,td,form button,input[type="submit"],.btn,#goog-wm-sb,.highlight,.archive__item-teaser{-webkit-transition:none;transition:none}form{margin:0 0 5px 0;padding:1em;background-color:#f2f3f3}form fieldset{margin-bottom:5px;padding:0;border-width:0}form legend{display:block;width:100%;margin-bottom:10px;*margin-left:-7px;padding:0;color:#3d4144;border:0;white-space:normal}form p{margin-bottom:2.5px}form ul{list-style-type:none;margin:0 0 5px 0;padding:0}form br{display:none}label,input,button,select,textarea{vertical-align:baseline;*vertical-align:middle}input,button,select,textarea{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}label{display:block;margin-bottom:0.25em;color:#3d4144;cursor:pointer}label small{font-size:.75em}label input,label textarea,label select{display:block}input,textarea,select{display:inline-block;width:100%;padding:0.25em;margin-bottom:0.5em;color:#3d4144;background-color:#fff;border:#f2f3f3;border-radius:4px;box-shadow:0 1px 1px rgba(0,0,0,0.125)}.input-mini{width:60px}.input-small{width:90px}input[type="image"],input[type="checkbox"],input[type="radio"]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;cursor:pointer;border-radius:0;border:0 \9;box-shadow:none}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*width:13px;*height:13px}input[type="image"]{border:0}input[type="file"]{width:auto;padding:initial;line-height:initial;border:initial;background-color:transparent;background-color:initial;box-shadow:none}input[type="button"],input[type="reset"],input[type="submit"]{width:auto;height:auto;cursor:pointer;*overflow:visible}select,input[type="file"]{*margin-top:4px}select{width:auto;background-color:#fff}select[multiple],select[size]{height:auto}textarea{resize:vertical;height:auto;overflow:auto;vertical-align:top}input[type="hidden"]{display:none}.form{position:relative}.radio,.checkbox{padding-left:18px;font-weight:normal}.radio input[type="radio"],.checkbox input[type="checkbox"]{float:left;margin-left:-18px}.radio.inline,.checkbox.inline{display:inline-block;padding-top:5px;margin-bottom:0;vertical-align:middle}.radio.inline+.radio.inline,.checkbox.inline+.checkbox.inline{margin-left:10px}input[disabled],select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[readonly]{opacity:0.5;cursor:not-allowed}input:focus,textarea:focus{border-color:#6f777d;outline:0;outline:thin dotted \9;box-shadow:inset 0 1px 3px rgba(61,65,68,0.06),0 0 5px rgba(111,119,125,0.7)}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,select:focus{box-shadow:none}.help-block,.help-inline{color:#646769}.help-block{display:block;margin-bottom:1em;line-height:1em}.help-inline{display:inline-block;vertical-align:middle;padding-left:5px}.form-group{margin-bottom:5px;padding:0;border-width:0}.form-inline input,.form-inline textarea,.form-inline select{display:inline-block;margin-bottom:0}.form-inline label{display:inline-block}.form-inline .radio,.form-inline .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px}.form-search input,.form-search textarea,.form-search select{display:inline-block;margin-bottom:0}.form-search .search-query{padding-left:14px;padding-right:14px;margin-bottom:0;border-radius:14px}.form-search label{display:inline-block}.form-search .radio,.form-search .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle}.form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px}.form--loading:before{content:""}.form--loading .form__spinner{display:block}.form:before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,0.7);z-index:10}.form__spinner{display:none;position:absolute;top:50%;left:50%;z-index:11}#goog-fixurl ul{list-style:none;margin-left:0;padding-left:0}#goog-fixurl ul li{list-style-type:none}#goog-wm-qt{width:auto;margin-right:10px;margin-bottom:20px;padding:8px 20px;display:inline-block;font-size:.75em;background-color:#fff;color:#000;border-width:2px !important;border-style:solid !important;border-color:#f2f3f3;border-radius:4px}table{display:block;margin-bottom:1em;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em;border-collapse:collapse;overflow-x:auto}table+table{margin-top:1em}thead{background-color:#f2f3f3;border-bottom:2px solid #b6b6b6}th{padding:0.5em;font-weight:bold;text-align:left}td{padding:0.5em;border-bottom:1px solid #b6b6b6}tr,td,th{vertical-align:middle}.btn,#goog-wm-sb{display:inline-block;margin-bottom:0.25em;padding:0.5em 1em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em;font-weight:bold;text-align:center;text-decoration:none;border-width:0;border-radius:4px;cursor:pointer}.btn .icon,#goog-wm-sb .icon{margin-right:0.5em}.btn .icon+.hidden,#goog-wm-sb .icon+.hidden{margin-left:-0.5em}.btn--primary{background-color:#6f777d;color:#fff}.btn--primary:visited{background-color:#6f777d;color:#fff}.btn--primary:hover{background-color:#595f64;color:#fff}.btn--inverse{background-color:#fff;color:#3d4144;border:1px solid #f2f3f3}.btn--inverse:visited{background-color:#fff;color:#3d4144}.btn--inverse:hover{background-color:#ccc;color:#3d4144}.btn--light-outline{background-color:rgba(0,0,0,0);color:#fff;border:1px solid #fff}.btn--light-outline:visited{background-color:rgba(0,0,0,0);color:#fff}.btn--light-outline:hover{background-color:rgba(0,0,0,0.2);color:#fff}.btn--success{background-color:#3fa63f;color:#fff}.btn--success:visited{background-color:#3fa63f;color:#fff}.btn--success:hover{background-color:#328532;color:#fff}.btn--warning{background-color:#d67f05;color:#fff}.btn--warning:visited{background-color:#d67f05;color:#fff}.btn--warning:hover{background-color:#ab6604;color:#fff}.btn--danger{background-color:#ee5f5b;color:#fff}.btn--danger:visited{background-color:#ee5f5b;color:#fff}.btn--danger:hover{background-color:#be4c49;color:#fff}.btn--info{background-color:#3b9cba;color:#fff}.btn--info:visited{background-color:#3b9cba;color:#fff}.btn--info:hover{background-color:#2f7d95;color:#fff}.btn--facebook{background-color:#3b5998;color:#fff}.btn--facebook:visited{background-color:#3b5998;color:#fff}.btn--facebook:hover{background-color:#2f477a;color:#fff}.btn--twitter{background-color:#55acee;color:#fff}.btn--twitter:visited{background-color:#55acee;color:#fff}.btn--twitter:hover{background-color:#448abe;color:#fff}.btn--linkedin{background-color:#007bb6;color:#fff}.btn--linkedin:visited{background-color:#007bb6;color:#fff}.btn--linkedin:hover{background-color:#006292;color:#fff}.btn--block{display:block;width:100%}.btn--block+.btn--block{margin-top:0.25em}.btn--disabled{pointer-events:none;cursor:not-allowed;filter:alpha(opacity=65);box-shadow:none;opacity:0.65}.btn--x-large{font-size:1.25em}.btn--large{font-size:1em}.btn--small{font-size:.6875em}.masthead{position:relative;border-bottom:1px solid #f2f3f3;-webkit-animation:none;animation:none;-webkit-animation-delay:0.15s;animation-delay:0.15s;z-index:20}.masthead__inner-wrap{clear:both;margin-left:auto;margin-right:auto;padding:1em;max-width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}.masthead__inner-wrap::after{clear:both;content:"";display:table}@media (min-width: 80em){.masthead__inner-wrap{max-width:1280px}}.masthead__inner-wrap nav{z-index:10}.masthead__inner-wrap a{text-decoration:none}.site-logo img{max-height:2rem}.site-title{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-item-align:center;align-self:center;font-weight:bold}.site-subtitle{display:block;font-size:.625em}.masthead__menu{float:left;margin-left:0;margin-right:0;width:100%;clear:both}.masthead__menu .site-nav{margin-left:0}@media (min-width: 37.5em){.masthead__menu .site-nav{float:right}}.masthead__menu ul{margin:0;padding:0;clear:both;list-style-type:none}.masthead__menu-item{display:block;list-style-type:none;white-space:nowrap}.masthead__menu-item--lg{padding-right:2em;font-weight:700}.breadcrumbs{clear:both;margin:0 auto;max-width:100%;padding-left:1em;padding-right:1em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;-webkit-animation:none;animation:none;-webkit-animation-delay:0.3s;animation-delay:0.3s}.breadcrumbs::after{clear:both;content:"";display:table}@media (min-width: 80em){.breadcrumbs{max-width:1280px}}.breadcrumbs ol{padding:0;list-style:none;font-size:.75em}@media (min-width: 64em){.breadcrumbs ol{float:right;width:calc(100% - 200px)}}@media (min-width: 80em){.breadcrumbs ol{width:calc(100% - 300px)}}.breadcrumbs li{display:inline}.breadcrumbs .current{font-weight:bold}.pagination{clear:both;float:left;margin-top:1em;padding-top:1em;width:100%}.pagination::after{clear:both;content:"";display:table}.pagination ul{margin:0;padding:0;list-style-type:none;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}.pagination li{display:block;float:left;margin-left:-1px}.pagination li a{display:block;margin-bottom:0.25em;padding:0.5em 1em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:14px;font-weight:bold;line-height:1.5;text-align:center;text-decoration:none;color:#646769;border:1px solid #b6b6b6;border-radius:0}.pagination li a:hover{color:#235e70}.pagination li a.current,.pagination li a.current.disabled{color:#fff;background:#6f777d}.pagination li a.disabled{color:rgba(100,103,105,0.5);pointer-events:none;cursor:not-allowed}.pagination li:first-child{margin-left:0}.pagination li:first-child a{border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination li:last-child a{border-top-right-radius:4px;border-bottom-right-radius:4px}.pagination--pager{display:block;padding:1em 2em;float:left;width:50%;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:1em;font-weight:bold;text-align:center;text-decoration:none;color:#646769;border:1px solid #b6b6b6;border-radius:4px}.pagination--pager:hover{background-color:#646769;color:#fff}.pagination--pager:first-child{border-top-right-radius:0;border-bottom-right-radius:0}.pagination--pager:last-child{margin-left:-1px;border-top-left-radius:0;border-bottom-left-radius:0}.pagination--pager.disabled{color:rgba(100,103,105,0.5);pointer-events:none;cursor:not-allowed}.page__content+.pagination,.page__meta+.pagination,.comment__date+.pagination,.page__share+.pagination,.page__comments+.pagination{margin-top:2em;padding-top:2em;border-top:1px solid #f2f3f3}.greedy-nav{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:2em;background:#fff}.greedy-nav a{display:block;margin:0 1rem;color:#6f777d;text-decoration:none}.greedy-nav a:hover{color:#53595e}.greedy-nav a.site-logo{margin-left:0;margin-right:0.5rem}.greedy-nav a.site-title{margin-left:0}.greedy-nav__toggle{-ms-flex-item-align:center;align-self:center;height:2rem;border:0;outline:none;background-color:transparent;cursor:pointer}.greedy-nav .visible-links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-flex:1;-ms-flex:1;flex:1;overflow:hidden}.greedy-nav .visible-links li{-webkit-box-flex:0;-ms-flex:none;flex:none}.greedy-nav .visible-links a{position:relative}.greedy-nav .visible-links a:before{content:"";position:absolute;left:0;bottom:0;height:4px;background:#6f777d;width:100%;-webkit-transition:none;transition:none;-webkit-transform:scaleX(0) translate3d(0, 0, 0);transform:scaleX(0) translate3d(0, 0, 0)}.greedy-nav .visible-links a:hover:before{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}.greedy-nav .hidden-links{position:absolute;top:100%;right:0;margin-top:15px;padding:5px;border:1px solid #f2f3f3;border-radius:4px;background:#fff;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}.greedy-nav .hidden-links.hidden{display:none}.greedy-nav .hidden-links a{margin:0;padding:10px 20px;font-size:1em}.greedy-nav .hidden-links a:hover{color:#53595e;background:#dbdddf}.greedy-nav .hidden-links:before{content:"";position:absolute;top:-11px;right:10px;width:0;border-style:solid;border-width:0 10px 10px;border-color:#f2f3f3 transparent;display:block;z-index:0}.greedy-nav .hidden-links:after{content:"";position:absolute;top:-10px;right:10px;width:0;border-style:solid;border-width:0 10px 10px;border-color:#fff transparent;display:block;z-index:1}.greedy-nav .hidden-links li{display:block;border-bottom:1px solid #f2f3f3}.greedy-nav .hidden-links li:last-child{border-bottom:none}.no-js .greedy-nav .visible-links{-ms-flex-wrap:wrap;flex-wrap:wrap;overflow:visible}.nav__list{margin-bottom:1.5em}.nav__list input[type="checkbox"],.nav__list label{display:none}@media (max-width: 63.9375em){.nav__list label{position:relative;display:inline-block;padding:0.5em 2.5em 0.5em 1em;color:#7a8288;font-size:.75em;font-weight:bold;border:1px solid #bdc1c4;border-radius:4px;z-index:20;-webkit-transition:0.2s ease-out;transition:0.2s ease-out;cursor:pointer}.nav__list label:before,.nav__list label:after{content:"";position:absolute;right:1em;top:1.25em;width:0.75em;height:0.125em;line-height:1;background-color:#7a8288;-webkit-transition:0.2s ease-out;transition:0.2s ease-out}.nav__list label:after{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.nav__list label:hover{color:#fff;border-color:#7a8288;background-color:#333}.nav__list label:hover:before,.nav__list label:hover:after{background-color:#fff}.nav__list input:checked+label{color:white;background-color:#333}.nav__list input:checked+label:before,.nav__list input:checked+label:after{background-color:#fff}.nav__list label:hover:after{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.nav__list input:checked+label:hover:after{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}.nav__list ul{margin-bottom:1em}.nav__list a{display:block;padding:0.25em 0}}@media (max-width: 63.9375em) and (min-width: 64em){.nav__list a{padding-top:0.125em;padding-bottom:0.125em}}@media (max-width: 63.9375em){.nav__list a:hover{text-decoration:underline}}.nav__list .nav__items{margin:0;font-size:1.25rem}.nav__list .nav__items a{color:inherit}.nav__list .nav__items .active{margin-left:-0.5em;padding-left:0.5em;padding-right:0.5em;font-weight:bold}@media (max-width: 63.9375em){.nav__list .nav__items{position:relative;max-height:0;opacity:0%;overflow:hidden;z-index:10;-webkit-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-webkit-transform:translate(0, 10%);-ms-transform:translate(0, 10%);transform:translate(0, 10%)}}@media (max-width: 63.9375em){.nav__list input:checked~.nav__items{-webkit-transition:0.5s ease-in-out;transition:0.5s ease-in-out;max-height:9999px;overflow:visible;opacity:1;margin-top:1em;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0)}}.nav__title{margin:0;padding:0.5rem 0.75rem;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:1em;font-weight:bold}.nav__sub-title{display:block;margin:0.5rem 0;padding:0.25rem 0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em;font-weight:bold;text-transform:uppercase;border-bottom:1px solid #f2f3f3}.toc{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;color:#7a8288;background-color:#fff;border:1px solid #f2f3f3;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.125);box-shadow:0 1px 1px rgba(0,0,0,0.125)}.toc .nav__title{color:#fff;font-size:.75em;background:#6f777d;border-top-left-radius:4px;border-top-right-radius:4px}.toc .active a{background-color:#e2e4e5;color:#3d4144}.toc__menu{margin:0;padding:0;width:100%;list-style:none;font-size:.75em}@media (min-width: 64em){.toc__menu{font-size:.6875em}}.toc__menu a{display:block;padding:0.25rem 0.75rem;color:#646769;font-weight:bold;line-height:1.5;border-bottom:1px solid #f2f3f3}.toc__menu a:hover{color:#3d4144}.toc__menu li ul>li a{padding-left:1.25rem;font-weight:normal}.toc__menu li ul li ul>li a{padding-left:1.75rem}.toc__menu li ul li ul li ul>li a{padding-left:2.25rem}.toc__menu li ul li ul li ul li ul>li a{padding-left:2.75rem}.toc__menu li ul li ul li ul li ul li ul>li a{padding-left:3.25rem}.layout--search .archive__item-teaser{margin-bottom:0.25em}.search__toggle{margin-left:1rem;margin-right:1rem;height:2rem;border:0;outline:none;color:#6f777d;background-color:transparent;cursor:pointer;-webkit-transition:0.2s;transition:0.2s}.search__toggle:hover{color:#53595e}.search-icon{width:100%;height:100%}.search-content{display:none;visibility:hidden;padding-top:1em;padding-bottom:1em}.search-content__inner-wrap{width:100%;margin-left:auto;margin-right:auto;padding-left:1em;padding-right:1em;-webkit-animation:none;animation:none;-webkit-animation-delay:0.15s;animation-delay:0.15s}@media (min-width: 80em){.search-content__inner-wrap{max-width:1280px}}.search-content__form{background-color:transparent}.search-content .search-input{display:block;margin-bottom:0;padding:0;border:none;outline:none;box-shadow:none;background-color:transparent;font-size:1.563em}@media (min-width: 64em){.search-content .search-input{font-size:1.953em}}@media (min-width: 80em){.search-content .search-input{font-size:2.441em}}.search-content.is--visible{display:block;visibility:visible}.search-content.is--visible::after{content:"";display:block}.search-content .results__found{margin-top:0.5em;font-size:.75em}.search-content .archive__item{margin-bottom:2em}@media (min-width: 64em){.search-content .archive__item{width:75%}}@media (min-width: 80em){.search-content .archive__item{width:50%}}.search-content .archive__item-title{margin-top:0}.search-content .archive__item-excerpt{margin-bottom:0}.ais-search-box{max-width:100% !important;margin-bottom:2em}.archive__item-title .ais-Highlight{color:#6f777d;font-style:normal;text-decoration:underline}.archive__item-excerpt .ais-Highlight{color:#6f777d;font-style:normal;font-weight:bold}.ais-search-box--input{border-radius:25px !important}.hidden,.is--hidden{display:none;visibility:hidden}.load{display:none}.transparent{opacity:0}.visually-hidden,.screen-reader-text,.screen-reader-text span,.screen-reader-shortcut{position:absolute !important;clip:rect(1px, 1px, 1px, 1px);height:1px !important;width:1px !important;border:0 !important;overflow:hidden}body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visually-hidden button{display:none !important}.screen-reader-text:focus,.screen-reader-shortcut:focus{clip:auto !important;height:auto !important;width:auto !important;display:block;font-size:1em;font-weight:bold;padding:15px 23px 14px;background:#fff;z-index:100000;text-decoration:none;box-shadow:0 0 2px 2px rgba(0,0,0,0.6)}.skip-link{position:fixed;z-index:20;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;white-space:nowrap}.skip-link li{height:0;width:0;list-style:none}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-justify{text-align:justify}.text-nowrap{white-space:nowrap}.task-list{padding:0}.task-list li{list-style-type:none}.task-list .task-list-item-checkbox{margin-right:0.5em;opacity:1}.task-list .task-list{margin-left:1em}.cf{clear:both}.wrapper{margin-left:auto;margin-right:auto;width:100%}.align-left{display:block;margin-left:auto;margin-right:auto}@media (min-width: 37.5em){.align-left{float:left;margin-right:1em}}.align-right{display:block;margin-left:auto;margin-right:auto}@media (min-width: 37.5em){.align-right{float:right;margin-left:1em}}.align-center{display:block;margin-left:auto;margin-right:auto}@media (min-width: 64em){.full{margin-right:-20.3389830508% !important}}.icon{display:inline-block;fill:currentColor;width:1em;height:1.1em;line-height:1;position:relative;top:-0.1em;vertical-align:middle}.social-icons .fas,.social-icons .fab,.social-icons .far,.social-icons .fal{color:#3d4144}.social-icons .fa-behance,.social-icons .fa-behance-square{color:#1769ff}.social-icons .fa-bitbucket{color:#205081}.social-icons .fa-dribbble,.social-icons .fa-dribble-square{color:#ea4c89}.social-icons .fa-facebook,.social-icons .fa-facebook-square,.social-icons .fa-facebook-f{color:#3b5998}.social-icons .fa-flickr{color:#ff0084}.social-icons .fa-foursquare{color:#0072b1}.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{color:#171516}.social-icons .fa-gitlab{color:#e24329}.social-icons .fa-instagram{color:#517fa4}.social-icons .fa-keybase{color:#ef7639}.social-icons .fa-lastfm,.social-icons .fa-lastfm-square{color:#d51007}.social-icons .fa-linkedin,.social-icons .fa-linkedin-in{color:#007bb6}.social-icons .fa-mastodon,.social-icons .fa-mastodon-square{color:#2b90d9}.social-icons .fa-pinterest,.social-icons .fa-pinterest-p,.social-icons .fa-pinterest-square{color:#cb2027}.social-icons .fa-reddit{color:#ff4500}.social-icons .fa-rss,.social-icons .fa-rss-square{color:#fa9b39}.social-icons .fa-soundcloud{color:#f30}.social-icons .fa-stack-exchange,.social-icons .fa-stack-overflow{color:#fe7a15}.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{color:#32506d}.social-icons .fa-twitter,.social-icons .fa-twitter-square{color:#55acee}.social-icons .fa-vimeo,.social-icons .fa-vimeo-square,.social-icons .fa-vimeo-v{color:#1ab7ea}.social-icons .fa-vine{color:#00bf8f}.social-icons .fa-youtube{color:#b00}.social-icons .fa-xing,.social-icons .fa-xing-square{color:#006567}.navicon{position:relative;width:1.5rem;height:.25rem;background:#6f777d;margin:auto;-webkit-transition:0.3s;transition:0.3s}.navicon:before,.navicon:after{content:"";position:absolute;left:0;width:1.5rem;height:.25rem;background:#6f777d;-webkit-transition:0.3s;transition:0.3s}.navicon:before{top:-.5rem}.navicon:after{bottom:-.5rem}.close .navicon{background:transparent}.close .navicon:before,.close .navicon:after{-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;top:0;width:1.5rem}.close .navicon:before{-webkit-transform:rotate3d(0, 0, 1, 45deg);transform:rotate3d(0, 0, 1, 45deg)}.close .navicon:after{-webkit-transform:rotate3d(0, 0, 1, -45deg);transform:rotate3d(0, 0, 1, -45deg)}@supports (pointer-events: none){.greedy-nav__toggle:before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#fff;-webkit-transition:none;transition:none;pointer-events:none}}.greedy-nav__toggle.close:before{opacity:0.9;-webkit-transition:none;transition:none;pointer-events:auto}.greedy-nav__toggle:hover .navicon,.greedy-nav__toggle:hover .navicon:before,.greedy-nav__toggle:hover .navicon:after{background:#53595e}.greedy-nav__toggle.close:hover .navicon{background:transparent}@media (min-width: 64em){.sticky{clear:both;position:-webkit-sticky;position:sticky;top:2em}.sticky::after{clear:both;content:"";display:table}.sticky>*{display:block}}.well{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #e3e3e3;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,0.05)}.show-modal{overflow:hidden;position:relative}.show-modal:before{position:absolute;content:"";top:0;left:0;width:100%;height:100%;z-index:999;background-color:rgba(255,255,255,0.85)}.show-modal .modal{display:block}.modal{display:none;position:fixed;width:300px;top:50%;left:50%;margin-left:-150px;margin-top:-150px;min-height:0;z-index:9999;background:#fff;border:1px solid #f2f3f3;border-radius:4px;box-shadow:0 1px 1px rgba(0,0,0,0.125)}.modal__title{margin:0;padding:0.5em 1em}.modal__supporting-text{padding:0 1em 0.5em 1em}.modal__actions{padding:0.5em 1em;border-top:1px solid #f2f3f3}.footnote{color:#9ba1a6;text-decoration:none}.footnotes{color:#9ba1a6}.footnotes ol,.footnotes li,.footnotes p{margin-bottom:0;font-size:.75em}a.reversefootnote{color:#7a8288;text-decoration:none}a.reversefootnote:hover{text-decoration:underline}.required{color:#ee5f5b;font-weight:bold}.gsc-control-cse table,.gsc-control-cse tr,.gsc-control-cse td{border:0}.responsive-video-container{position:relative;margin-bottom:1em;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%}.responsive-video-container iframe,.responsive-video-container object,.responsive-video-container embed{position:absolute;top:0;left:0;width:100%;height:100%}:-webkit-full-screen-ancestor .masthead,:-webkit-full-screen-ancestor .page__footer{position:static}#main{clear:both;margin-left:auto;margin-right:auto;padding-left:1em;padding-right:1em;-webkit-animation:none;animation:none;max-width:100%;-webkit-animation-delay:0.15s;animation-delay:0.15s}#main::after{clear:both;content:"";display:table}@media (min-width: 80em){#main{max-width:1280px}}body{display:-webkit-box;display:-ms-flexbox;display:flex;min-height:100vh;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.initial-content,.search-content{flex:1 0 auto}@media (min-width: 64em){.page{float:right;width:calc(100% - 200px);padding-right:200px}}@media (min-width: 80em){.page{width:calc(100% - 300px);padding-right:300px}}.page .page__inner-wrap{float:left;margin-top:1em;margin-left:0;margin-right:0;width:100%;clear:both}.page .page__inner-wrap .page__content,.page .page__inner-wrap .page__meta,.page .page__inner-wrap .comment__date,.page .page__inner-wrap .page__share{position:relative;float:left;margin-left:0;margin-right:0;width:100%;clear:both}.page__title{margin-top:0;line-height:1}.page__title+.page__meta,.page__title+.comment__date{margin-top:-0.5em}.page__lead{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:1.25em}.page__content h2{padding-bottom:0.5em;border-bottom:1px solid #f2f3f3}.page__content h1 .header-link,.page__content h2 .header-link,.page__content h3 .header-link,.page__content h4 .header-link,.page__content h5 .header-link,.page__content h6 .header-link{position:relative;left:0.5em;opacity:0;font-size:0.8em;-webkit-transition:opacity 0.2s ease-in-out 0.1s;-moz-transition:opacity 0.2s ease-in-out 0.1s;-o-transition:opacity 0.2s ease-in-out 0.1s;transition:opacity 0.2s ease-in-out 0.1s}.page__content h1:hover .header-link,.page__content h2:hover .header-link,.page__content h3:hover .header-link,.page__content h4:hover .header-link,.page__content h5:hover .header-link,.page__content h6:hover .header-link{opacity:1}.page__content p,.page__content li,.page__content dl{font-size:1em}.page__content p{margin:0 0 1.3em}.page__content a:not(.btn):not(#goog-wm-sb):hover{text-decoration:underline}.page__content a:not(.btn):not(#goog-wm-sb):hover img{box-shadow:0 0 10px rgba(0,0,0,0.25)}.page__content dt{margin-top:1em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-weight:bold}.page__content dd{margin-left:1em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em}.page__content .small{font-size:.75em}.page__content blockquote+.small{margin-top:-1.5em;padding-left:1.25rem}.page__hero{position:relative;margin-bottom:2em;clear:both;-webkit-animation:none;animation:none;-webkit-animation-delay:0.25s;animation-delay:0.25s}.page__hero::after{clear:both;content:"";display:table}.page__hero--overlay{position:relative;margin-bottom:2em;padding:3em 0;clear:both;background-size:cover;background-repeat:no-repeat;background-position:center;-webkit-animation:none;animation:none;-webkit-animation-delay:0.25s;animation-delay:0.25s}.page__hero--overlay::after{clear:both;content:"";display:table}.page__hero--overlay a{color:#fff}.page__hero--overlay .wrapper{padding-left:1em;padding-right:1em}@media (min-width: 80em){.page__hero--overlay .wrapper{max-width:1280px}}.page__hero--overlay .page__title,.page__hero--overlay .page__meta,.page__hero--overlay .comment__date,.page__hero--overlay .page__lead,.page__hero--overlay .btn,.page__hero--overlay #goog-wm-sb{color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.5)}.page__hero--overlay .page__lead{max-width:768px}.page__hero--overlay .page__title{font-size:1.953em}@media (min-width: 37.5em){.page__hero--overlay .page__title{font-size:2.441em}}.page__hero-image{width:100%;height:auto;-ms-interpolation-mode:bicubic}.page__hero-caption{position:absolute;bottom:0;right:0;margin:0 auto;padding:2px 5px;color:#fff;font-family:Georgia,Times,serif;font-size:.6875em;background:#000;text-align:right;z-index:5;opacity:0.5;border-radius:4px 0 0 0}@media (min-width: 64em){.page__hero-caption{padding:5px 10px}}.page__hero-caption a{color:#fff;text-decoration:none}.page__share{margin-top:2em;padding-top:1em;border-top:1px solid #f2f3f3}@media (max-width: 37.5em){.page__share .btn span,.page__share #goog-wm-sb span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}}.page__share-title{margin-bottom:10px;font-size:.75em;text-transform:uppercase}.page__meta,.comment__date{margin-top:2em;color:#646769;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em}.page__meta p,.comment__date p{margin:0}.page__meta a,.comment__date a{color:inherit}.page__meta-title{margin-bottom:10px;font-size:.75em;text-transform:uppercase}.page__taxonomy .sep{display:none}.page__taxonomy strong{margin-right:10px}.page__taxonomy-item{display:inline-block;margin-right:5px;margin-bottom:8px;padding:5px 10px;text-decoration:none;border:1px solid #b6b6b6;border-radius:4px}.page__taxonomy-item:hover{text-decoration:none;color:#235e70}.taxonomy__section{margin-bottom:2em;padding-bottom:1em}.taxonomy__section:not(:last-child){border-bottom:solid 1px #f2f3f3}.taxonomy__section .archive__item-title{margin-top:0}.taxonomy__section .archive__subtitle{clear:both;border:0}.taxonomy__section+.taxonomy__section{margin-top:2em}.taxonomy__title{margin-bottom:0.5em;color:#646769}.taxonomy__count{color:#646769}.taxonomy__index{display:grid;grid-column-gap:2em;grid-template-columns:repeat(2, 1fr);margin:1.414em 0;padding:0;font-size:0.75em;list-style:none}@media (min-width: 64em){.taxonomy__index{grid-template-columns:repeat(3, 1fr)}}.taxonomy__index a{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0.25em 0;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;color:inherit;text-decoration:none;border-bottom:1px solid #f2f3f3}.back-to-top{display:block;clear:both;color:#646769;font-size:0.6em;text-transform:uppercase;text-align:right;text-decoration:none}.page__comments{float:left;margin-left:0;margin-right:0;width:100%;clear:both}.page__comments-title{margin-top:2rem;margin-bottom:10px;padding-top:2rem;font-size:.75em;border-top:1px solid #f2f3f3;text-transform:uppercase}.page__comments-form{-webkit-transition:none;transition:none}.page__comments-form.disabled input,.page__comments-form.disabled button,.page__comments-form.disabled textarea,.page__comments-form.disabled label{pointer-events:none;cursor:not-allowed;filter:alpha(opacity=65);box-shadow:none;opacity:0.65}.comment{clear:both;margin:1em 0}.comment::after{clear:both;content:"";display:table}.comment:not(:last-child){border-bottom:1px solid #f2f3f3}.comment__avatar-wrapper{float:left;width:60px;height:60px}@media (min-width: 64em){.comment__avatar-wrapper{width:100px;height:100px}}.comment__avatar{width:40px;height:40px;border-radius:50%}@media (min-width: 64em){.comment__avatar{width:80px;height:80px;padding:5px;border:1px solid #f2f3f3}}.comment__content-wrapper{float:right;width:calc(100% - 60px)}@media (min-width: 64em){.comment__content-wrapper{width:calc(100% - 100px)}}.comment__author{margin:0}.comment__author a{text-decoration:none}.comment__date{margin:0}.comment__date a{text-decoration:none}.page__related{clear:both;float:left;margin-top:2em;padding-top:1em;border-top:1px solid #f2f3f3}.page__related::after{clear:both;content:"";display:table}@media (min-width: 64em){.page__related{float:right;width:calc(100% - 200px)}}@media (min-width: 80em){.page__related{width:calc(100% - 300px)}}.page__related a{color:inherit;text-decoration:none}.page__related-title{margin-bottom:10px;font-size:.75em;text-transform:uppercase}@media (min-width: 64em){.wide .page{padding-right:0}}@media (min-width: 80em){.wide .page{padding-right:0}}@media (min-width: 64em){.wide .page__related{padding-right:0}}@media (min-width: 80em){.wide .page__related{padding-right:0}}.archive{margin-top:1em;margin-bottom:2em}@media (min-width: 64em){.archive{float:right;width:calc(100% - 200px);padding-right:200px}}@media (min-width: 80em){.archive{width:calc(100% - 300px);padding-right:300px}}.archive__item{position:relative}.archive__item a{position:relative;z-index:10}.archive__item a[rel="permalink"]{position:static}.archive__subtitle{margin:1.414em 0 0;padding-bottom:0.5em;font-size:1em;color:#646769;border-bottom:1px solid #f2f3f3}.archive__subtitle+.list__item .archive__item-title{margin-top:0.5em}.archive__item-title{margin-bottom:0.25em;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;line-height:initial;overflow:hidden;text-overflow:ellipsis}.archive__item-title a[rel="permalink"]::before{content:'';position:absolute;left:0;top:0;right:0;bottom:0}.archive__item-title a+a{opacity:0.5}.page__content .archive__item-title{margin-top:1em;border-bottom:none}.archive__item-excerpt{margin-top:0;font-size:.75em}.archive__item-excerpt+p{text-indent:0}.archive__item-excerpt a{position:relative}.archive__item-teaser{position:relative;border-radius:4px;overflow:hidden}.archive__item-teaser img{width:100%}.archive__item-caption{position:absolute;bottom:0;right:0;margin:0 auto;padding:2px 5px;color:#fff;font-family:Georgia,Times,serif;font-size:.625em;background:#000;text-align:right;z-index:5;opacity:0.5;border-radius:4px 0 0 0}@media (min-width: 64em){.archive__item-caption{padding:5px 10px}}.archive__item-caption a{color:#fff;text-decoration:none}.list__item .page__meta,.list__item .comment__date{margin:0 0 4px;font-size:0.6em}@media (min-width: 64em){.archive .grid__wrapper{margin-right:-200px}}@media (min-width: 80em){.archive .grid__wrapper{margin-right:-300px}}.grid__item{margin-bottom:2em}@media (min-width: 37.5em){.grid__item{float:left;width:48.9795918367%}.grid__item:nth-child(2n + 1){clear:both;margin-left:0}.grid__item:nth-child(2n + 2){clear:none;margin-left:2.0408163265%}}@media (min-width: 48em){.grid__item{margin-left:0;margin-right:0;width:23.7288135593%}.grid__item:nth-child(2n + 1){clear:none}.grid__item:nth-child(4n + 1){clear:both}.grid__item:nth-child(4n + 2){clear:none;margin-left:1.6949152542%}.grid__item:nth-child(4n + 3){clear:none;margin-left:1.6949152542%}.grid__item:nth-child(4n + 4){clear:none;margin-left:1.6949152542%}}.grid__item .page__meta,.grid__item .comment__date{margin:0 0 4px;font-size:0.6em}.grid__item .archive__item-title{margin-top:0.5em;font-size:1em}.grid__item .archive__item-excerpt{display:none}@media (min-width: 48em){.grid__item .archive__item-excerpt{display:block;font-size:.75em}}@media (min-width: 37.5em){.grid__item .archive__item-teaser{max-height:200px}}@media (min-width: 48em){.grid__item .archive__item-teaser{max-height:120px}}.feature__wrapper{clear:both;margin-bottom:2em;border-bottom:1px solid #f2f3f3}.feature__wrapper::after{clear:both;content:"";display:table}.feature__wrapper .archive__item-title{margin-bottom:0}.feature__item{position:relative;margin-bottom:2em;font-size:1.125em}@media (min-width: 37.5em){.feature__item{float:left;margin-bottom:0;width:32.2033898305%}.feature__item:nth-child(3n + 1){clear:both;margin-left:0}.feature__item:nth-child(3n + 2){clear:none;margin-left:1.6949152542%}.feature__item:nth-child(3n + 3){clear:none;margin-left:1.6949152542%}.feature__item .feature__item-teaser{max-height:200px;overflow:hidden}}.feature__item .archive__item-body{padding-left:1.6949152542%;padding-right:1.6949152542%}.feature__item a.btn::before,.feature__item a#goog-wm-sb::before{content:'';position:absolute;left:0;top:0;right:0;bottom:0}.feature__item--left{position:relative;float:left;margin-left:0;margin-right:0;width:100%;clear:both;font-size:1.125em}.feature__item--left .archive__item{float:left}.feature__item--left .archive__item-teaser{margin-bottom:2em}.feature__item--left a.btn::before,.feature__item--left a#goog-wm-sb::before{content:'';position:absolute;left:0;top:0;right:0;bottom:0}@media (min-width: 37.5em){.feature__item--left .archive__item-teaser{float:left;width:40.6779661017%}.feature__item--left .archive__item-body{float:right;padding-left:1.6949152542%;padding-right:1.6949152542%;width:57.6271186441%}}.feature__item--right{position:relative;float:left;margin-left:0;margin-right:0;width:100%;clear:both;font-size:1.125em}.feature__item--right .archive__item{float:left}.feature__item--right .archive__item-teaser{margin-bottom:2em}.feature__item--right a.btn::before,.feature__item--right a#goog-wm-sb::before{content:'';position:absolute;left:0;top:0;right:0;bottom:0}@media (min-width: 37.5em){.feature__item--right{text-align:right}.feature__item--right .archive__item-teaser{float:right;width:40.6779661017%}.feature__item--right .archive__item-body{float:left;width:57.6271186441%;padding-left:1.6949152542%;padding-right:1.6949152542%}}.feature__item--center{position:relative;float:left;margin-left:0;margin-right:0;width:100%;clear:both;font-size:1.125em}.feature__item--center .archive__item{float:left;width:100%}.feature__item--center .archive__item-teaser{margin-bottom:2em}.feature__item--center a.btn::before,.feature__item--center a#goog-wm-sb::before{content:'';position:absolute;left:0;top:0;right:0;bottom:0}@media (min-width: 37.5em){.feature__item--center{text-align:center}.feature__item--center .archive__item-teaser{margin:0 auto;width:40.6779661017%}.feature__item--center .archive__item-body{margin:0 auto;width:57.6271186441%}}.archive .feature__wrapper .archive__item-title{margin-top:0.25em;font-size:1em}.archive .feature__item,.archive .feature__item--left,.archive .feature__item--center,.archive .feature__item--right{font-size:1em}@media (min-width: 64em){.wide .archive{padding-right:0}}@media (min-width: 80em){.wide .archive{padding-right:0}}.layout--single .feature__wrapper{display:inline-block}.sidebar{clear:both}.sidebar::after{clear:both;content:"";display:table}@media (min-width: 64em){.sidebar{float:left;width:calc(200px - 1em);opacity:0.75;-webkit-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out}.sidebar:hover{opacity:1}.sidebar.sticky{overflow-y:auto;height:calc(100vh - 2em - 2em)}}@media (min-width: 80em){.sidebar{width:calc(300px - 1em)}}.sidebar>*{margin-top:1em;margin-bottom:1em}.sidebar h2,.sidebar h3,.sidebar h4,.sidebar h5,.sidebar h6{margin-bottom:0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}.sidebar p,.sidebar li{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.75em;line-height:1.5}.sidebar img{width:100%}.sidebar img.emoji{width:20px;height:20px}.sidebar__right{margin-bottom:1em}@media (min-width: 64em){.sidebar__right{position:absolute;top:0;right:0;width:200px;margin-right:-200px;padding-left:1em;z-index:10}.sidebar__right.sticky{clear:both;position:-webkit-sticky;position:sticky;top:2em;float:right}.sidebar__right.sticky::after{clear:both;content:"";display:table}}@media (min-width: 80em){.sidebar__right{width:300px;margin-right:-300px}}@media (min-width: 64em){.splash .sidebar__right{position:relative;float:right;margin-right:0}}@media (min-width: 80em){.splash .sidebar__right{margin-right:0}}.author__avatar{display:table-cell;vertical-align:top;width:36px;height:36px}@media (min-width: 64em){.author__avatar{display:block;width:auto;height:auto}}.author__avatar img{max-width:110px;border-radius:50%}@media (min-width: 64em){.author__avatar img{padding:5px;border:1px solid #f2f3f3}}.author__content{display:table-cell;vertical-align:top;padding-left:15px;padding-right:25px;line-height:1}@media (min-width: 64em){.author__content{display:block;width:100%;padding-left:0;padding-right:0}}.author__content a{color:inherit;text-decoration:none}.author__name{margin:0}@media (min-width: 64em){.author__name{margin-top:10px;margin-bottom:10px}}.sidebar .author__name{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:1em}.author__bio{margin:0}@media (min-width: 64em){.author__bio{margin-top:10px;margin-bottom:20px}}.author__urls-wrapper{position:relative;display:table-cell;vertical-align:middle;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;z-index:20;position:relative;cursor:pointer}.author__urls-wrapper li:last-child a{margin-bottom:0}.author__urls-wrapper .author__urls span.label{padding-left:5px}@media (min-width: 64em){.author__urls-wrapper{display:block}}.author__urls-wrapper button{position:relative;margin-bottom:0}@supports (pointer-events: none){.author__urls-wrapper button:before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none}}.author__urls-wrapper button.open:before{pointer-events:auto}@media (min-width: 64em){.author__urls-wrapper button{display:none}}.author__urls{display:none;position:absolute;right:0;margin-top:15px;padding:10px;list-style-type:none;border:1px solid #f2f3f3;border-radius:4px;background:#fff;box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);cursor:default}.author__urls.is--visible{display:block}@media (min-width: 64em){.author__urls{display:block;position:relative;margin:0;padding:0;border:0;background:transparent;box-shadow:none}}.author__urls:before{display:block;content:"";position:absolute;top:-11px;left:calc(50% - 10px);width:0;border-style:solid;border-width:0 10px 10px;border-color:#f2f3f3 transparent;z-index:0}@media (min-width: 64em){.author__urls:before{display:none}}.author__urls:after{display:block;content:"";position:absolute;top:-10px;left:calc(50% - 10px);width:0;border-style:solid;border-width:0 10px 10px;border-color:#fff transparent;z-index:1}@media (min-width: 64em){.author__urls:after{display:none}}.author__urls ul{padding:10px;list-style-type:none}.author__urls li{white-space:nowrap}.author__urls a{display:block;margin-bottom:5px;padding-right:5px;padding-top:2px;padding-bottom:2px;color:inherit;font-size:1em;text-decoration:none}.author__urls a:hover{text-decoration:underline}.wide .sidebar__right{margin-bottom:1em}@media (min-width: 64em){.wide .sidebar__right{position:initial;top:initial;right:initial;width:initial;margin-right:initial;padding-left:initial;z-index:initial}.wide .sidebar__right.sticky{float:none}}@media (min-width: 80em){.wide .sidebar__right{width:initial;margin-right:initial}}@media print{[hidden]{display:none}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{margin:0;padding:0;min-height:auto !important;font-size:16px}body{margin:0 auto;background:#fff !important;color:#000 !important;font-size:1rem;line-height:1.5;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}h1,h2,h3,h4,h5,h6{color:#000;line-height:1.2;margin-bottom:0.75rem;margin-top:0}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.75rem}h4{font-size:1.5rem}h5{font-size:1.25rem}h6{font-size:1rem}a,a:visited{color:#000;text-decoration:underline;word-wrap:break-word}table{border-collapse:collapse}thead{display:table-header-group}table,th,td{border-bottom:1px solid #000}td,th{padding:8px 16px}img{border:0;display:block;max-width:100% !important;vertical-align:middle}hr{border:0;border-bottom:2px solid #bbb;height:0;margin:2.25rem 0;padding:0}dt{font-weight:bold}dd{margin:0;margin-bottom:0.75rem}abbr[title],acronym[title]{border:0;text-decoration:none}table,blockquote,pre,code,figure,li,hr,ul,ol,a,tr{page-break-inside:avoid}h2,h3,h4,p,a{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid;page-break-inside:avoid}h1+p,h2+p,h3+p{page-break-before:avoid}img{page-break-after:auto;page-break-before:auto;page-break-inside:avoid}pre{white-space:pre-wrap !important;word-wrap:break-word}a[href^='http://']:after,a[href^='https://']:after,a[href^='ftp://']:after{content:" (" attr(href) ")";font-size:80%}abbr[title]:after,acronym[title]:after{content:" (" attr(title) ")"}#main{max-width:100%}.page{margin:0;padding:0;width:100%}.page-break,.page-break-before{page-break-before:always}.page-break-after{page-break-after:always}.no-print{display:none}a.no-reformat:after{content:''}abbr.no-reformat[title]:after,acronym.no-reformat[title]:after{content:''}.page__hero-caption{color:#000 !important;background:#fff !important;opacity:1}.page__hero-caption a{color:#000 !important}.masthead,.toc,.page__share,.page__related,.pagination,.ads,.page__footer,.page__comments-form,.author__avatar,.author__content,.author__urls-wrapper,.nav__list,.sidebar,.adsbygoogle{display:none !important;height:1px !important}}body{margin:0;padding:0;color:#000;font-family:verdana,-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;line-height:1.57}h1{font-size:1.8em;letter-spacing:-.5px}img,.notice--warning,.toc,.notice--danger,.notice--success,.notice--info,.page__taxonomy-item,.pagination--pager,.btn,#goog-wm-sb{border-radius:10px}.layout--splash .archive__item-title{font-size:19px;color:#a60521}.feature__item p{color:#38322e}.tim-title a{color:#BF6211}.pow i{color:#bfacac !important}.toc .nav__title{border-top-left-radius:10px;border-top-right-radius:10px}.notice--ya{padding:8px 0 8px 20px;border-left:3px solid #000;font-style:italic}.post{background:#ffffff;border:1px solid #dadce0;border-radius:8px;position:relative;padding:1rem;margin:0 0 20px 0}.archive__item-excerpt h2{margin:0}.archive__item-excerpt a{position:relative;text-decoration:none}.pagination li:last-child a{border-top-right-radius:10px;border-bottom-right-radius:10px}.pagination li:first-child a{border-top-left-radius:10px;border-bottom-left-radius:10px}.archive__subtitle{margin:1.414em 0 0 !important;padding-bottom:0.5em !important;font-size:1em !important;color:#595959 !important;border-bottom:1px solid #f2f3f3 !important}.archive__item-excerpt{margin-top:0}.masthead .fa-ethereum{color:#d3d3d4 !important;margin:0 10px 0 0}.masthead__inner-wrap{padding:0.1em}.masthead{border-bottom:none}.masthead,.masthead__inner-wrap,.greedy-nav{background-color:#A60321}.greedy-nav a,.search__toggle,.navicon:before,.navicon:after,.navicon{color:#fbfbfb}.navicon:before,.navicon:after,.navicon{background:#fff}.greedy-nav a:hover{color:#e04266}.greedy-nav svg.svg-inline--fa.fa-medkit.fa-w-16{color:red;margin:0 10px 0 0;font-size:35px}.greedy-nav .hidden-links{background:red}.img-tit{text-align:center;display:block}.nev{color:#888}.notice--ya{padding:8px 0 8px 20px;border-left:3px solid #000;font-style:italic}.initial-content{background:rgba(248,248,242,0.12)}.toc__menu a{display:block;padding:0.25rem 0.75rem;color:#595959;font-weight:bold;line-height:1.5;border-bottom:1px solid #f2f3f3;font-size:1.3em !important}.toc__menu a{font-size:14px !important}.ytb-but{padding:10px 16px;margin:0px 0px 15px;font-weight:600;letter-spacing:.007px;text-transform:uppercase;display:flex;flex-direction:row-reverse;max-width:215px;border-radius:9px;outline:none;border-width:2px 0;border-style:solid none;border-color:#ff1d1d #000 #800000;background:linear-gradient(#e60d0d, #c00);font-size:16px}.ytb-but a{color:#fff;text-decoration:none !important;margin:0 auto}.ytb-but a:hover,.ytb-but a:focus{text-decoration:none;color:#fdfdfd}.page__hero--overlay{background-image:linear-gradient(rgba(34,86,130,0.05), rgba(151,134,123,0.05)),url(/assets/images/unsplash-image-1.jpg) !important}.tim-header-composition{position:relative;width:415px;box-shadow:1px 1px 1px #000;box-shadow:inset 93px 16px 300px 60px #c52025;padding:20px;border-radius:20px}.tim-header .tim-vi{margin:0 0 0 15vw}.tim-vi{max-width:1366px;position:relative;margin:0 auto}.page__hero--overlay .wrapper{margin-left:0 !important}.page__hero--overlay .tim-header-composition h1{color:#fff;border:none;color:#fff;border:none;margin:0;display:block;font-size:211%;overflow:hidden;font-family:Helvetica Neue;line-height:1.5}.page__hero--overlay .tim-header-composition h1{text-shadow:3px 3px 1px #000 !important}.tim-button{color:#399cbe}.tim-button{min-width:350px;color:#444;background-color:#FFF;overflow:hidden;cursor:pointer;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:1;display:inline-block;position:relative;cursor:pointer;height:56px;line-height:62px;color:#424242;font-size:18px;font-weight:600;font-family:'Roboto', sans-serif;letter-spacing:.8px;text-align:center;text-decoration:none;text-transform:uppercase;vertical-align:middle;white-space:nowrap;outline:none;border:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border-radius:40px;transition:all 0.3s ease-out;box-shadow:0 14px 28px rgba(0,0,0,0.25);box-shadow:0 19px 38px rgba(0,0,0,0.41),0 15px 12px rgba(0,0,0,0.34);display:block;max-width:250px;text-transform:uppercase;background:linear-gradient(to top, #e0eef7, #fff);margin:0 auto}.tim-button:before{content:'';width:0;height:0;-webkit-transform:rotate(360deg);border-style:solid;border-width:0 0 0 0;border-color:transparent transparent transparent #0d536b;position:absolute;bottom:0;left:0}.page__hero--overlay a{color:#444;display:block;height:100%;position:relative;left:-7px}.tim-button a{color:#444;display:block;height:100%;position:relative;top:-62px;left:10px}.tim-button:after{content:'';width:0;height:0;-webkit-transform:rotate(360deg);border-style:solid;border-width:0 0 0 0;border-color:transparent transparent #0d536b transparent;position:absolute;right:0;bottom:0}.layout--splash .btn--inverse{background-color:#d5874c !important;color:#fff !important;text-shadow:1px 1px 1px #000;font-size:20px !important}.feature__wrapper{border-bottom:none;margin-bottom:22px !important}.layout--splash #main{max-width:none !important;padding:0}.page__hero-caption{bottom:3px}.page__footer-copyright{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:.6875em;text-align:center;padding:20px}.page__related{background:#fff}.sidebar p,.sidebar li{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:0.75em !important;line-height:1.5}.page__content a{word-break:break-word}p>code,a>code,li>code,figcaption>code,td>code,.page__content code{padding-top:0.1rem;padding-bottom:0.1rem;background:#ebf5f8;word-break:break-all;border-radius:25px}.btn--x-large{font-size:1.25em !important}.archive__item-excerpt{word-break:break-word}.lang-nav{position:relative}#lang-sel{position:absolute;z-index:999999999999999999999;float:right;right:25px}#lang-sel a{background:#b63034;color:#fff;padding:10px;position:relative;top:11px;border-radius:5px}.layout--splash .page__lead{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif !important;font-size:1.25em !important;margin-top:1em !important}pre.highlight code{background:none}@media (min-width: 77.75em){#main{max-width:1155px}}@media (min-width: 80em){#main{max-width:1155px}}.youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;background:#000;margin:5px}.youtube-player iframe,.youtube-player object,.youtube-player embed{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:transparent}.youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.youtube-player img:hover{-webkit-filter:brightness(75%)}.youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url("/assets/images/play.png") no-repeat;cursor:pointer}.youtube-player:hover .play{transform:scale(1.2)}body{font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font:20px/1.6 -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}.notice--warning,.notice--ya,.notice--success,.notice--danger,.notice--primary,.notice,.notice--info{font-size:unset !important}body.html.page-node.page-node-.node-type-page{font-family:'Roboto'}h1,h2,h3{border-bottom:none !important}body.html.page-node.page-node-.node-type-page h1{border:none;margin:0;display:block;width:39%;font-size:300%;text-shadow:3px 3px 1px #000;overflow:hidden}body.html.page-node.page-node-.node-type-page pre,body.html.page-node.page-node-.node-type-page code{background-color:transparent;border:none;font-size:15px;margin:0}.nav__title .fas{color:#fff;padding-right:5px}.tim-ver code{background:none}.page__hero--overlay .header-link{display:none}.mhl{color:#f6f8f8 !important;text-align:center}#menu-bar{background-color:#1F313E;overflow:hidden}#page-wrapper .tim-menu ul li{float:left;position:relative;right:50%;border-left:1px solid #737572;transition:background-color 0.5s ease-in-out 0s;width:200px}.tim-menu ul li a{font:bold 15px Roboto}.tim-menu .last.leaf{border-right:1px solid #737572}#page-wrapper{height:100%;overflow:hidden}.tim-header{position:relative;min-height:472px;background-image:url(../items/phe-background.jpg);background-repeat:repeat-x;background-position:top center;background-size:100%;background-size:contain}.tim-header h1{color:#fff;border:none;color:#fff;border:none;margin:0;display:block;font-size:300%;text-shadow:3px 3px 1px #000;overflow:hidden}.tim-header h2{color:#fff;border:none;margin:0;display:block;width:39%;font-size:300%;text-shadow:3px 3px 1px #000;overflow:hidden}.tim-header-flex{display:flex;height:100%;position:relative;top:0}.tim-header-composition{position:relative;width:375px;box-shadow:1px 1px 1px #000;box-shadow:inset 93px 16px 300px 60px #272625;padding:20px;border-radius:20px}.green{color:#39ff39}.tim-fast{font-size:140%;color:#fff;text-shadow:1px 1px 1px #000;margin:0 0 20px 0}.tim-button a{color:#444;display:block;height:100%;position:relative;top:-62px;left:10px;text-decoration:none}.tim-button{min-width:350px;color:#444;background-color:#FFF;overflow:hidden;cursor:pointer;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:1;display:inline-block;position:relative;cursor:pointer;height:56px;line-height:62px;color:#424242;font-size:18px;font-weight:600;font-family:'Roboto', sans-serif;letter-spacing:.8px;text-align:center;text-decoration:none;text-transform:uppercase;vertical-align:middle;white-space:nowrap;outline:none;border:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border-radius:40px;transition:all 0.3s ease-out;box-shadow:0 14px 28px rgba(0,0,0,0.25);box-shadow:0 19px 38px rgba(0,0,0,0.41),0 15px 12px rgba(0,0,0,0.34);display:block;max-width:250px;text-transform:uppercase;background:linear-gradient(to top, #F2C879, #fff);margin:0 auto}.fa,.fas,.far,.fab{color:#444;font-size:18px}.tim-button i{font-size:25px !important;position:relative;top:3px;right:105px}.tim-download .tim-button i{right:166px}.tim-button:hover a,.tim-button:hover svg{color:#fff !important;text-decoration:none !important;transition:0.1s}.tim-button:hover a,.tim-button:hover i{color:#fff;text-decoration:none;transition:0.1s}.tim-button:before,.tim-button:after{transition:0.5s}*:before,*:after{z-index:-1}.tim-button{color:#399cbe}.tim-button:before{content:'';width:0;height:0;-webkit-transform:rotate(360deg);border-style:solid;border-width:0 0 0 0;border-color:transparent transparent transparent #ea0909;position:absolute;bottom:-1px;left:0}.tim-button:after{content:'';width:0;height:0;-webkit-transform:rotate(360deg);border-style:solid;border-width:0 0 0 0;border-color:transparent transparent #ea0909 transparent;position:absolute;right:0;bottom:-1px}.tim-button:hover{color:#fff}.tim-button:hover:before{border-width:206.25px 0 0 206.25px}.tim-button:hover:after{border-width:0 0 206.25px 206.25px}.tim-button:active{background:#168ab2}.tim-advantage{background-color:#fcfcfc;padding:70px 0}.tim-items{display:flex;justify-content:center}.tim-vi{max-width:1366px;position:relative;margin:0 auto}.tim-header .tim-vi{margin:0 0 0 15vw}.page__content dd{font-size:.9em}.e-itm{width:330px;margin:0px 20px}.tim-adv{font-size:25px;display:block;color:#415268;font-weight:777;text-align:center;margin:10px 0 0 0}span.tim-icon-wrap{display:block;text-align:center}.e-itm{color:#415268;font-size:13px;text-align:center}.tim-gpu{position:relative;min-height:520px;background-image:url(/assets/images/phe-gpu.jpg);background-repeat:repeat-x;background-position:top center;background-size:100%;background-size:contain}.tim-adv{position:relative;min-height:280px;background-image:url(/assets/images/about/item4.png);background-repeat:no-repeat;background-position:top center;background-size:100%;background-size:initial}.tim-start{background-color:#f7f7f7;padding:70px 0}.tim-title{text-align:center;font-size:30px}.tim-vi2{max-width:900px;margin:0 auto}.tim-st{font-size:22px;display:block;color:#BF6211;font-weight:777;margin:20px 0 0 0 !important}.tim-row{box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);padding:15px;border-radius:15px;background-color:#fafafa}.tim-attention{color:#a6acb3;font-style:italic;padding:10px;font-size:14px}.nev2{color:#bbbbbb}.tim-grn{color:#39ff39;text-shadow:1px 1px 0px #000}.tim-blu{color:#005873;font-weight:700}.tim-red{color:#bf6210;font-weight:700}.tim-arr{position:relative;min-height:54px;background-image:url(/assets/images/phe-arr.png);background-repeat:no-repeat;background-position:top center;background-size:11%;top:30px}.tim-hash{padding:70px 0;background-color:#f1f8ff}.tim-img{position:relative;min-height:472px;background-image:url(/assets/images/phe-hash.png);background-repeat:no-repeat;background-position:center center;background-size:50%;background-size:contain}.tim-check{background-color:#f1f1f1;padding:70px 0 70px}.tim-check .tim-vi2{padding:0 0 20px 0}.tim-pc{position:relative;min-height:472px;background-image:url(/assets/images/phe-check.png);background-repeat:no-repeat;background-position:center center;background-size:70%;background-color:#f1f1f1;padding:0 0 70px;background-size:contain}.tim-get{position:relative}.tim-down{background-color:#936c6c;padding:80px 0;text-align:center;margin:0 auto}.tim-button.down{display:inline-block;margin:50px auto 0;padding:0 80px;max-width:none;box-shadow:0 14px 28px rgba(0,0,0,0.25);background:linear-gradient(to top, #F2C879, #fff)}.tim-button .svg-inline--fa{color:#4d7fa3;position:relative;right:175px;font-size:30px;top:4px}.tim-ver{width:350px;color:#d6e3f7;margin:50px 20px 0 0;font-size:17px;word-break:break-word}.tim-ver a{color:#bbbbbb}.tim-mirror{position:absolute;bottom:-30px;left:0;color:#fff;right:0}.tim-password{position:absolute;bottom:62px;color:#fff;background:#0020B3;border-radius:15px;padding:0px 10px}.tim-mirror a{color:#fff;text-decoration:underline}.tim-title.whitez1 a{color:#fff}.tim-faq{background-color:#fff;padding:70px 0}.tim-comm{background-color:#fcfcfc;padding:70px 0}.tim-art{background-color:#fcfcfc;padding:5px 0 70px}.tim-foot{background:#1f1414;padding:70px 0;line-height:0.9;font-size:16px}.tim-flex{display:flex;justify-content:center;align-items:center}.community ul li a{display:block;padding:5px 0}.community ul{padding-left:0;margin-bottom:0;list-style:none}.tim-foot p{color:#a9c5e6;font-size:28px;border:none;margin:0}.tim-foot a{color:#4a90e2}.community ul li a .fab,.community ul li a .fas{font-size:20px;width:30px;color:#f5f5f5;text-align:center;vertical-align:middle}.tim-post-foot{background:#1f1414}div.foot-itm.developer-resources>ul>li{padding-left:21px;color:#656e71}.developer-resources ul li a{display:inline}.tim-left{float:left;width:350px;margin:0 0 0 40px}.tim-right{float:right;width:350px;margin:0 40px 0 0}.nev3{color:#6b6b6b}.tim-inner p{font-size:20px;line-height:1.60}.tim-inner .tim-vi2{max-width:600px;font-size:20px;line-height:1.60}.cn .tim-button{max-width:250px}.tradingview-widget-container>div{height:500px}.tim-500>iframe{height:500px !important}.cryptonatorwidget>div:nth-child(2){display:none}.tim-relative{position:relative}.ccc-chart-v3 .chartTypeTabLinks{color:none !important}.ccc-chart-v3>div>div:nth-child(2)::before{content:"none" !important}.tim-post-foot .tim-vi2{font-size:10px;line-height:1.50;max-width:900px}.tim-flex-inner{display:flex;justify-content:center;align-items:center;flex-direction:column}.tim-down2{background-color:#936c6c;padding:20px 0 40px;text-align:center;margin:0 0 20px;border-radius:20px}.tim-down2 .tim-button.down{padding:0 55px}.page__footer{color:#595959;-webkit-animation:intro 0.3s both;animation:intro 0.3s both;-webkit-animation-delay:0.45s;animation-delay:0.45s;background-color:#1f1414}.postfooter{background:#171111;padding:25px;border-radius:20px}.break{word-break:break-all}.red{color:red}.bold{font-size:700}@media all and (min-width: 350px) and (max-width: 1023px){#page-wrapper .tim-menu ul li{width:100%}.tim-header-composition{word-break:break-all}.tim-button{min-width:0}.tim-header .tim-vi{margin:0;max-width:320px}.tim-header{min-height:382px;background-size:cover}.tim-header-flex{margin:0 20px}.tim-button{padding:0 36px}.e-itm{width:85%}.tim-gpu{min-height:421px;background-size:cover}.tim-items{flex-direction:column}.tim-img{background-size:cover}.tim-pc{position:relative;min-height:231px}.tim-vi2{margin:0 20px}.tim-flex{flex-direction:column}.tim-button.down{max-width:288px;margin:50px 20px 0px 16px;padding:0px 14px !important;font-size:15px}.tim-password{left:25px}.tim-fast{font-size:140%;width:100%}.tim-ver{width:270px}#page-wrapper .tim-menu ul li{border-left:none}.block-menu ul li{border-left:none}.tim-menu .last.leaf{border-right:none}.foot-itm.developer-resources{margin:0 20px}.tim-left{float:none;width:100%;margin:0}.tim-right{float:none;width:100%;margin:0}.tim-header h1{width:auto}.tim-header-composition{width:auto}a.tim-policy{margin:20px 20px 20px 20px;padding:20px 20px 20px 20px;display:block}.tim-title{margin:0 20px}.tim-button i{display:none}}@media all and (min-width: 1024px) and (max-width: 1024px){.tim-header .tim-vi{left:0px;margin:0px}.tim-header{background-size:cover}.tim-gpu{background-size:cover}}@media all and (min-width: 1025px) and (max-width: 1280px){.tim-header h1,.tim-header h2{font-size:225%}.tim-header{min-height:472px}.tim-header-flex{top:62px;min-height:361px}.tim-gpu{min-height:520px}.tim-header .tim-vi{margin:0 0 0 4vw}}@media all and (min-width: 1024px) and (max-width: 1365){.tim-header{min-height:503px}.tim-header-flex{top:120px;left:-49px}.tim-gpu{min-height:557px}}@media all and (min-width: 1366px) and (max-width: 1439px){.tim-header .tim-vi{margin:0 0 0 10vw}.tim-header{min-height:503px}.tim-header-flex{top:34px;left:-49px}.tim-gpu{min-height:557px}}@media all and (min-width: 1440px) and (max-width: 1535px){.tim-header .tim-vi{margin:0 0 0 10vw}.tim-header{min-height:534px}.tim-header-flex{top:40px}.tim-gpu{min-height:594px}}@media all and (min-width: 1536px) and (max-width: 1598px){.tim-header .tim-vi{margin:0 0 0 10vw}.tim-header{min-height:572px}.tim-header-flex{top:64px}.tim-gpu{min-height:634px}}@media all and (min-width: 1599px) and (max-width: 1679px){.tim-header .tim-vi{margin:0 0 0 10vw}.tim-header{min-height:592px}.tim-header-flex{top:65px;left:-23px}.tim-gpu{min-height:655px}}@media all and (min-width: 1679px) and (max-width: 1919px){.tim-header{min-height:626px}.tim-header-flex{top:81px;left:-29px}.tim-gpu{min-height:693px}}@media all and (min-width: 1920px) and (max-width: 3200px){.tim-header{min-height:711px}.tim-row{font-size:100%}.tim-header-flex{top:134px;right:119px}.tim-gpu{min-height:785px}}#go-top{display:none !important}
+ </style>
+<!--[if IE ]>
+ <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+ </style>
+<![endif]-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- end custom head snippets -->
+	<!-- link alternate -->
+		<link rel="alternate" hreflang="en" href="https://teamredminer.info/documentation/arguments/">
+		<link rel="alternate" hreflang="ru" href="https://teamredminer.info/ru/documentation/arguments/">
+		<link rel="alternate" hreflang="es" href="https://teamredminer.info/es/documentation/arguments/">
+		<link rel="alternate" hreflang="zh" href="https://teamredminer.info/zh/documentation/arguments/">
+ </head>
+<body class="layout--single">
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<div class="masthead">
+ <div class="masthead__inner-wrap">
+   <div class="masthead__menu">
+     <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">
+          TeamRedMiner
+        </a>
+		<ul class="visible-links">
+           <li class="masthead__menu-item">
+ </li>
+<li>
+    <a href="/documentation/setup/">Quick Start</a>
+ </li>
+<li>
+    <a href="/download/">Download</a>
+ </li>
+<li>
+    <a href="/blog">Blog</a>
+       </li>
+</ul>
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+           <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+         <div class="navicon"></div>
+        </button>
+       <ul class="hidden-links hidden"></ul>
+     </nav>
+   </div>
+ </div>
+</div>
+<div class="lang-nav">	
+	<nav id="lang-sel">
+		<a href="/documentation/arguments/" class="footer__link">en</a>
+		<a href="/ru/documentation/arguments/" class="footer__link">ru</a>
+		<a href="/es/documentation/arguments/" class="footer__link">es</a>
+		<a href="/zh/documentation/arguments/" class="footer__link">zh</a>
+	</nav>	
+</div>
+   <div class="initial-content">
+     <div id="main" role="main">
+ <div class="sidebar nosticky">
+<nav class="nav__list">
+ <h3 class="nav__title" style="padding-left: 0;">Contents</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+ <ul class="nav__items">
+     <li>
+          <a href="/documentation/setup/"><span class="nav__sub-title">Setup</span></a>
+     </li>
+<li>
+          <a href="/documentation/arguments/"><span class="nav__sub-title">Command Line Arguments</span></a>
+     </li>
+<li>
+          <a href="/documentation/changelog/"><span class="nav__sub-title">Changelog</span></a>
+ </li>
+</ul>
+</nav>
+ </div>
+ <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+   <meta itemprop="headline" content="TeamRedMiner: changelog">
+   <meta itemprop="description" content="**">
+   <meta itemprop="datePublished" content="May 29, 2021">
+   <meta itemprop="dateModified" content="May 29, 2021"> 
+   <div class="page__inner-wrap">
+      <header>
+		 <h1 id="page-title" class="page__title" itemprop="headline">Team Red Miner  - changelog
+</h1>
+           <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  25 minute read
+</p>
+       </header>
+     <section class="page__content" itemprop="text">
+         <aside class="sidebar__right sticky">
+           <nav class="toc">
+            <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+           </nav>
+         </aside>
+       <p>**
+<img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
+<p>Usage: teamredminer [OPTIONS]</p>
+<p>Options:
+  -a, –algo=ALGORITHM      Selects the mining algorithm.  Currently available:
+	  ethash            (eth, etp, others)
+	  etchash           (etc, alias for -a ethash –eth_variant_mode=etchash)
+	  kawpow            (ravencoin)
+	  autolykos2        (ergo)
+	  verthash          (vtc)
+	  nimiq             (nimiq)
+	  lyra2z    <br>
+	  phi2              (lux, argoneum)
+	  lyra2rev3 <br>
+	  x16r      <br>
+	  x16rv2    <br>
+	  x16s              (pgn, xsh)
+	  x16rt             (gin)
+	  mtp               (zcoin)
+	  cuckatoo31_grin   (grin)
+	  cuckarood29_grin  (grin)
+	  cnv8      <br>
+	  cnr               (old monero)
+	  cnv8_half         (stellite, masari)
+	  cnv8_dbl          (x-cash)
+	  cnv8_rwz          (graft)
+	  cnv8_trtl         (old turtlecoin, loki)
+	  cnv8_upx2         (uplexa)
+	  cn_heavy          (classic CN heavy)
+	  cn_haven          (haven)
+	  cn_saber          (bittube)
+	  cn_conceal        (conceal)
+	  trtl_chukwa       (turtlecoin)
+	  trtl_chukwa2      (turtlecoin)</p>
+<p>-h, –help                Display this help message and exit.
+      –debug               Enables debug log output.
+      –disable_colors      Disables console output colors.
+      –force_colors        Forces console color output even if the terminal does not seem to support them.
+      –api_listen=IP:PORT  Enables the sgminer compatible api. IP:PORT is optional. If present, the IP:PORT combo
+                              decides the interface(s) and port to listen to. Default is 127.0.0.1:4028. For
+                              external access, use e.g. 0.0.0.0:4028. It’s also valid to only specify the
+                              port, e.g. 4029.
+      –cm_api_listen=IP:PORT Enables the claymore compatible api. IP:PORT is optional. If present, the IP:PORT combo
+                              decides the interface(s) and port to listen to. Default is 127.0.0.1:3333. For
+                              external access, use e.g. 0.0.0.0:3333. It’s also valid to only specify the
+                              port, e.g. 3334.
+      –cm_api_password=PSW Sets the required password for the CM compatible api interface.
+      –log_file(=FILENAME) Enables logging of miner output into the file specified by FILENAME.  If no filename
+                              is provided, the miner will log to trm_<algo>_<yyyymmdd_hhmmss>.log in the current
+                              working directory.  If the log file already exists, the miner will append.
+  -l, --log_interval=SEC    Set the time interval in seconds for averaging and printing GPU hashrates.
+                              SEC sets the interval in seconds, and must be &gt; 0.
+      --log_rotate=SZ[,CNT] Enables log rotation. The SZ value sets the log size after which a new log file will be
+                              created.  The SZ value supports the suffixes 'k', 'M', and 'G' and will multiply the
+                              value by 1024, 1048576, and 1073741824 respectively. The optional CNT value sets the 
+                              maximum number of old log files to keep.  For example the option '--log_rotate=4M,16'
+                              will cause the miner to switch to a new log file once the current log file exceeds 
+                              4194304 bytes in size, and the miner will keep the last 16 such files and delete 
+                              older ones.
+      --short_stats         Disables the full gpu state output in each hashrate output, like it was before 0.7.10.
+      --dev_location=LOC    Selects a specific location for the dev fee connection. Only use this if you see
+                              continuous dev fee connection issues reported by the miner. The connection
+                              management normally works well in all locations. Available options are:
+                              world     - Anywhere in the world except for mainland China.
+                              cn        - Mainland China.
+                              non-gcp   - Countries with blocked access to Google Services (e.g. Iran, Cuba).
+      --enable_compute      (Windows only) Enables compute mode and disables crossfire on necessary gpus.
+      --long_timestamps     Enables microsec timestamps in the logs instead of seconds only.
+      --restart_gpus        (Windows only) Restarts all configured gpus before mining, i.e. disable+enable PCI device.
+      --uac                 (Windows only) Enable privilege escalation when the miner runs tasks like restarting gpus.
+                              You can always avoid this by running the miner directly as Administrator.  This will
+                              trigger the standard Windows escalation prompt, so you have to be available to click 'Yes'.
+                              If this is not enabled, tasks that require Administrator privileges will fail when the
+                              miner is running under a basic user account.
+      --high_score          Enables printouts of the top 15 shares found since miner start in the stats output.
+                              Note: this might not be enabled for all algos.
+      --allow_dup_bus_ids   Allows multiple gpus using the same pci bus id.  This should only be used for Radeon Pro Duo
+                              cards and similar hardware, it's normally an indication of a broken OpenCL environment.</yyyymmdd_hhmmss></algo></p>
+<p>Pool config options:
+  -o, –url=URL             Sets the pool URL.  Currently stratum+tcp and stratum+ssl URLs are supported.
+                              Each additional time this option is specified will start a new pool config.
+                              Per-pool options (such as -u, -p) will need to be explicitly specified
+                              again for each new pool.  (See the example start_multipool.sh/bat file)
+                              The multi-pool strategy for the miner is set with the –pool_strategy option.
+  -u, –user=USERNAME       Sets the username for pool authorization.
+  -p, –pass=PASSWORD       Sets the password for pool authorization.
+      –pool_force_ensub    Forces an extranonce subscribe request for supported pools unknown to the miner.
+      –pool_no_ensub       Prevent miner from sending extranonce subscribe request to the pool.
+      –pool_broken_rpc     Tells the miner to only allow a single outstanding rpc request on the pool
+                              connection.  This is a work-around for pools that violate the json rpc
+                              specification regarding rpc IDs.
+      –pool_ratio=RATIO    Sets the hashrate ratio between pools when using multiple pools with the the 
+                              ‘load_balance’ or ‘quota’ pool strategies (see –pool_strategy).  By default all
+                              pools use the ratio value 1.  For example, using this option with a value of 2 on 
+                              just one pool will make that pool receive twice the hashrate as the other pools 
+                              since their ratio will still be the default value of 1.
+      –pool_debug          Logs all pool traffic.</p>
+<p>Global pool options:
+      –pool_connect_TO=SEC Set the time-out for attempting to connect to a pool. SEC is the time to wait in
+                              seconds. Default is 10.
+      –pool_rpc_TO=SEC     Set how long the miner will wait for an unanswered RPC to the pool.  After this
+                              time, the miner will reconnect to the pool.  SEC is the time to wait in seconds.
+                              Default is 60.
+      –pool_max_rejects=N  If a pool rejects N shares in a row, the pool connection is reset. This is to prevent
+                              against pools that invalidates mining sessions without disconnecting the user.
+                              Default value is 5.
+      –pool_share_limit_ms=N  If a pool takes longer than N ms to accept or reject a share, kill the current
+                              connection and reconnect.  This is intended for pools that often get issues with
+                              some of their servers, but reconnecting means being load-balanced to a different and
+                              hopefully better server.  Default value is no timeout.
+      –pool_strategy=STRAT Sets the strategy for selecting pools when running with multiple pools.  The available
+                              values are: priority, load_balance, quota, and min_epoch.  The default is priority. 
+                              priority: The miner will use pools in the order they are listed, only moving on 
+                                to the next pool if the previous cannot establish a connection. 
+                              load_balance: The miner will evenly balance the hashrate across all currently
+                                connected pools.  The ratio of hashrate between pools can be set with –pool_ratio.
+                              quota: The miner will evenly balance the total hashes completed across 
+                                all pools.  If a pool disconnects and later reconnects, the miner will move 
+                                hashrate to the pool until the total hashes for each pool is balanced. 
+                                The ratio of hashrate between pools can be set with –pool_ratio.
+                              min_epoch: ETH + ZIL switching strategy.  The miner will always mine the lowest epoch
+                                among all connected pools, and in case of a tie, the first connected pool.
+                                Therefore, specify your ETH mining pool as the first/primary pool, then the ZIL pool
+                                as the second pool.  You can also use ‘eth_zil’ as the name for this strategy.
+      –no_ntime_roll       Prevents the miner from rolling ntime in the block header, only using the value
+                              provided by the pool. This needs to be enabled for some pools when mining x16rt.
+      –no_stale_submit     Prevents the miner from submitting shares that are not for the most current pool job.</p>
+<p>GPU options:
+      –platform=INDEX      Sets the index of the OpenCL platform to use. If not specified, platform will
+                              be auto-detected. Linux with multiple platforms is only supported using no
+                              –platform arg but instead adding –bus_reorder.
+  -d, –devices=DEVLIST     Sets gpu devices to use from detected list. DEVLIST should be a comma-
+                              separated list of device indices, e.g. -d 0,1,2,4.  If not specified, all
+                              devices on the platform(s) will be used.  NOTE: by default the devices are ordered
+                              by pcie bus ordering. Use –list_devices to show indices.
+      –init_style=1/2/3    Specified the init style (1 is default):
+                              1: One gpu at the time, complete all before mining.
+                              2: Three gpus at the time, complete all before mining.
+                              3: All gpus in parallel, start mining immediately.
+      –pcie_fmt=FORMAT     Sets print format for pcie bus numbers.  The accepted values for FORMAT are
+                              either ‘hex’ or ‘dec’.  The default is dec for windows and hex for linux.
+      –bus_reorder         Reorders the detected or specified devices after their pcie bus id.  If no
+                              platform is specified, devices will be collected from all detected AMD OpenCL
+                              platforms.  Note: As of version v0.7.0 this is the default behavior.
+      –opencl_order        Orders the detected or specified devices in the order OpenCL presents them.
+      –list_devices        Lists the available devices for the detected or specified platform and exits
+                              immediately.  Bus reordering will be implemented in the displayed order.
+      –nr_cu_override=X,Y,… Overrides the nr compute units per gpu as presented by the OpenCL API. This
+                              is primarily useful for Vega 64s flashed with 56 biosed and where the driver is
+                              reporting 56 CU instead of the true count.  Provide a comma-separated list of the
+                              override CU count per gpu as value for the argument.  You can skip gpus and do not
+                              need to provide values for all gpus in the rig.  Example for a mixed rig of two Vegas
+                              at index 1 and 3 and two other gpus: –nr_cu_override=,64,,64.  You can verify your
+                              argument by also adding –list_devices before mining.</p>
+<p>Fan control options (BETA feature):
+      –fan_control(=CFG1,CFG2,…)  This argument enables gpu fan control by the miner.  TRM supports
+                              auto-adjusting the gpu fan speed(s) based on core, junction and/or mem temp.
+                              We also support setting a static fan speed in percent.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                          Each gpu type has a fan configuration that will be used by default.  We support
+                          both overriding the default configuration per gpu type as well as setting a
+                          specific config per gpu in the rig.
+
+                          A fan config consists of (max) six values, separate by the ':' (colon) char.  The values
+                          are: core target temp, junction target temp, mem target temp, initial fan speed in
+                          percent, min fan speed in percent, max fan speed in percent.  Any value can be left empty.
+                          These are a few examples:
+                          ::70:50:25   Target mem temp to 70C, start fan at 50% speed, min fan speed 25%.
+                          55::::20:80  Target core temp to 55C, start fan at default configuration's speed,
+                                       always keep fan between 20% and 80%.
+                          55::75:80    Adjust fan so that core temp is &lt;= 55C and mem temp is &lt;= 75C, start
+                                       fan at 80%.
+                          :::100       Set static fan speed to 100%, never adjust based on temps.
+
+                          The fan configuration used for a gpu is derived in the following precedence order:
+                          1. The --fan_control argument was passed a list of configurations and included an
+                             entry for gpu X.
+                          2. The default fan configuration for this gpu type was overridden with a
+                             --fan_default_&lt;type&gt;=... parameter.
+                          3. Use the built-in default fan configuration for this gpu type.
+
+                          In the list above, if the chosen configuration is missing the start value for the fan
+                          the setting from the next configuration is used.
+
+                          NOTE: fan support is a beta feature and will not work better than the support the
+                          drivers provide.  For example, many times the drivers under linux don't allow forcing a
+                          fan to 100% using the sysfs pwm support.
+
+  --fan_default_polaris=CFG Set the default config used for all Polaris gpus (450/460/550/560/470/480/570/580/590).
+                          The built-in default is 55:::50 for 55C core temp and fan starting at 50%.
+                          Note: this setting is also reused for Tonga gpus.
+  --fan_default_vega=CFG    Set the default config used for all Vega gpus (Vega 56/Vega 64).
+                          The built-in default is 55::70:50 for 55C core temp, 70C mem temp and fan at 50%.
+  --fan_default_vega2=CFG   Set the default config used for all Radeon VII gpus.
+                          The built-in default is 70::75:80 for 70C core temp, 75C mem temp and fan at 80%.
+  --fan_default_navi=CFG    Set the default config used for all Navi (Navi10).
+                          The built-in default is 60::80:70 for 60C core temp, 80C mem temp and fan at 70%.
+  --fan_default_big_navi=CFG  Set the default config used for all Big Navi (Navi21).
+                          The built-in default is 50:::70 for 50C core temp and fan at 70%. The reason for
+                          not including mem temp is a missing sensor in the Windows ADL library.
+  --fan_debug               Enable log printouts related to adjustments.
+</code></pre></div></div>
+<p>Watchdog options:
+      –no_gpu_monitor      Disables the ADL (Windows) or sysfs (Linux) GPU monitor for temperature and
+                              fan speed.
+      –temp_limit=TEMP     Sets the temperature at which the miner will stop GPUs that are too hot.
+                              Default is 85C.
+      –temp_resume=TEMP    Sets the temperature below which the miner will resume GPUs that were previously
+                              stopped due to temperature exceeding limit.  Default is 60C.
+      –watchdog_script(=X) Configures the gpu watchdog to shut down the miner and run the specified platform
+                              and exits immediately. The default script is watchdog.bat/watchdog.sh in the
+                              current directory, but a different script can be provided as an optional argument,
+                              potentially with a absolute or relative path as well.
+      –watchdog_test       Tests the configured watchdog script by triggering the same action as a dead gpu
+                              after ~20 secs of mining.
+      –watchdog_disabled   Forces the watchdog to not execute. Can be used to disable the watchdog in mining os
+                              that always run with the watchdog enabled.</p>
+<p>Ethash options:
+      –eth_config=CONFIG   Manual ethash configuration for the miner.  CONFIG must be in the form [M][L].
+                              The [M] value selects the mode which can be ‘A’,’B’, or ‘C’.
+                              The ‘B’ mode uses additional memory and will only work on 8+GB cards.
+                              The ‘C’ mode uses additional memory and will only work on 16+GB cards, such as the VII, with
+                              a correctly configured system.  See the ETHASH_TUNING_GUIDE.txt for more details.
+                              The [L] value selects the intensity and it’s range will depend on the GPU architecture.
+                              Both values are optional, but if [L] is specified, [M] must also be specified.
+                              Example configs: –eth_config=A
+                                               –eth_config=B750
+                              CONFIG can also be a comma separated list of config values where each is
+                              applied to each GPU. For example: –eth_config=A,B750,,A288
+                              Any gpu that does not have a specific config in the list will use the first
+                              config in the list.
+      –eth_variant_mode=X  This argument controls activation of the ethash changes for ETC from epoch 390 as described
+                              in ecip-1099. The following modes are available:
+                              pool      - Default mode. Only activates if the pool sends an algo flag containing etchash.
+                                          Once this flag is seen, all pool jobs will be assumed to be etchash unless another.
+                                          algo flag containing ethash is received.
+                              etchash   - Etchash mode. Epoch &gt;= 390 will be assumed to be etchash, lower epochs ethash. Pool
+                                          algo flags are not used.
+                              deduce    - Ignore pool algo flags and only apply a heuristics based on the current system time
+                                          and known heights and times for ETC and ETH. This mode should work as a generic
+                                          approach when ETH reaches epoch 390 in Jan 2021. The system clock needs to be correct.
+                                          It should also handle any profit switching setups that switch freely between ethash and
+                                          etchash jobs by proxying underlying pools.
+                              auto      - As long as the pool hasn’t passed an algo flag, use deduce mode. When an algo flag
+                                          is seen, switch to pool mode.
+                              ethash    - Forced ethash mode. Never apply ecip-1099.
+                              force_etc - Forced etchash mode. Always apply ecip-1099 rules. Use for ETC testnet mining.
+      –eth_aggr_mode       Enables automatic use of the ‘B’ mode for all Polaris 8GB cards, unless they have a
+                              different config provided by the –eth_config argument.  This is the same thing as 
+                              manually setting all Polaris 8GB gpus in the rig to ‘B’ mode using –eth_config.
+                              For most gpus, this adds 0.1-0.2 MH/s of hashrate.  NOTE: 20-25% of rigs becomes less
+                              stable in this mode which is the reason it isn’t the default mode.  If you experience
+                              dead gpus, you should remove this argument and run the gpus in the ‘A’ mode. 
+      –eth_stratum_mode=MODE Sets a fixed stratum mode for ethash pools.  By default the miner will attempt
+                              to automatically determine the type of stratum the pool supports and use that mode.
+                              This automatic detection can be overriden by specifying this option.  The MODE can be
+                              set to one of the following options: stratum, nicehash, ethproxy. 
+      –eth_worker          Set the worker id that will be sent to pool.  This only applies to pools with ethproxy
+                              stratum mode.
+      –eth_epoch           Tests a specific ethash epoch. NOTE: you still need to provide a pool as if you were mining,
+                              but no shares will be submitted. Simulated mining only.
+      –eth_alloc_epoch=N   Allocates enough memory for the given epoch from the start.  The miner will try to allocate more
+                              if it needs to later during mining.  It’s recommended for rigs with one or more 4GB cards to test
+                              and set this to the max possible value to avoid reallocations at epoch switches.  Optimal Linux
+                              rigs should be able to handle epoch 380, Windows rigs a little less (373-374).
+      –eth_dag_buf=X,Y,… The miner can allocate a single or dual buffers for the DAG.  For now, the default is DUAL buffers, which
+                              matches the behavior in all recent TRM releases.  However, a single buffer is slightly better, leading
+                              to a small power save for all gpu types.  Only recent drivers support single large allocations larger
+                              than 4GiB, typically from Adrenalin 20.9.1 and amdgpu-pro 20.x. The miner can automatically use single
+                              buffer mode when possible using this argument, as well a force single or dual buffers per gpu.
+                              Supported values are A(uto), S(ingle), D(ual).  You can enumerate a comma-separated list for all gpus
+                              in the rig, or a single value for all gpus.  A gpu that does not have a value in the comma-separated list
+                              will use the first value.  Hence, to enable auto mode for all gpus, pass –eth_dag_buf=A
+                              NOTE: 4GB gpus will be forced to use dual buffers. 
+      –eth_big_mode_adjust=X,Y,…  When using B- or C-modes, the miner runs better the more vram it can allocate.  Unfortunately the
+                              drivers aren’t accurate reporting how much memory it’s possible to allocate, especially on Windows.
+                              The miner will use a safe conservative number of 256MiB (Linux) and 512MiB (Windows) as an offset from
+                              the available vram size.  If you want change this number, you can do so using this argument by providing.
+                              a comma-separated list with values for one or more gpus.  Values for gpus not running B/C-mode will be
+                              ignored.  If a gpu doesn’t have a value in the list, the first provided value is used instead.
+                              The allowed interval is [-64, 2048]. The higher number, the less vram is allocated on the gpu.
+      –eth_4g_max_alloc=X,Y,…  This argument allows mining on 4GB gpus after they no longer can store the full DAG in vram.
+                              You pass either the max epoch to allocate memory for, or the raw nr of MB to allocate.  You can
+                              provide a single value that applies to all 4GB gpus in the rig, or use a comma-separated list for
+                              specifying different values per gpu.  Values for non-4GB gpus are ignored.
+      –eth_dag_slowdown=N  Slows down the DAG generation.  Pass a single digit 0-9. 0 means no slowdown (&lt;= 0.7.9 behavior),
+                              1 means minimal slowdown, 9 means max.  Default value: 4 for a slight slowdown.
+      –eth_stagger         Enables staggering of gpus when building a new DAG.  This is more lean on PSUs that don’t like
+                              going from 0-100% load on all gpus at the same time. 
+      –eth_no_stagger      Disables –eth_stagger.  Already the default behavior from 0.7.18.  Argument kept for backwards
+                              compatibility only.
+      –eth_ramp_up         Adds ramping up the intensity on all gpus after a DAG build, gpu disable/enable or network outage.
+                              Can help rigs with crashes right between the DAG build and starting mining.
+      –eth_no_ramp_up      Disables –eth_ramp_up.  Already the default behavior from 0.7.18.  Argument kept for backwards
+                              compatibility only.
+      –eth_direct_abort    Uses a different mechanism to abort ongoing gpu jobs.  Recommended for Vegas in ROCm environments
+                              to minimize stale shares.  Will apply to Vega and Polaris gpus in the rig only. 
+      –eth_dag_alloc_patch Some motherboards with outdated bios can see hw errs typically on the first or last gpu in the system.
+                              Use this argument to force a patched dag allocation strategy that most often solves the issue.
+                              Upgrading your bios often solves the issue as well.
+      –eth_hashwatch(=M,M) Defines a min/max watchdog hashrate in MH/s expected when gpus are hashing.  If a GPU falls outside
+                              of this range for too long it will be considered faulty and the watchdog will be triggered.  The
+                              default min/max values are 2 MH/s and 150 MH/s.  To activate with default values, use
+                              –eth_hashwatch.  To set your own values, use e.g. –eth_hashwatch=1.25,60.  The same range is used
+                              for all gpus in the rig.  A negative value for one side disables it, e.g. use –eth_hashwatch=-1,1000
+                              to handle gpu resets that result in huge fake hashrates but no minimum check.
+      –eth_dag_cache(=EPOCH) Enables saving eth DAGs from jobs with different epochs to prevent having to rebuild them in the
+                              future if jobs with the old epochs are received again.  At most one DAG will be saved if GPU memory 
+                              space allows.  This is useful for switching pools such as eth+zil mining.  If you want to prebuild a
+                              certain epoch immediately at startup, add the optional value. Eth+zil switching miners should use
+                              –eth_dag_cache=0.  Only ethash (and not etchash) epochs can be prebuilt at this time.
+      –eth_dag_cache_resv=MEM  Sets the amount of GPU memory the miner will attempt to leave unused when running with DAG caching
+                              enabled (see –eth_dag_cache).  The argument MEM is the amount of memory to leave unused in
+                              mebibytes.  The default value is 256.
+      –eth_dag_cache_verify    Enable dag cache read and verification after a finished dag build.  This will detect situations
+                              where the dag cache had bit errors and the resulting dag is partially broken.  We have seen this
+                              happen increasingly on Vegas as the dag has grown bigger.  When detected, a new buffer will be
+                              allocated for the dag cache and the dag build restarted.
+      –eth_no_4gb_kernels      Disable the ethash 4GB kernels and always use the regular kernels that assume the DAG will always
+                              fit in available vram on all gpus.  This is useful when mining ETC or ethash coins at lower epochs
+                              than ETH since the regular kernels have a better performance profile.
+      –eth_micro_delay=VAL     Navi gpus only: adds a delay (measured in microseconds) when reenqueueing work on the gpu(s).
+                              Weaker PSUs driving many gpus can sometimes not handle the “slew rate” when multiple gpus happen to
+                              reenqueue work at exactly the same time.  Setting this to e.g. 32 will smoothen out the transition
+                              from no load to 100% load enough to lower the slew rate on such rigs.  The typical indication of this
+                              issue is hard hangs where the rig becomes unresponsive requiring a power cycle to reboot, but it can also
+                              be regular gpu crashes.  Valid values are 1-128. Not using this argument means no delay, value zero.</p>
+<p>Progpow options:
+      –prog_config=CONFIG  Manual progpow configuration for the miner.  CONFIG must be in the form [M][L].
+                              The [M] value selects the mode which can be either ‘A’ or ‘B’.
+                              The ‘B’ mode typically results in better performance but is only available for
+                              Vega on linux and Navi (linux or windows).
+                              The [L] value selects the intensity and it’s range will depend on the GPU architecture.
+                              Both values are optional, but if [L] is specified, [M] must also be specified.
+                              Example configs: –prog_config=A
+                                               –prog_config=B750
+                              CONFIG can also be a comma separated list of config values where each is
+                              applied to each GPU. For example: –prog_config=A,B750,,A288
+                              Any gpu that does not have a specific config in the list will use the first.
+      –prog_height=VALUE   Sets a fixed block height for progpow algorithms for benchmarking purposes.
+                              Note that using this option needs a pool connection but will not submit shares.
+      –prog_strict         Forces miner to always generate strictly accurate kernels.  By default the miner will
+                              generate relaxed kernels that use less computation power but can result in 
+                              occasional invalid shares.
+      –prog_dag_slowdown=N  Slows down the DAG generation.  Pass a single digit 0-9.  0 means no slowdown (&lt;= 0.7.9 behavior),
+                              1 means minimal slowdown, 9 means max.  Default value: 4 for a slight slowdown.
+      –prog_stagger         See –eth_stagger.
+      –prog_ramp_up         See –eth_ramp_up.
+      –prog_no_stagger      See –eth_no_stagger.
+      –prog_no_ramp_up      See –eth_no_ramp_up.</p>
+<p>Cryptonight options:
+      –rig_id              Set the rig identifier that will be sent to the pool. This is only used for
+                              cryptonight pools.
+      –cn_config=CONFIG    Manual cryptonight configuration for the miner.  CONFIG must be in the form
+                              [P][I0][M][I1][:xyz], where [P] is an optional prefix and [:xyz] is an
+                              optional suffix.  For [P], only the value of ‘L’ is supported for low-end
+                              GPUs like Lexa/Baffin.  [I0] and [I1] are the thread intensity values normally
+                              ranging from 1 to 16, but larger values are possible for 16GB gpus.  [M] is the
+                              mode which can be either ‘.’, -‘, ‘+’ or ‘<em>’.  Mode ‘.’ means that the miner
+                              should choose or scan for the best mode.  Mode ‘</em>’ both a good default more and
+                              <em>should</em> be used if you mine on a Vega 56/64 with modded mem timings.  The
+                              exceptions to this rule are small pad variants (cnv8_trtl and cnv8_upx2), they
+                              should still use ‘+’. For Polaris gpus, only the ‘-‘ and ‘+’ modes are available.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                          NOTE: in TRM 0.5.0 auto-tuning functionality was added, making manual configuration
+                          of the CN config modes unnecessary except for rare corner cases.  For more info, 
+                          see the tuning docs and how-to documents bundled with the release. 
+                          
+                          Example configs: --cn_config=15*15:AAA
+                                           --cn_config=14-14
+                                           --cn_config=L4+3
+                          CONFIG can also be a comma separated list of config values where each is
+                          applied to each GPU. For example: --cn_config=8-8,16+14:CBB,15*15,14-14
+                          Any gpu that does not have a specific config in the list will use the first
+                          config in the list.
+  --no_cpu_check        Disables cpu verification of found shares before they are submitted to the pool.
+                          Note: only CN algos currently supports cpu verification.
+  --no_lean             Disables the CN lean mode where ramp up threads slowly on start or restart after
+                          network issues or gpu temp throttling. 
+  --no_interleave=DEVS  Lists gpu devices where CN thread interleave logic should be not be used. 
+                          The argument is a comma-separated list of devices like for the -d option. 
+                          Use this argument if some device(s) get a worse hashrate together with a lot
+                          of interleave adjust log messages. 
+  --alloc_patch=DEVS    Lists gpu devices that loses hashrate between TRM v0.4.5 and later versions. With this 
+                          argument a simpler mem allocation strategy is used, and the old (higher) hashrate should
+                          be restored. Auto-tuning mode can still be used.
+  --auto_tune=MODE      Enable the auto-tune mode upon startup. Only available for CN variants. MODE must 
+                          be either NONE, QUICK or SCAN. The QUICK mode checks a few known good configurations
+                          and completes within 1 min. The SCAN mode will check all possible combos and will
+                          run for 20-30 mins. Setting MODE to NONE disable the auto-tune feature. The default
+                          mode is QUICK. 
+  --auto_tune_runs(=N)  Executes multiple runs for the auto tune, each time decreasing the unit of pads used -1
+                          in one of the threads (15+15 -&gt; 15+14 -&gt; 14+14 -&gt; 14+13 -&gt; ...). You can specify the
+                          explicit nr of runs or let the miner choose a default value per gpu type (typically 3-4).
+  --auto_tune_exit      If present, the miner will exit after completing the auto-tuning process. This is helpful
+                          when you want to scan for optimal settings and then use the resulting command line arg
+                          printed by the miner.
+  --allow_large_alloc   If present, and when the driver indicates there is enough GPU vram available, the miner
+                          will be more aggressive with the initial memory allocation. In practice, this option
+                          means that Vega GPUs under Linux will start the auto-tuning process at 16*15 rather
+                          than 16*14 or 15*15.
+</code></pre></div></div>
+<p>MTP options:
+      –allow_all_devices   Some algos can’t be mined on e.g. 4GB gpus. Those gpus will be disabled automatically
+                              by the miner. This argument overrides this logic and allows mining on all specified
+                              or detected devices.</p>
+<p>X16* options:
+      –hash_order=VALUE    Sets a fixed hash order for algorithms like x16r for benchmarking purposes.
+                              Note that using this option needs a pool connection but will not submit shares.
+                              The standard benchmark hash order for x16r is –hash_order=0123456789abcdef.</p>
+<p>Nimiq options:
+      –nimiq_worker=VALUE  Sets the worker/device name for nimiq to pass to the pool(s).
+      –nimiq_no_proxy      Disables the automatic Nimiq proxy executed as a separate process. This means that the
+                              host and port passed to the miner must be pointing to a proxy.
+      –nimiq_proxy=VALUE   Overrides the default path to the Nimiq proxy. The default is trm_nimiq_proxy-win.exe.
+                              and trm_nimiq_proxy-linux in the current miner director.
+      –nimiq_port=VALUE    Overrides the default local port (4444) used for the Nimiq proxy. This can be used if your
+                              system is already using port 4444 for some other tcp/ip service.</p>
+<p>Verthash options:
+      –verthash_file=FILE  Sets the filename to be used to load/store the verthash data file.  If this option is
+                              specified when the verthash algo is used, the miner will attempt to load the verthash
+                              data from the file.  If the file does not exist, the miner will generate the verthash
+                              data and then save it in the file for future use.  If this option is not specified the
+                              miner will generate the verthash data in system memory on every start.
+      –verthash_max_uploads=N  Some motherboards have issues with all gpus in the rig uploading the verthash table
+                              at the same time.  This argument limits the number of concurrent gpus that are uploading
+                              the table at the same time at startup.  Allowed values are 1-32.  The default value is 4.</p>
+<p>Autolykos2 options:
+      –autolykos_mem_adjust=N  Sets the amount of memory in MiB that the miner should leave unused when allocating
+                              GPU buffers for autolykos.  The default value is 384 on linux and 512 on windows.  For GPUs
+                              with displays attached, the default is increased by 512.  If dual mining with ZIL, the 
+                              default value is increased by 1024.  The option can also be provided with a comma separated
+                              list of values where each value is applied to each GPU.  If an empty value is specified
+                              in the list, the default will be used for that GPU.  If a value is not specified for a GPU
+                              it will use the first value in the list.  For example:
+                                    –autolykos_mem_adjust=256,512,,256
+      –autolykos_slowdown=N  Adds a slowdown of the pad build process.  Valid values are 0-100. The default is 0, no
+                              slowdown.</p>
+<p>ZIL dual mining options:
+      –zil_start or –zil  Starts the ZIL dual mining config.  Between this and the –zil_end marker, all arguments are
+                              applied to the ZIL mining rather than the primary algo.  It’s expected that the primary algo
+                              has been set up in earlier arguments.  The intention is that you can add a –zil … –zil_end
+                              configuration to any working TRM configuration algo and things will work out of the box.
+                              This argument automatically sets a range of default settings you want to use for ZIL:
+                               - Cached copy of the ZIL epoch 0 DAG.
+                               - Adjustment of memory allocated for the primary algo to fit the ZIL DAG.
+                               - Choose ethash A-mode for the ZIL mining.
+                               - Use the standard faster kernels for 4GB gpus since the DAG is max 1GB.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                          The minimal working setup is to only provide a ZIL pool that is ok with the miner ignoring
+                          the primary coin jobs and only mines during the ZIL windows.  This is an example for ezil.me:
+                          --zil -o stratum+tcp://eu.ezil.me:5555 -u &lt;eth wallet&gt;.&lt;zil wallet&gt;.&lt;worker name&gt; -p x --zil_end
+
+                          For more info, read the ZIL dual mining guide packaged with the TRM release.
+
+  --zil_end             Marks that we're done with the ZIL mining config and all following arguments are for the primary
+                          algo.  This argument isn't strictly necessary, but should be included for mining distros since
+                          the user has no guarantee what arguments will be added automatically at the end of the command
+                          line by the distro.
+  --stats_mode=single/dual  When adding ZIL dual mining, the stats output will by default be duplicated to add info for
+                          the ZIL mining.  Some contexts might get confused by this if they are parsing the TRM outut or 
+                          log files.  To switch to the default output, add --stats_mode=single.
+</code></pre></div></div>
+     </section>
+</div>
+   </article>
+</div>
+ <!-- download -->	
+<div class="mar">	
+<section class="tim-down">
+<div class="tim-title whitez1"><a id="download">Get started with TeamRedMiner</a></div>
+<div class="tim-download">
+	<div class="tim-flex">	
+		<div class="tim-ver">	
+		Latest version is 0.8.3<br>
+		File: *<code>teamredminer.exe</code>,
+		SHA256: 350a077c3270ebfcbc46888774d49cc27f7707638525ae251c1dbff515bb0e9e<br>
+		<span class="nev2">(<a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-linux.tgz" rel="nofollow noopener" target="_blank">Download for Linux</a>)</span>	
+		</div>
+		<div class="tim-get">
+		<!-- <span class="tim-password">Password: TeamRedMiner</span> -->
+		<div class="tim-button down">
+<i class="far fa-arrow-alt-circle-down"></i>
+		<a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" target="_blank" rel="nofollow noopener">Download Now (Windows x64)</a>
+		</div>
+		<span class="tim-mirror">(<a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" target="_blank" rel="nofollow">mirror</a>)</span>
+		</div>	
+	</div>
+</div>
+</section>
+</div>
+<div class="tim-vi2">	
+ <!-- related_posts -->
+   <div class="page__related">
+     <h4 class="page__related-title">You may also enjoy</h4>
+     <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/0.8.3/" rel="permalink">Download TeamRedMiner  0.8.3 - AMD+NVIDIA GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  less than 1 minute read
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Get started with TeamRedMiner
+		Version: 0.8.3
+		File: *TeamRedMiner.exe,  
+		SHA256: e8e775add50c67e1c6f6ca20db318f745e22b085afcbdf5634015e6ef91e88...</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/documentation/setup/" rel="permalink">TeamRedMiner: Setup - Readme [Full Documentation]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  3 minute read
+</p>
+   <p class="archive__item-excerpt" itemprop="description">**
+</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/documentation/changelog/" rel="permalink">TeamRedMiner: changelog
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  18 minute read
+</p>
+   <p class="archive__item-excerpt" itemprop="description">**
+</p>
+ </article>
+</div>
+     </div>
+   </div>
+    <!-- post navigation footer -->
+      <footer class="page__meta">
+ <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+      <a href="/tags/teamredminer" class="page__taxonomy-item" rel="tag">TeamRedMiner</a>
+    </span>
+ </p>
+ <p class="page__taxonomy">
+    <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories:
+    <span itemprop="keywords">
+      <a href="/categories/documentation" class="page__taxonomy-item" rel="tag">documentation</a>
+    </span>
+ </p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-05-29T00:00:00+00:00">29.05.2021</time></p>
+     </footer>
+     <section class="page__share">
+   <h4 class="page__share-title">Share on</h4>
+  <a href="https://twitter.com/intent/tweet?via=teamredminer&amp;text=TeamRedMiner%26%2358%3B+changelog%20https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+ <nav class="pagination">
+      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/documentation/changelog/" class="pagination--pager" title="TeamRedMiner: changelog
+">Next</a>
+ </nav>
+  <!-- comments -->
+      <!--      -->
+</div>
+   </div>
+     <div class="search-content">
+       <div class="search-content__inner-wrap">
+<div class="search-searchbar"></div>
+   <div class="search-hits"></div>
+</div>
+     </div>
+   <div class="page__footer">
+     <footer>
+        <!-- start custom footer snippets -->
+<!-- end custom footer snippets -->
+       <section class="tim-foot">
+	<div class="">
+					<p class="imgcen">TeamRedMiner Community</p>
+		<div class="tim-flex">
+			<div class="foot-itm community">
+				<ul>
+					<li>
+<a href="https://discord.gg/RGykKqB" target="_blank" rel="nofollow"><i class="fab fa-discord"></i>Discord</a>
+					</li>
+<li>
+<a href="https://github.com/todxx/teamredminer" target="_blank" rel="nofollow"><i class="fab fa-github"></i>GitHab</a>
+					</li>
+<li>
+<a href="https://bitcointalk.org/index.php?topic=5059817.0" target="_blank" rel="nofollow"><i class="fab fa-bitcoin"></i>Bitcointalk</a>
+					</li>
+<li>
+<a href="https://www.awesomeminer.com/" target="_blank" rel="nofollow"><i class="fab fa-gitter"></i> Awesome Miner</a>
+					</li>
+<li>
+<a href="https://docs.ethoprotocol.com/pools-and-mining/windows-etho-mining-guide-teamredminer" target="_blank" rel="nofollow"><i class="fab fa-ethereum"></i> Ethoprotocol</a>
+				</li>
+</ul>
+			</div>
+		<div class="foot-itm community">
+			<ul>
+				<li>
+<a href="https://hiveos.farm/" target="_blank" rel="nofollow"><i class="fas fa-server"></i>Hive OS</a>			
+				</li>
+<li>
+<a href="https://raveos.com/" target="_blank" rel="nofollow"><i class="fas fa-server"></i>RaveOS</a>
+				</li>
+<li>
+<a href="https://getpimp.org/" target="_blank" rel="nofollow"><i class="fas fa-server"></i>PiMP OS</a>
+				</li>
+<li>
+<a href="https://minerstat.com/" target="_blank" rel="nofollow"><i class="fas fa-server"></i>Minerstat                </a>
+				</li>
+<li>
+<a href="https://simplemining.net/" target="_blank" rel="nofollow"><i class="fas fa-server"></i>SimpleMining OS</a>
+			</li>
+</ul>
+		</div>
+		</div>	
+	</div>
+</section>
+<section class="tim-post-foot clearfix">
+	<div class="tim-vi2">
+		<div class="nev3 tim-left">Note, when downloading the TeamRedMiner, Windows may issue a warning, but if you used TeamRedMiner download link you can ignore this.
+		</div>
+		<div class="nev3 tim-right">Disclaimer: This isn't an official TeamRedMiners site. No binary files were affected.
+		All rights belong to their respective owners.
+		</div>
+	</div>
+	<div class="page__footer-copyright">
+			<p><a href="/about/" class="back_to_top">About</a></p>
+			<p><a href="#" class="back_to_top">Back to top</a></p>
+	© 2021 TeamRedMiner. 
+		<p class="diclamer"></p>
+	</div>
+</section>
+<div class="postfooter">
+<p>Russian version <a href="/ru">Switch Language </a></p>	
+<p><a href="/cookie" class="tim-policy" target="_blank" rel="nofollow">Cookie Policy</a></p>
+<p><a href="/cookie" class="tim-policy" target="_blank" rel="nofollow">Privacy Policy</a></p>
+</div>
+<p class="pow postfooter">Powered by <i class="fab fa-wikipedia-w"></i></p>
+     </footer>
+   </div>
+  <script src="/assets/js/main.min.js"></script>
+<!-- Including InstantSearch.js library and styling -->
+<script src="/assets/js/instantsearch/instantsearch.min.js"></script>
+<link rel="preload" href="/assets/css/instantsearch/instantsearch.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="/assets/css/instantsearch/instantsearch-theme-algolia.min.css" as="style" onload="this.rel='stylesheet'">
+<script>
+// Instanciating
+const search = instantsearch({
+  appId: 'Q1UA5ODREB',
+  apiKey: 'fe8f8573c417f68c64a2c79cedb5cdbd',
+  indexName: 'teamredminer',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+  return `
+   <div class="list__item">
+     <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+       <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+       <div class="archive__item-excerpt" itemprop="description">${content}</div>
+     </article>
+   </div>
+  `;
+}
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+// Starting the search
+let lazybuttonsearch = document.querySelector('.search__toggle');
+lazybuttonsearch.addEventListener('click', () => search.start());
+</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57XZBSH');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57XZBSH" height="0" width="0" style="display:none;visibility:hidden" loading="lazy" decoding="async"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+</body>
+</html>

@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://teamredminer.info/ru/download/0.8.3/</loc>
+    
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://teamredminer.info/ru/documentation/setup/</loc>
     
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
@@ -28,15 +37,6 @@
     <priority>1.0</priority>
   </url>
   
-  <url>
-    <loc>https://teamredminer.info/ru/download/5.6d/</loc>
-    
-    <lastmod>2021-05-11T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   
@@ -44,7 +44,7 @@
   <url>
     <loc>https://teamredminer.info/ru/about/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -56,7 +56,7 @@
   <url>
     <loc>https://teamredminer.info/ru/cookie/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -68,7 +68,7 @@
   <url>
     <loc>https://teamredminer.info/ru/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -94,7 +94,7 @@
   <url>
     <loc>https://teamredminer.info/ru/legal/terms/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -106,19 +106,7 @@
   <url>
     <loc>https://teamredminer.info/ru/tags/teamredminer/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
-       
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  <url>
-    <loc>https://teamredminer.info/ru/categories/download/</loc>
-      
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -130,7 +118,7 @@
   <url>
     <loc>https://teamredminer.info/ru/categories/articles/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -142,7 +130,19 @@
   <url>
     <loc>https://teamredminer.info/ru/categories/documentation/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/ru/categories/download/</loc>
+      
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -154,7 +154,7 @@
   <url>
     <loc>https://teamredminer.info/ru/articles/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -166,7 +166,7 @@
   <url>
     <loc>https://teamredminer.info/ru/blog/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -178,7 +178,7 @@
   <url>
     <loc>https://teamredminer.info/ru/documentation/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -190,7 +190,7 @@
   <url>
     <loc>https://teamredminer.info/ru/download/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -202,7 +202,7 @@
   <url>
     <loc>https://teamredminer.info/ru/video/</loc>
       
-        <lastmod>2021-05-31T07:17:49+00:00</lastmod>
+        <lastmod>2021-05-31T12:46:14+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
