@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "https://teamredminer.info/ru/articles/eco-05-31/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 06 01",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-06-01/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },]
