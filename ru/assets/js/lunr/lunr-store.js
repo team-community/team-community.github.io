@@ -7,7 +7,7 @@ var store = [{
       },{
         "title": "TeamRedMiner&#58; Комиссия, Системные Требования и Лимиты [2021]",
         "excerpt":"TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.3 отсюда:   Скачать сейчас   Скачать (зеркало)   ","categories": ["documentation"],
-        "tags": ["TeamRedMiner"],
+        "tags": [],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
@@ -29,7 +29,7 @@ var store = [{
         "url": "https://teamredminer.info/ru/articles/kamalla-06-01/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "Stock To Flow Bitcoin Модель Биткоина и PlanB (2021)",
+        "title": "Stock To Flow Bitcoin&#58; Модель Биткоина и PlanB (2021)",
         "excerpt":"   Возвращаясь к публикации  о ценовой модели-индикаторе stock-to-flow (S2F), её создатель PlanB, заявляет, что модель не сломана и она по-прежнему работает. PlanB сказал,  что “мы знали, что биткоин не будет расти по прямой линии”, и добавил, что рыночная ситуация выглядит в точности как в 2013 году.”   Более того, PlanB также провел опрос в своём Twitter, в котором опросил своих последователей, считают ли они, что модель S2F сломалась или она даёт отличный сигнал на покупку. Из более чем 15 000 голосов 54,7% считают, что это “сигнал на покупку”, 17,4% считают, что “S2F сломался”.   Автор индикатора считает, что текущая модель показывает ближайший уровень выше $64K и стремится к $100K в этом году. Добавив, что лично знает  несколько хедж-фондов, которые на самом деле торгуют используя  эту коинтеграцию BTC-S2F. Второй отскок от нижней границы модели S2F является отличным сигналом для покупки.  ","categories": ["articles"],
         "tags": [],
         "url": "https://teamredminer.info/ru/articles/s2f-06-02/",

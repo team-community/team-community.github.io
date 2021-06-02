@@ -259,8 +259,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <span class="number">1</span>
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3">Download the miner</span>
-			 <meta itemprop="name" content="Download the miner">
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Download the miner</span>
 		<div class="tim-row">			  
 			 <ul itemprop="text">
 		<li>
@@ -282,8 +281,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <span class="number">2</span> 
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3">Enter the following command:</span>
-			 <meta itemprop="name" content="Enter the following command">
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Enter the following command:</span>
 			 <div class="tim-row">
 			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
@@ -300,8 +298,7 @@ teamredminer.exe -a ethash -o stratum+tcp://ethash.poolbinance.com:8888 -u <span
               <span class="number">3</span>
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3">Configure the miner with your settings</span>
-			 <meta itemprop="name" content="Configure the miner with your settings">
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Configure the miner with your settings</span>
 			 <div class="tim-row">
 <span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - enter <span class="accent-txt">YOUR</span> Ethereum wallet address or pool <span class="accent-txt">USERNAME</span> (this is how TeamRedMiner Miner knows where to deposit your ETH)
 		<span class="accent-txt">RIG_NAME</span> – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). <span class="tim-blu">Make sure to replace the pool and wallet address by what you're using in all files.</span>
@@ -314,7 +311,7 @@ teamredminer.exe -a ethash -o stratum+tcp://ethash.poolbinance.com:8888 -u <span
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Start mining</span>
-		<div class="tim-row" itemprop="text">Double click <span class="accent-txt">your Bat file</span> to start the miner. The miner will start, run the setx commands to set those environment variables, initialize each of your GPU’s, build the DAG file on each of your GPU’s and start hashing away. Let it run for about 20 seconds and then click “s” to display your Hashing speed.
+		<div class="tim-row" itemprop="text">Double click <span class="accent-txt">your Bat file</span> to start the miner. The miner will start, run the setx commands to set those environment variables, initialize each of your GPU’s, build the DAG file on each of your GPU’s and start hashing away.
 		If you’ve followed the steps above you should see this screen.
 		</div>
            </div>
