@@ -21,7 +21,7 @@
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-05-29T00:00:00+00:00">
- <meta property="article:modified_time" content="2021-05-10T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-07-22T00:00:00+00:00">
 <link rel="canonical" href="https://teamredminer.info/ru/documentation/setup/">
 <script type="application/ld+json">
   {
@@ -146,13 +146,13 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <meta itemprop="headline" content="TeamRedMiner: Настройка Батника [2021]">
    <meta itemprop="description" content="TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)">
    <meta itemprop="datePublished" content="May 29, 2021">
-   <meta itemprop="dateModified" content="May 10, 2021"> 
+   <meta itemprop="dateModified" content="July 22, 2021"> 
    <div class="page__inner-wrap">
       <header>
 		 <h1 id="page-title" class="page__title" itemprop="headline">TeamRedMiner: Настройка Батника
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
+  1 мин на чтение
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -160,13 +160,37 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
            <nav class="toc">
             <header><h4 class="nav__title">
 <i class="fas fa-file-alt"></i> Содержание</h4></header>
+             <ul class="toc__menu">
+ <li>
+<a href="#ethereum">Ethereum</a>
+</li>
+</ul>
            </nav>
          </aside>
        <p><em>TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)</em>
 <img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
-<p>Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.3 отсюда:</p>
-<p><a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать сейчас</a></p>
-<p><a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" class="btn btn--danger btn--x-large" rel="nofollow noopener" target="_blank">Скачать (зеркало)</a></p>
+<p>Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.4 отсюда:</p>
+<p><a href="https://github.com/todxx/teamredminer/releases/download/v0.8.4/teamredminer-v0.8.4-win.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать сейчас</a></p>
+<p><a href="https://github.com/todxx/teamredminer/releases/" class="btn btn--danger btn--x-large" rel="nofollow noopener" target="_blank">Скачать (зеркало)</a></p>
+<p>Программное обеспечение для майнинга запускается через <code class="language-plaintext highlighter-rouge">.bat</code> файл в Windows и через командную строку в Linux. Ниже приведены образцы <code class="language-plaintext highlighter-rouge">.bat</code> файлов для каждой криптовалюты, которую вы можете добывать с помощью Team Red Miner. Обязательно замените его <code class="language-plaintext highlighter-rouge">YOUR_ADDRESS</code> собственным адресом кошелька и <code class="language-plaintext highlighter-rouge">RIG_ID</code> своим собственным именем буровой установки. Вы можете называть его как хотите, но имя должно содержать только латинские буквы и символы «-» и «_». Кошелек должен соответствовать криптовалюте, которую вы добываете.</p>
+<p>Чтобы запустить программное обеспечение для майнинга и эффективно изменять параметры, вам потребуются файлы .bat. Вы также можете подумать о настройке файла конфигурации, но файл .bat - это то, что нужно большинству пользователей.</p>
+<ol>
+ <li>Создайте новый текстовый файл и переименуйте расширение в .bat. Возможно, вам придется изменить параметры папки, чтобы отображать расширения, если они еще не включены.
+ </li>
+<li>Введите свои параметры (аргументы командной строки).
+ </li>
+<li>Поместите файл .bat в папку, где находится исполняемый файл программы для майнинга.
+ </li>
+<li>Чтобы файл .bat загружался при запуске, поместите его в каталог запуска Windows.
+</li>
+</ol>
+<p>Вот как настроить TeamRedMiner для майнинга Ethereum в пуле 2Miners.</p>
+<h2 id="ethereum">Ethereum</h2>
+<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u YOUR_WALLET_ADDRESS.RIG_ID -p x
+pause</code></p>
+<p>Пример:</p>
+<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xada842613541e55e2500478892a334cde74ff653.RIG_ID -p x
+pause</code></p>
      </section>
 </div>
    </article>
@@ -178,9 +202,9 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <div class="row">
      <div class="down-inner">
        <h2 class="h2 mb-4 pb-2">Download now</h2>
-       <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.8.3<br>
+       <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.8.4<br>
 File: *teamredminer.exe, <br>
-<span class="break">SHA256: 350a077c3270ebfcbc46888774d49cc27f7707638525ae251c1dbff515bb0e9e</span><br></p>
+<span class="break">SHA256: 264cf7630e5e0ac40ad75d79d8fe9c5738bf3acc43958e3eee74c38e45f5cbc7</span><br></p>
        <hr class="hr-light" style="width: 3rem;">
        <ul class="rating mt-4 pt-2 mb-1">
 <li>
@@ -200,8 +224,8 @@ File: *teamredminer.exe, <br>
 </li>
 </ul>
        <p class="mb-4 pb-2"><small>Based on 3,000+ reviews</small></p>
-        <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
-				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
+        <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.4/teamredminer-v0.8.4-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
+				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.4/teamredminer-v0.8.4-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
      </div>
    </div>
  </section>
@@ -212,6 +236,41 @@ File: *teamredminer.exe, <br>
    <div class="page__related">
      <h4 class="page__related-title">Вам также может понравиться</h4>
      <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/0.8.4/" rel="permalink">Скачать ТимРэдМайнер 0.8.4 - AMD GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  менее 1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.8.4
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 264cf7630e5e0ac40ad75d79d8fe9c5738bf3acc4...</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/ru/articles/clear-07-22/" rel="permalink">Clear 07 22
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  менее 1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+</p>
+ </article>
+</div>
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
@@ -244,43 +303,11 @@ File: *teamredminer.exe, <br>
 </p>
  </article>
 </div>
-<div class="grid__item">
- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-     <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
-     </div>
-   <h2 class="archive__item-title" itemprop="headline">
-        <a href="/ru/articles/finder-07-14/" rel="permalink">Платформа Finder и Опрос и МнениЯ о Биткоине Людей (2021)
-</a>
-   </h2>
-     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</p>
-   <p class="archive__item-excerpt" itemprop="description">
-</p>
- </article>
-</div>
-<div class="grid__item">
- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-     <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
-     </div>
-   <h2 class="archive__item-title" itemprop="headline">
-        <a href="/ru/articles/china-07-10/" rel="permalink">Китайские Власти Заблокировали Сайт Binance: Причины [2021]
-</a>
-   </h2>
-     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</p>
-   <p class="archive__item-excerpt" itemprop="description">
-В выдаче Гугла по запросу “ban anonymous crypto wallets” - выдача идет однозначная. Безусловно, это скоординированные действия всех регуляторов. Посмотрим к...</p>
- </article>
-</div>
      </div>
    </div>
     <!-- post navigation footer -->
       <footer class="page__meta">
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-05-10T00:00:00+00:00">10.05.2021</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-07-22T00:00:00+00:00">22.07.2021</time></p>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Поделиться</h4>

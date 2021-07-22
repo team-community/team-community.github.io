@@ -5,23 +5,23 @@
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
 <title>TeamRedMiner: Setup - Readme [install] (2021)</title>
-<meta name="description" content="**">
+<meta name="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
  <meta name="author" content="TeamRedMiner">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="TeamRedMiner">
 <meta property="og:title" content="TeamRedMiner: Setup - Readme [install] (2021)">
 <meta property="og:url" content="https://teamredminer.info/documentation/setup/">
- <meta property="og:description" content="**">
+ <meta property="og:description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
  <meta property="og:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@teamredminer">
  <meta name="twitter:title" content="TeamRedMiner: Setup - Readme [install] (2021)">
- <meta name="twitter:description" content="**">
+ <meta name="twitter:description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
  <meta name="twitter:url" content="https://teamredminer.info/documentation/setup/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-05-29T00:00:00+00:00">
- <meta property="article:modified_time" content="2021-06-01T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-07-22T00:00:00+00:00">
 <link rel="canonical" href="https://teamredminer.info/documentation/setup/">
 <script type="application/ld+json">
   {
@@ -35,7 +35,7 @@
  <meta name="google-site-verification" content="WLESE2hqeUs9Zis9Ug_IWbm4nQNFofxcUj68NFnM-p0">
  <meta name="yandex-verification" content="b9e5bf6ac3a15279">
 <!-- end _includes/seo.html -->
-<meta name="description" content="**">
+<meta name="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
  <meta name="author" content="TeamRedMiner">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TeamRedMiner Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -144,15 +144,15 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
    <meta itemprop="headline" content="TeamRedMiner: Setup - Readme [install] (2021)">
-   <meta itemprop="description" content="**">
+   <meta itemprop="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
    <meta itemprop="datePublished" content="May 29, 2021">
-   <meta itemprop="dateModified" content="June 01, 2021"> 
+   <meta itemprop="dateModified" content="July 22, 2021"> 
    <div class="page__inner-wrap">
       <header>
 		 <h1 id="page-title" class="page__title" itemprop="headline">Team Red Miner  - Readme [install]
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 minute read
+  3 minute read
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -162,39 +162,36 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <i class="fas fa-file-alt"></i> On this page</h4></header>
              <ul class="toc__menu">
  <li>
+<a href="#ethereum">Ethereum</a>
+ </li>
+<li>
 <a href="#algorithms">Algorithms</a>
 </li>
 </ul>
            </nav>
          </aside>
-       <p>**
+       <p><em>Here is how to setup TeamRedMiner for Ethereum mining on the mining pools</em>
 <img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
-<p><strong>Download is available in the <a href="https://github.com/todxx/teamredminer/releases" rel="nofollow noopener" target="_blank">github releases section</a>.</strong></p>
-<p>TRM discord server: https://discord.gg/RGykKqB</p>
-<p>Below is a list of mining operating systems and management software that have built-in support for teamredminer:</p>
-<ul>
- <li>
-<a href="https://mmpos.eu/" rel="nofollow noopener" target="_blank">MMPOS</a>
+<p>The mining software launches through the <code class="language-plaintext highlighter-rouge">.bat</code> file in Windows and through the command line in Linux. Below are sample bat files for each cryptocurrency that you can mine with Team Red Miner. Make sure to replace <code class="language-plaintext highlighter-rouge">YOUR_ADDRESS</code> with your own wallet address, and <code class="language-plaintext highlighter-rouge">RIG_ID</code> with your own rig name. You can name it however you like, but the name must contain only Latin letters and symbols “-” and “_”. The wallet must correspond to the cryptocurrency you are mining.</p>
+<p>To start your mining software and to change parameters in an efficient manner, you will need .bat files. You may also want to consider setting up a config file, but a .bat file is what most users need.</p>
+<ol>
+ <li>Create a new text file, and rename the extension to .bat. You may have to change folder options to show extensions if it is not enabled already.
  </li>
-<li>
-<a href="https://simplemining.net/" rel="nofollow noopener" target="_blank">SimpleMining OS</a>
+<li>Enter your parameters (command line arguments).
  </li>
-<li>
-<a href="https://hiveos.farm/" rel="nofollow noopener" target="_blank">Hive OS</a>
+<li>Place the .bat file in the folder where the executable for the mining software is located.
  </li>
-<li>
-<a href="https://minerstat.com/" rel="nofollow noopener" target="_blank">Minerstat</a>
- </li>
-<li>
-<a href="https://www.awesomeminer.com/" rel="nofollow noopener" target="_blank">Awesome Miner</a>
- </li>
-<li>
-<a href="https://getpimp.org/" rel="nofollow noopener" target="_blank">PiMP OS</a>
- </li>
-<li>
-<a href="https://raveos.com/" rel="nofollow noopener" target="_blank">RaveOS</a>
+<li>To have the .bat file load on startup, place it in the windows startup directory.
 </li>
-</ul>
+</ol>
+<p>Here is how to setup TeamRedMiner for Ethereum mining on the 2Miners pool.</p>
+<h2 id="ethereum">Ethereum</h2>
+<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u YOUR_WALLET_ADDRESS.RIG_ID -p x
+pause</code></p>
+<p>Example:</p>
+<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xada842613541e55e2500478892a334cde74ff653.RIG_ID -p x
+pause</code></p>
+<p><strong>Download is available in the <a href="https://github.com/todxx/teamredminer/releases" rel="nofollow noopener" target="_blank">github releases section</a>.</strong></p>
 <p>This miner supports a range of algorithms.  Please see the list below for details.  The miner is configured via command line only, please run with the –help option to print a short help message for how to use the command line options.</p>
 <p><strong>This miner supports mining ethash with 4GB Polaris GPUs after epoch 381 on linux.  Please see the guide <a href="https://github.com/todxx/teamredminer/blob/master/doc/ETHASH_4GB_HOWTO.txt" rel="nofollow noopener" target="_blank">here</a></strong></p>
 <h2 id="algorithms">Algorithms</h2>
@@ -673,8 +670,32 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 The miner also includes a Claymore miner compatible API with support for a subset of the API.</p>
 <p>For reporting bugs and/or for features requests, please open an issue on this project’s github <a href="https://github.com/todxx/teamredminer/issues" rel="nofollow noopener" target="_blank">issue tracker</a>.</p>
 <p>For example command lines please see the batch/shell scripts in the miner download packages.
-For command line options see the <a href="USAGE.txt">USAGE.txt</a> file that comes with the miner.</p>
-<hr>
+For command line options see the USAGE.txt file that comes with the miner.</p>
+<p>TRM discord server: https://discord.gg/RGykKqB</p>
+<p>Below is a list of mining operating systems and management software that have built-in support for teamredminer:</p>
+<ul>
+ <li>
+<a href="https://mmpos.eu/" rel="nofollow noopener" target="_blank">MMPOS</a>
+ </li>
+<li>
+<a href="https://simplemining.net/" rel="nofollow noopener" target="_blank">SimpleMining OS</a>
+ </li>
+<li>
+<a href="https://hiveos.farm/" rel="nofollow noopener" target="_blank">Hive OS</a>
+ </li>
+<li>
+<a href="https://minerstat.com/" rel="nofollow noopener" target="_blank">Minerstat</a>
+ </li>
+<li>
+<a href="https://www.awesomeminer.com/" rel="nofollow noopener" target="_blank">Awesome Miner</a>
+ </li>
+<li>
+<a href="https://getpimp.org/" rel="nofollow noopener" target="_blank">PiMP OS</a>
+ </li>
+<li>
+<a href="https://raveos.com/" rel="nofollow noopener" target="_blank">RaveOS</a>
+</li>
+</ul>
      </section>
 </div>
    </article>
@@ -686,9 +707,9 @@ For command line options see the <a href="USAGE.txt">USAGE.txt</a> file that com
    <div class="row">
      <div class="down-inner">
        <h2 class="h2 mb-4 pb-2">Download now</h2>
-       <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.8.3<br>
+       <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.8.4<br>
 File: *teamredminer.exe, <br>
-<span class="break">SHA256: 350a077c3270ebfcbc46888774d49cc27f7707638525ae251c1dbff515bb0e9e</span><br></p>
+<span class="break">SHA256: 264cf7630e5e0ac40ad75d79d8fe9c5738bf3acc43958e3eee74c38e45f5cbc7</span><br></p>
        <hr class="hr-light" style="width: 3rem;">
        <ul class="rating mt-4 pt-2 mb-1">
 <li>
@@ -708,8 +729,8 @@ File: *teamredminer.exe, <br>
 </li>
 </ul>
        <p class="mb-4 pb-2"><small>Based on 3,000+ reviews</small></p>
-        <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
-				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.3/teamredminer-v0.8.3-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
+        <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.4/teamredminer-v0.8.4-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
+				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.8.4/teamredminer-v0.8.4-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
      </div>
    </div>
  </section>
@@ -720,6 +741,25 @@ File: *teamredminer.exe, <br>
    <div class="page__related">
      <h4 class="page__related-title">You may also enjoy</h4>
      <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/0.8.4/" rel="permalink">Download TeamRedMiner  0.8.4 - AMD GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  less than 1 minute read
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Get started with TeamRedMiner
+		Version: 0.8.4
+		File: *TeamRedMiner.exe,  
+		SHA256: 264cf7630e5e0ac40ad75d79d8fe9c5738bf3acc43958e3eee74c38e45f5cb...</p>
+ </article>
+</div>
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
@@ -775,7 +815,7 @@ Get started with TeamRedMiner
    </div>
     <!-- post navigation footer -->
       <footer class="page__meta">
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-06-01T00:00:00+00:00">01.06.2021</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-07-22T00:00:00+00:00">22.07.2021</time></p>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Share on</h4>
