@@ -6,7 +6,7 @@ var store = [{
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },{
         "title": "TeamRedMiner&#58; Настройка Батника [2021]",
-        "excerpt":"TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.4 отсюда:   Скачать сейчас   Скачать (зеркало)   Программное обеспечение для майнинга запускается через .bat файл в Windows и через командную строку в Linux. Ниже приведены образцы .bat файлов для каждой криптовалюты, которую вы можете добывать с помощью Team Red Miner. Обязательно замените его YOUR_ADDRESS собственным адресом кошелька и RIG_ID своим собственным именем буровой установки. Вы можете называть его как хотите, но имя должно содержать только латинские буквы и символы «-» и «_». Кошелек должен соответствовать криптовалюте, которую вы добываете.   Чтобы запустить программное обеспечение для майнинга и эффективно изменять параметры, вам потребуются файлы .bat. Вы также можете подумать о настройке файла конфигурации, но файл .bat - это то, что нужно большинству пользователей.      Создайте новый текстовый файл и переименуйте расширение в .bat. Возможно, вам придется изменить параметры папки, чтобы отображать расширения, если они еще не включены.   Введите свои параметры (аргументы командной строки).   Поместите файл .bat в папку, где находится исполняемый файл программы для майнинга.   Чтобы файл .bat загружался при запуске, поместите его в каталог запуска Windows.   Вот как настроить TeamRedMiner для майнинга Ethereum в пуле 2Miners.   Ethereum   teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u YOUR_WALLET_ADDRESS.RIG_ID -p x pause   Пример:   teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xada842613541e55e2500478892a334cde74ff653.RIG_ID -p x pause   ","categories": ["documentation"],
+        "excerpt":"TeamRedMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)    Для начала вы можете скачать самую последнюю версию TeamRedMiner 0.8.5 отсюда:   Скачать сейчас   Скачать (зеркало)   Программное обеспечение для майнинга запускается через .bat файл в Windows и через командную строку в Linux. Ниже приведены образцы .bat файлов для каждой криптовалюты, которую вы можете добывать с помощью Team Red Miner. Обязательно замените его YOUR_ADDRESS собственным адресом кошелька и RIG_ID своим собственным именем буровой установки. Вы можете называть его как хотите, но имя должно содержать только латинские буквы и символы «-» и «_». Кошелек должен соответствовать криптовалюте, которую вы добываете.   Чтобы запустить программное обеспечение для майнинга и эффективно изменять параметры, вам потребуются файлы .bat. Вы также можете подумать о настройке файла конфигурации, но файл .bat - это то, что нужно большинству пользователей.      Создайте новый текстовый файл и переименуйте расширение в .bat. Возможно, вам придется изменить параметры папки, чтобы отображать расширения, если они еще не включены.   Введите свои параметры (аргументы командной строки).   Поместите файл .bat в папку, где находится исполняемый файл программы для майнинга.   Чтобы файл .bat загружался при запуске, поместите его в каталог запуска Windows.   Вот как настроить TeamRedMiner для майнинга Ethereum в пуле 2Miners.   Ethereum   teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u YOUR_WALLET_ADDRESS.RIG_ID -p x pause   Пример:   teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xada842613541e55e2500478892a334cde74ff653.RIG_ID -p x pause   ","categories": ["documentation"],
         "tags": [],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
@@ -105,5 +105,251 @@ var store = [{
         "excerpt":"   Министерство правды работает как железный каток, заставляя людей говорить на птичьем языке. СССР называли тоталитарным государством. Но что интересно, как таковой цензуры тогда не было. Журналисты и писатели сами прекрасно понимали что можно писать, а что нет.   Причем им даже не хотелось сражаться с системой, им были дороги их работы, у них были неплохие зарплаты и определенные привилегии. Им не было никакого смысла критиковать систему, более того, они сами были заинтересованы в её сохранении.   Сейчас то же самое с  YouTube.  Блогеры, обсуждающие самую насущную современную проблему, причем не важно с какой позиции, за или против, будут сразу заблокированы, автоматом по ключевым словам. Однаксами блогеры стараются не нарываться, и обходиться свежепридуманным новоязом. Вместо пандемии - модная болезнь, вместо прививки - модная процедура.   И они точно также заинтересованы в том, чтобы тоталитарный YouTube продолжал работать в России, поскольку он даёт им зарплату и привилегии, как журналистам и писателям во времена СССР. Правда есть и альтернативные соцсети, где никого не банят, типа того же https://d.tube/ или https://lbry.com/. Но и в СССР был самиздат.   Ту эпоху принято называть тоталитаризмом. Сейчас мне на полном серьёзе образованные люди объясняют, что что на Западе всё нормально, там свобода и демократия, не то, что наш тоталитарный режим.   Но если в России тоталитаризм, то на Западе самый настоящий сверхтоталитаризм. У нас любой может назвать коррупционера вором, представителя ЛГБТ - пид%р%сом, негра - негром. Совсем другое дело в США.   Известного режиссера “Стражей Галактики” Джеймса Ганна, Walt Disney Studios увольняет за твит 10-летней давности. Тогда 10 лет назад, еще можно было шутить в Твиттере, сейчас нет.  Государственного чиновника увольняют за то, что он считает, что жизни белых, также что-то значат.   Американское Министерство Правды форматирует наш мозг. В точном соответствии с романом Оруэлла “1984”, о чем я писал  вчера. Что в США, что у нас, они разрушают привычный человеческий язык, который позволяет людям обмениваться осмысленной информацией.   «Разрушение языка» нужно для того, чтобы «стала невозможной мысль»; речь должна быть «минимально завязана на сознание». Это по Оруэллу.   Сегодня я записал видео,  в котором попытался объяснить на политкорректном новоязе основные мотивы мировых элит, устроивших нам веселую жизнь с лабораторным вирусом и рукотворной пандемией. Я хотел донести до аудитории источник их страхов и главную задачу, которую они доносят до верхушки своего менеджмента, чтобы оправдать лишения нас гражданских прав, и устройства самого жуткого геноцида за всю историю человечества. А ведь он только в самом своём начале.   Но оказалось, не все поняли, что именно я хотел донести, ввиду использования мною формулировок максимальной корректности, новояза, диаметрально изменившего смысл повествования. Хотя я благодарен большинству подписчиков за то, что они поняли меня верно.   А для тех, кто не понял, у меня нет малейшего сомнения, что афера глобалистов провалится. Людям удастся избежать уготованной им участи стать безмолвным стадом, которое ведут на бойню, либо полезными идиотами, помогающими хозяевам загонять себе подобных на убой. Ни один тоталитарный режим долго не протянет. Во всяком случае, во всей известной нам истории было именно так.  ","categories": ["articles"],
         "tags": [],
         "url": "https://teamredminer.info/ru/articles/pafos-07-23/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 24",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-24/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 25",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-25/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 26",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-26/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 27",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-27/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 28",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-28/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 29",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-29/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 30",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-30/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 31",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-07-31/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 01",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-01/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 02",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-02/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 03",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-03/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 04",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-04/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 05",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-05/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 06",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-06/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 07",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-07/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 08",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-08/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 09",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-09/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 10",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-10/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 11",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-11/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 12",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-12/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 13",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-13/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 14",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-14/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 15",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-15/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 16",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-16/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 17",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-17/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 18",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-18/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 19",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-19/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 20",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-20/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 21",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-21/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 22",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-22/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 23",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-23/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 24",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-24/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 25",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-25/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 26",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-26/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 27",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-27/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 28",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-28/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 29",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-29/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 30",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-30/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 08 31",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://teamredminer.info/ru/articles/clear-08-31/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать ТимРэдМайнер 0.8.5 - AMD GPU Miner [2021]",
+        "excerpt":" Начните добывать криптовалюту с помощью TeamRedMiner  \t\t \t\t\t \t\tВерсия: 0.8.5  \t\tФайл: *TeamRedMiner.exe,   \t\tSHA256: 17b0908a51771799e95506811aa3ea152bd00f3900aa52971bc33c5b147a59ec  \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас(Windows x64) \t\t \t\t(зеркало) \t\t \t       Вышло обновление ТимРэдМайнера Майнера. Вы можете скачать TeamRedMiner 0.8.5 отсюда (настроенная и готовая к запуску версия для Windows и Linux.   Скачать и установить   Скачать Сейчас   или:   (зеркало)   Версия для Linux   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Журнал изменений      Добавлены ограничения (остановка/возобновление майнинга) по температуре памяти , см. --mem_temp_limit и --mem_temp_resume.   Ethash: добавлена поддержка принудительного создания отчетов о хэшрейте пула ethash (см. --the_hash_report).   Ethash: исправлены отчеты о хешрейте для Crazypool при использовании failover пулов.   Autolykos2: добавлена поддержка подписки extranonce, используется для Nicehash.  ","categories": ["download"],
+        "tags": ["TeamRedMiner"],
+        "url": "https://teamredminer.info/download/0.8.5/",
+        "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать TeamRedMiner - последнюю версию (0.8.5) - [2021]",
+        "excerpt":"  Начните добывать Ethereum с помощью TeamRedMiner  \t\t \t\t\t \t\tПоследняя версия - 0.8.5 \t\tSHA256: 17b0908a51771799e95506811aa3ea152bd00f3900aa52971bc33c5b147a59ec *TeamRedMiner0.8.5.exe \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас (Windows x64) \t\t \t\t(зеркало) \t\t \t     Готова новая стабильная версия TeamRedMiner.   Скачайте TeamRedMiner 0.8.5 отсюда:   Скачать Сейчас   Скачать (зеркало)   Внутри архива вы найдете файл README.txt с инструкциями по установке.   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Поддерживает алгоритмы                  Алгоритм       Комиссия                       Ethash on Polaris GPUs       0.75%                 Ethash on all other GPUs       1.0%                 Kawpow       2.0%                 Verthash       2.0%                 Autolykos2       2.0%                 Nimiq       2.5%                 Cryptonight R       2.5%                 Cryptonight v8 upx2       2.5%                 Cryptonight v8 turtle       2.5%                 Cryptonight v8 half       2.5%                 Cryptonight v8 double       2.5%                 Cryptonight v8 rwz       2.5%                 Cryptonight v8       2.5%                 Cryptonight heavy       2.5%                 Cryptonight haven       2.5%                 Cryptonight saber       2.5%                 Cryptonight conceal       2.5%                 Chukwa-512 (Turtlecoin)       2.5%                 Chukwa-1024 (Turtlecoin)       2.5%                 x16r       2.5%                 x16rv2       2.5%                 x16s       2.5%                 x16rt       2.5%                 MTP       2.5%                 Cuckatoo31       2.5%                 Cuckarood29       2.5%                 Lyra2rev3       2.5%                 Lyra2z       3.0%                 Phi2       3.0%           Требования   Видеокарты:      Navi - RX 5700 (XT) / 5600 (XT) / 5500 (XT) для поддерживаемых алгоритмов в таблице выше.   Big Navi - RX 6900XT, RX 6800 (XT), RX 6700 (XT), RX6600XT - такая же поддержка, как и для Navi.   Вега - RX Vega 64/56, Vega FE, Radeon VII (Vega 2)   Полярис - RX 580/480/570/470/560/460/550   Фиджи - R9 Fury / Fury X / Nano, MI8 (поддерживается, но с очень ограниченным тестированием).   Тонга / Антигуа - R9 285 / 285X / 380 / 380X, W7100, S7150 (поддержка бета версии 0.8.2. Доступен только ethash + kawpow.)   Поддерживаемые криптовалюты    Поддерживаемые монеты \t \t\t \t\t\t# \t\t\tМонета \t\t\tАлгоритм \t\t \t \t \t\t \t\t\t1 \t\t\tACM Actinium \t\t\tLyra2z \t\t \t\t \t\t\t2 \t\t\tAKA \t\t\tEthash \t\t \t\t \t\t\t3 \t\t\t RVN  \t\t\tKAWPOW \t\t \t\t \t\t\t4 \t\t\tARMS 2ACoin \t\t\tChukwa \t\t \t\t \t\t\t5 \t\t\tATH \t\t\tEthash \t\t \t\t \t\t\t6 \t\t\t ETC  \t\t\tEtchash \t\t \t\t \t\t\t7 \t\t\t ETH  \t\t\tEthash \t\t \t\t \t\t\t8 \t\t\t RVN  \t\t\tKAWPOW \t\t \t\t \t\t\t9 \t\t\tBINANCE ETH \t\t\tEthash \t\t \t\t \t\t\t10 \t\t\tBTCMZ BitcoinMono \t\t\tChukwa \t\t \t\t \t\t\t11 \t\t\tBTCMZ+NINJA \t\t\tChukwa \t\t \t\t \t\t\t12 \t\t\tCLO Callisto Network \t\t\tEthash \t\t \t\t \t\t\t13 \t\t\tcxc \t\t\tX16R \t\t \t\t \t\t\t14 \t\t\tDBIX \t\t\tEthash \t\t \t\t \t\t\t15 \t\t\tDNGR \t\t\tLyra2z \t\t \t\t \t\t\t16 \t\t\tEGEM EtherGem \t\t\tEthash \t\t \t\t \t\t\t17 \t\t\tERE \t\t\tEthash \t\t \t\t \t\t\t18 \t\t\tERG Ergo \t\t\tAutolykos2 \t\t \t\t \t\t\t19 \t\t\tESN Escudo Navacense \t\t\tEthash \t\t \t\t \t\t\t20 \t\t\tETC Ethereum Classic \t\t\tEtchash \t\t \t\t \t\t\t21 \t\t\tETH Ethereum \t\t\tEthash \t\t \t\t \t\t\t22 \t\t\tETHO Etho Protocol \t\t\tEthash \t\t \t\t \t\t\t23 \t\t\tETP Metaverse ETP \t\t\tEthash \t\t \t\t \t\t\t24 \t\t\tEXP \t\t\tEthash \t\t \t\t \t\t\t25 \t\t\tEZIL ETC Ezil \t\t\tEtchash \t\t \t\t \t\t\t26 \t\t\tEZIL ETH Ezil \t\t\tEthash \t\t \t\t \t\t\t27 \t\t\t ETC  \t\t\tEtchash \t\t \t\t \t\t\t28 \t\t\t ETH  \t\t\tEthash \t\t \t\t \t\t\t29 \t\t\t RVN  \t\t\tKAWPOW \t\t \t\t \t\t\t30 \t\t\tFIRO Fim Firo \t\t\tMTP \t\t \t\t \t\t\t31 \t\t\t ETH  \t\t\tEthash \t\t \t\t \t\t\t32 \t\t\tGRFT Graft \t\t\tCNReverseWaltz \t\t \t\t \t\t\t33 \t\t\tHANA Hanacoin \t\t\tLyra2REv3 \t\t \t\t \t\t\t34 \t\t\tHIVEON ETC \t\t\tEtchash \t\t \t\t \t\t\t35 \t\t\tHIVEON ETH \t\t\tEthash \t\t \t\t \t\t\t36 \t\t\tHVN \t\t\tKAWPOW \t\t \t\t \t\t\t37 \t\t\tIRD \t\t\tCryptoNightTurtle \t\t \t\t \t\t\t38 \t\t\tMD KAWPOW Mining Dutch \t\t\tKAWPOW \t\t \t\t \t\t\t39 \t\t\tMD X16R Mining Dutch \t\t\tX16R \t\t \t\t \t\t\t40 \t\t\tMNG Mangocoin \t\t\tChukwa \t\t \t\t \t\t\t41 \t\t\tMO CryptoNightR  \t\t\tCryptoNightR \t\t \t\t \t\t\t42 \t\t\tMO Ethash  \t\t\tEthash \t\t \t\t \t\t\t43 \t\t\tMO AC MOAC \t\t\tEthash \t\t \t\t \t\t\t44 \t\t\t CryptoNightR \t\t\tCryptoNightR \t\t \t\t \t\t\t45 \t\t\t Etchash \t\t\tEtchash \t\t \t\t \t\t\t46 \t\t\t Ethash \t\t\tEthash \t\t \t  ","categories": ["download"],
+        "tags": ["TeamRedMiner"],
+        "url": "https://teamredminer.info/download/latest/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
       },]
