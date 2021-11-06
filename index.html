@@ -359,13 +359,12 @@ File: *teamredminer.exe, <br>
 <section class="tim-comm">
 <h2 class="my-title"><a id="start">Commands</a></h2>
 	<div class="tim-vi2">
-<p>Usage: <code>teamredminer.exe -Commands</code></p>
-<p class="notice--warning">Example: <code>teamredminer.exe -a ethash</code></p>
+<p>Usage: <code>teamredminer.exe -сommand1 -сommand2 -сommand3</code></p>
+Example for Ravencoin:
+<p class="notice--warning"><code>teamredminer.exe -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX.worker_name -p x</code></p>
 <p class="bold">Full list of options:</p>
 <h3>Algorithm</h3>
-<p><code>-a, --algo=ALGORITHM_NAME</code> - selects the mining algorithm.  
-</p>
-<p><code>--algo</code> or a short synonym for this command <code>-a</code> - selects the mining algorithm.</p>
+<p><code>--algo=ALGORITHM_NAME</code> or a short synonym for this command <code>-a</code> - selects the mining algorithm.</p>
 <p class="red notice--danger">Important! Use either a long synonym <code>--algo=</code> <span class="bold">or</span> a short one <code>-a</code>. You don't need to use two variants of the same command together.</p>
 <p>Further commands will be separated by commas. First a short synonym, and then long. Remember to use only one variation.</p>
 Currently available algorithms:<pre>
@@ -413,6 +412,7 @@ Example:<br>
 <p>Each additional time this option is specified will start a new pool config.</p>
 <p>Per-pool options (such as <code>-u</code>, <code>-p</code>) will need to be explicitly specified again for each new pool.  (See the example start_multipool.sh/bat file).</p>
 <p>The multi-pool strategy for the miner is set with the <code>--pool_strategy</code> option.</p>
+<span class="bold">SSL/TLS (for advanced users):</span>
 <p>There is also special support for advanced SSL/TLS setups where you need to pass a SNI hostname to the SSL endpoint. For example, this is necessary for SSL endpoints that act as frontends for multiple hosts and need to know which one to provide a certificate for. In such cases, use the following format:</p>
 <p><code>-o stratum+ssl://pool.tunnel.com/pool.realhostname.com:3333</code></p>
 <p>This will connect to pool.tunnel.com:3333 but pass pool.realhostname.com as the SNI hostname in the SSL handshake phase. The two hostnames can of course be identical as well.</p>

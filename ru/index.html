@@ -355,25 +355,26 @@ teamredminer.exe -a ethash -o stratum+tcp://ethash.poolbinance.com:8888 -u <span
  </section>
 </div>
 <section class="tim-comm">
-<h2 class="my-title"><a id="start">Commands</a></h2>
+<h2 class="my-title"><a id="start">Команды</a></h2>
 	<div class="tim-vi2">
-<p>Usage: <code>teamredminer.exe -Commands</code></p>
-<p class="notice--warning">Example: <code>teamredminer.exe -a ethash</code></p>
-<p class="bold">Full list of options:</p>
-<h3>Algorithm</h3>
-<p><code>-a, --algo=ALGORITHM_NAME</code> - selects the mining algorithm.  
+<p>Использование: <code>teamredminer.exe -команда1 -команда2 -команда3</code></p>
+Пример для Ravencoin:
+<p class="notice--warning"><code>teamredminer.exe -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX.worker_name -p x</code></p>
+<p class="bold">Полный список параметров:</p>
+<h3>Алгоритм</h3>
+<p><code>-a, --algo=НАЗВАНИЕ_АЛГОРИТМА</code> - выбирает алгоритм майнинга. 
 </p>
-<p><code>--algo</code> or a short synonym for this command <code>-a</code> - selects the mining algorithm.</p>
-<p class="red notice--danger">Important! Use either a long synonym <code>--algo=</code> <span class="bold">or</span> a short one <code>-a</code>. You don't need to use two variants of the same command together.</p>
-<p>Further commands will be separated by commas. First a short synonym, and then long. Remember to use only one variation.</p>
-Currently available algorithms:<pre>
+<p><code>--algo</code> или краткий синоним этой команды <code>-a</code> - выбирает алгоритм майнинга.</p>
+<p class="red notice--danger">Важно! Используйте либо длинный синоним, <code>--algo=</code> <span class="bold">либо</span> короткий <code>-a</code>. Вам не нужно использовать вместе два варианта одной и той же команды.</p>
+<p>Дальнейшие команды будут разделены запятыми. Сначала короткий синоним, а затем длинный. Не забудьте использовать только один вариант.</p>
+Доступные на данный момент алгоритмы:<pre>
 <span class="bold">
-algorithms        coins</span>
+Алгоритм          Криптовалюта</span>
 ethash            (eth, etp, others)
 etchash           (etc, alias for -a ethash --eth_variant_mode=etchash)
 kawpow            (ravencoin)
 firopow           (firo)
-mtp_firopow       (chooses firopow or mtp and shuts down miner at the fork on Oct 26 2021)
+mtp_firopow       (chooses firopow or mtp)
 autolykos2        (ergo)
 verthash          (vtc)
 nimiq             (nimiq)
@@ -401,47 +402,49 @@ cn_conceal        (conceal)
 trtl_chukwa       (turtlecoin)
 trtl_chukwa2      (turtlecoin)
 </pre>
-Example: 
+Пример: 
 <p class="notice--info"><code>teamredminer.exe -a ethash</code></p>
-<h3>Pool url</h3>
-<p><code>-o</code> - sets the pool URL and pool PORT.  Currently <code>stratum+tcp</code> and <code>stratum+ssl</code> URLs are supported.</p>
-Example:<br>
+<h3>URL пула</h3>
+<p><code>-o</code> - устанавливает URL пула и ПОРТ пула. В настоящее время поддерживаются протоколы <code>stratum+tcp</code> и <code>stratum+ssl</code> URL-адреса.</p>
+Пример:<br>
 <p class="bold notice--info"><code>-o stratum+tcp://<span class="red">ethash.poolbinance.com:8888</span></code></p>
-<p>In this example url is <code>ethash.poolbinance.com</code> and port is <code>8888</code>. Values are separated by sign <code>:</code></p>
-<p>Each additional time this option is specified will start a new pool config.</p>
-<p>Per-pool options (such as <code>-u</code>, <code>-p</code>) will need to be explicitly specified again for each new pool.  (See the example start_multipool.sh/bat file).</p>
-<p>The multi-pool strategy for the miner is set with the <code>--pool_strategy</code> option.</p>
-<p>There is also special support for advanced SSL/TLS setups where you need to pass a SNI hostname to the SSL endpoint. For example, this is necessary for SSL endpoints that act as frontends for multiple hosts and need to know which one to provide a certificate for. In such cases, use the following format:</p>
+<p>В этом примере URL-адрес <code>ethash.poolbinance.com</code> и порт <code>8888</code>. Значения должны быть разделены знаком <code>:</code></p>
+<p>Каждый раз, когда указывается эта опция, будет запускаться новая конфигурация пула.</p>
+<p>Параметры для каждого пула (например <code>-u</code>, <code>-p</code>) необходимо будет снова явно указывать для каждого нового пула. (См. пример файла start_multipool.sh/bat).</p>
+<p>Стратегия нескольких пулов для майнера устанавливается с <code>--pool_strategy</code> опцией.</p>
+<span class="bold">SSL/TLS (для продвинутых пользователей):</span>
+<p>Также имеется специальная поддержка расширенных настроек SSL/TLS, когда вам нужно передать имя хоста SNI конечной точке SSL. Например, это необходимо для конечных точек SSL, которые действуют как интерфейсы для нескольких хостов и должны знать, для какого из них предоставить сертификат. В таких случаях используйте следующий формат:</p>
 <p><code>-o stratum+ssl://pool.tunnel.com/pool.realhostname.com:3333</code></p>
-<p>This will connect to pool.tunnel.com:3333 but pass pool.realhostname.com as the SNI hostname in the SSL handshake phase. The two hostnames can of course be identical as well.</p>
-<h3>Username or wallet address</h3>
-<p><code>-u, --user=USERNAME</code> - sets the username for mining pool authorization.</p>
-Example:<br>
+<p>Это подключится к <code>pool.tunnel.com:3333</code>, но передаст <code>pool.realhostname.com</code> в качестве имени хоста SNI на этапе подтверждения SSL. Разумеется, два имени хоста также могут быть идентичными.</p>
+<h3>Имя пользователя (логин пула) или адрес кошелька</h3>
+<p><code>-u, --user=USERNAME</code> -  устанавливает имя пользователя или адрес кошелька для авторизации майнинг-пула.</p>
+Пример:<br>
 <p class="bold notice--info"><code><span class="red">-u MyBinanceUsername</span></code></p>
-<p>If there is no registration on the pool, then instead of a login, you need to specify your wallet address.</p>
-Example:<br>
+<p>Если на пуле нет регистрации, то вместо логина нужно указать адрес кошелька.</p>
+Пример:<br>
 <p class="bold notice--info"><code><span class="red">-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d</span></code></p>
-<h3>Password (opcional)</h3>
-<p><code>-p, --pass=PASSWORD</code> - sets the password for pool authorization.</p>
-Example:<br>
+<h3>Пароль (необязательно)</h3>
+<p><code>-p, --pass=PASSWORD</code> - устанавливает пароль для авторизации пула.</p>
+Пример:<br>
 <p class="bold notice--info"><code><span class="red">-p x</span></code></p>
-<h3>Worker name</h3>
-<p><code>.worker</code> -  set a simple worker name to track your RIG on the pool. The worker's name is indicated after the <code>wallet_address</code> and is preceded by a dot.</p>
-Example:<br>
+<h3>Имя воркера (worker name)</h3>
+<p>Воркер - это название вашего виртуального "рабочего". Это название указывается для простоты отслеживания статистики.</p>
+<p><code>.worker</code> -  установите простое имя воркера для отслеживания вашего рига (фермы) в пуле. Имя работника указывается после знака<code>wallet_address</code> и перед ним ставится точка.</p>
+Пример:<br>
 <p class="bold notice--info"><code>-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d<span class="red">.worker_name</span></code></p>
-<p>The minimal working setup is to only provide a: 
+<p>Минимальная настройка для запуска должна обеспечить только:
 </p>
 <ol>
-<li>ETH pool url
+<li>адрес пула,
 </li>
-<li>wallet address and
+<li>адрес кошелька и
 </li>
-<li>worker name.
+<li>имя воркера.
 </li>
 </ol>
-<p>Just copy and change the wallet address to your wallet address. This is an example for Ethermine:</p>
+<p>Просто скопируйте и измените адрес кошелька на адрес вашего кошелька. Это пример для Ethermine:</p>
 <p class="bold notice--info"><code>teamredminer.exe -a ethash -o stratum+tcp://<span class="red">eu1.ethermine.org:4444 -u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name -p x</span></code></p>
-<p>For more info, read the <a href="/documentation/arguments/">command line arguments and options guide</a>.</p>
+<p>Для получения дополнительной информации прочтите <a href="/documentation/arguments/">полное руководство по аргументам и параметрам командной строки</a>.</p>
 	</div>
 </section>
 <section class="land-color">
@@ -560,7 +563,7 @@ Example:<br>
 </div>
 <div class="tim-vi2 imgcen">
 <p><i class="fas fa-hand-holding-usd"></i> Если хотите пожертвовать Хеш-мощность - <b class="red break">5D1a10820eB3aa3e9Cc95cDF86Ca70ED97E1104f</b></p>
-<p>Спасибо!</p>
+<p>Спасибо и удачного майнинга!</p>
 </div>
 </section>
 <!--  

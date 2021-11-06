@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ru" class="no-js">
    <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
-<title>TeamRedMiner: Setup - Readme [install] (2021)</title>
-<meta name="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
+<title>TeamRedMiner: Команды и Параметры для майнинга</title>
+<meta name="description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
  <meta name="author" content="TeamRedMiner">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="TeamRedMiner">
-<meta property="og:title" content="TeamRedMiner: Setup - Readme [install] (2021)">
-<meta property="og:url" content="https://teamredminer.info/documentation/setup/">
- <meta property="og:description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
+<meta property="og:title" content="TeamRedMiner: Команды и Параметры для майнинга">
+<meta property="og:url" content="https://teamredminer.info/documentation/arguments/">
+ <meta property="og:description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
  <meta property="og:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@teamredminer">
- <meta name="twitter:title" content="TeamRedMiner: Setup - Readme [install] (2021)">
- <meta name="twitter:description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
- <meta name="twitter:url" content="https://teamredminer.info/documentation/setup/">
+ <meta name="twitter:title" content="TeamRedMiner: Команды и Параметры для майнинга">
+ <meta name="twitter:description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
+ <meta name="twitter:url" content="https://teamredminer.info/documentation/arguments/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-05-29T00:00:00+00:00">
  <meta property="article:modified_time" content="2021-11-06T00:00:00+00:00">
-<link rel="canonical" href="https://teamredminer.info/documentation/setup/">
+<link rel="canonical" href="https://teamredminer.info/ru/documentation/arguments/">
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -35,7 +35,7 @@
  <meta name="google-site-verification" content="WLESE2hqeUs9Zis9Ug_IWbm4nQNFofxcUj68NFnM-p0">
  <meta name="yandex-verification" content="b9e5bf6ac3a15279">
 <!-- end _includes/seo.html -->
-<meta name="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
+<meta name="description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
  <meta name="author" content="TeamRedMiner">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TeamRedMiner Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,10 +73,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <meta name="theme-color" content="#ffffff">
 <!-- end custom head snippets -->
 	<!-- link alternate -->
-		<link rel="alternate" hreflang="en" href="https://teamredminer.info/documentation/setup/">
-		<link rel="alternate" hreflang="ru" href="https://teamredminer.info/ru/documentation/setup/">
-		<link rel="alternate" hreflang="es" href="https://teamredminer.info/es/documentation/setup/">
-		<link rel="alternate" hreflang="zh" href="https://teamredminer.info/zh/documentation/setup/">
+		<link rel="alternate" hreflang="en" href="https://teamredminer.info/documentation/arguments/">
+		<link rel="alternate" hreflang="ru" href="https://teamredminer.info/ru/documentation/arguments/">
+		<link rel="alternate" hreflang="es" href="https://teamredminer.info/es/documentation/arguments/">
+		<link rel="alternate" hreflang="zh" href="https://teamredminer.info/zh/documentation/arguments/">
  </head>
 <body class="layout--single">
     <!--[if lt IE 9]>
@@ -86,17 +86,17 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  <div class="masthead__inner-wrap">
    <div class="masthead__menu">
      <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/">
+        <a class="site-title" href="/ru">
           TeamRedMiner
         </a>
 		<ul class="visible-links">
            <li class="masthead__menu-item">
  </li>
 <li>
-    <a href="/documentation/setup/">Quick Start</a>
+    <a href="/ru/documentation/setup/">Быстрый Старт</a>
  </li>
 <li>
-    <a href="/download/">Download</a>
+    <a href="/ru/download/">Скачать</a>
        </li>
 </ul>
         <button class="search__toggle" type="button">
@@ -106,7 +106,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
           </svg>
         </button>
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Выпадающее меню</span>
          <div class="navicon"></div>
         </button>
        <ul class="hidden-links hidden"></ul>
@@ -116,10 +116,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </div>
 <div class="lang-nav">	
 	<nav id="lang-sel">
-		<a href="/documentation/setup/" class="footer__link">en</a>
-		<a href="/ru/documentation/setup/" class="footer__link">ru</a>
-		<a href="/es/documentation/setup/" class="footer__link">es</a>
-		<a href="/zh/documentation/setup/" class="footer__link">zh</a>
+		<a href="/documentation/arguments/" class="footer__link">en</a>
+		<a href="/ru/documentation/arguments/" class="footer__link">ru</a>
+		<a href="/es/documentation/arguments/" class="footer__link">es</a>
+		<a href="/zh/documentation/arguments/" class="footer__link">zh</a>
 	</nav>	
 </div>
    <div class="initial-content">
@@ -143,559 +143,634 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </nav>
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-   <meta itemprop="headline" content="TeamRedMiner: Setup - Readme [install] (2021)">
-   <meta itemprop="description" content="Here is how to setup TeamRedMiner for Ethereum mining on the mining pools">
+   <meta itemprop="headline" content="TeamRedMiner: Команды и Параметры для майнинга">
+   <meta itemprop="description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
    <meta itemprop="datePublished" content="May 29, 2021">
    <meta itemprop="dateModified" content="November 06, 2021"> 
    <div class="page__inner-wrap">
       <header>
-		 <h1 id="page-title" class="page__title" itemprop="headline">Team Red Miner  - Readme [install]
+		 <h1 id="page-title" class="page__title" itemprop="headline">TeamRedMiner: Команды и Параметры для майнинга
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  3 minute read
+  31 мин на чтение
 </p>
        </header>
      <section class="page__content" itemprop="text">
          <aside class="sidebar__right sticky">
            <nav class="toc">
             <header><h4 class="nav__title">
-<i class="fas fa-file-alt"></i> On this page</h4></header>
+<i class="fas fa-file-alt"></i> Содержание</h4></header>
              <ul class="toc__menu">
  <li>
-<a href="#ethereum">Ethereum</a>
+<a href="#%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC">Алгоритм</a>
  </li>
 <li>
-<a href="#algorithms">Algorithms</a>
+<a href="#url-%D0%BF%D1%83%D0%BB%D0%B0">URL пула</a>
+ </li>
+<li>
+<a href="#ssltls-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D1%85-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9">SSL/TLS (для продвинутых пользователей)</a>
+ </li>
+<li>
+<a href="#%D0%B8%D0%BC%D1%8F-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD-%D0%BF%D1%83%D0%BB%D0%B0-%D0%B8%D0%BB%D0%B8-%D0%B0%D0%B4%D1%80%D0%B5%D1%81-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0">Имя пользователя (логин пула) или адрес кошелька</a>
+ </li>
+<li>
+<a href="#%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C-%D0%BD%D0%B5%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE">Пароль (необязательно)</a>
+ </li>
+<li>
+<a href="#%D0%B8%D0%BC%D1%8F-%D0%B2%D0%BE%D1%80%D0%BA%D0%B5%D1%80%D0%B0-worker-name">Имя воркера (worker name)</a>
+ </li>
+<li>
+<a href="#%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8">Список аргументов командной строки</a>
+ </li>
+<li>
+<a href="#%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB-logs">Журнал (Logs)</a>
+ </li>
+<li>
+<a href="#%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F-devfee">Комиссия (DevFee)</a>
+ </li>
+<li>
+<a href="#%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+ </li>
+<li>
+<a href="#%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA-%D0%BF%D1%83%D0%BB%D1%83">Подключение к пулу</a>
+ </li>
+<li>
+<a href="#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BE%D0%BF%D1%86%D0%B8%D0%B8-%D0%BF%D1%83%D0%BB%D0%B0">Глобальные опции пула</a>
+ </li>
+<li>
+<a href="#%D0%BE%D0%BF%D1%86%D0%B8%D1%8F-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82">Опция выбора видеокарт</a>
+ </li>
+<li>
+<a href="#%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%80%D0%B0%D0%B7%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC--%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%BB%D1%8F-windows-beta-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Варианты управления разгоном / напряжением (только для Windows, BETA функциональность)</a>
+ </li>
+<li>
+<a href="#%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BE%D0%BC">Варианты управления вентилятором</a>
+ </li>
+<li>
+<a href="#%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%82%D0%B0%D0%B9%D0%BC%D0%B5%D1%80%D0%B0">Параметры сторожевого таймера</a>
+ </li>
+<li>
+<a href="#ethash-%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Ethash опции</a>
+ </li>
+<li>
+<a href="#progpow--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8-kawpow-firopow">Progpow  опции (kawpow, firopow)</a>
+ </li>
+<li>
+<a href="#cryptonight--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Cryptonight  опции</a>
+ </li>
+<li>
+<a href="#mtp--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">MTP  опции</a>
+ </li>
+<li>
+<a href="#x16--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">X16*  опции</a>
+ </li>
+<li>
+<a href="#nimiq--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Nimiq  опции</a>
+ </li>
+<li>
+<a href="#verthash--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Verthash  опции</a>
+ </li>
+<li>
+<a href="#autolykos2--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">Autolykos2  опции</a>
+ </li>
+<li>
+<a href="#zil-dual-mining--%D0%BE%D0%BF%D1%86%D0%B8%D0%B8">ZIL dual mining  опции</a>
 </li>
 </ul>
            </nav>
          </aside>
-       <p><em>Here is how to setup TeamRedMiner for Ethereum mining on the mining pools</em>
+       <p><em>Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.</em>
 <img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
-<p>The mining software launches through the <code class="language-plaintext highlighter-rouge">.bat</code> file in Windows and through the command line in Linux. Below are sample bat files for each cryptocurrency that you can mine with Team Red Miner. Make sure to replace <code class="language-plaintext highlighter-rouge">YOUR_ADDRESS</code> with your own wallet address, and <code class="language-plaintext highlighter-rouge">RIG_ID</code> with your own rig name. You can name it however you like, but the name must contain only Latin letters and symbols “-” and “_”. The wallet must correspond to the cryptocurrency you are mining.</p>
-<p>To start your mining software and to change parameters in an efficient manner, you will need .bat files. You may also want to consider setting up a config file, but a .bat file is what most users need.</p>
-<ol>
- <li>Create a new text file, and rename the extension to .bat. You may have to change folder options to show extensions if it is not enabled already.
- </li>
-<li>Enter your parameters (command line arguments).
- </li>
-<li>Place the .bat file in the folder where the executable for the mining software is located.
- </li>
-<li>To have the .bat file load on startup, place it in the windows startup directory.
-</li>
-</ol>
-<p>Here is how to setup TeamRedMiner for Ethereum mining on the 2Miners pool.</p>
-<h2 id="ethereum">Ethereum</h2>
-<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u YOUR_WALLET_ADDRESS.RIG_ID -p x
-pause</code></p>
-<p>Example:</p>
-<p class="notice"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xada842613541e55e2500478892a334cde74ff653.RIG_ID -p x
-pause</code></p>
-<p><strong>Download is available in the <a href="https://github.com/todxx/teamredminer/releases" rel="nofollow noopener" target="_blank">github releases section</a>.</strong></p>
-<p>This miner supports a range of algorithms.  Please see the list below for details.  The miner is configured via command line only, please run with the –help option to print a short help message for how to use the command line options.</p>
-<p><strong>This miner supports mining ethash with 4GB Polaris GPUs after epoch 381 on linux.  Please see the guide <a href="https://github.com/todxx/teamredminer/blob/master/doc/ETHASH_4GB_HOWTO.txt" rel="nofollow noopener" target="_blank">here</a></strong></p>
-<h2 id="algorithms">Algorithms</h2>
-<p>This miner includes the following algorithms and their respective dev fees:</p>
-<table>
-<thead>
-   <tr>
-     <th>Algorithm
-     </th>
-<th>Fee
- </th>
-</tr>
-</thead>
-<tbody>
-   <tr>
-     <td>Ethash on Polaris GPUs
-     </td>
-<td>0.75%
-   </td>
-</tr>
-<tr>
-     <td>Ethash on all other GPUs
-     </td>
-<td>1.0%
-   </td>
-</tr>
-<tr>
-     <td>Kawpow
-     </td>
-<td>2.0%
-   </td>
-</tr>
-<tr>
-     <td>Nimiq
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight R
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 upx2
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 turtle
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 half
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 double
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 rwz
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight heavy
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight haven
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight saber
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight conceal
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Chukwa-512 (Turtlecoin)
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Chukwa-1024 (Turtlecoin)
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>x16r
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>x16rv2
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>x16s
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>x16rt
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>MTP
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cuckatoo31
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Cuckarood29
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Lyra2rev3
-     </td>
-<td>2.5%
-   </td>
-</tr>
-<tr>
-     <td>Lyra2z
-     </td>
-<td>3.0%
-   </td>
-</tr>
-<tr>
-     <td>Phi2
-     </td>
-<td>3.0%
-</td>
-</tr>
-</tbody>
-</table>
-<p>GPUs supported and tested:</p>
+<p>Использование: <code class="language-plaintext highlighter-rouge">teamredminer.exe -команда1 -команда2 -команда3</code></p>
+<p>Пример для Ravencoin:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX.worker_name -p x</code></p>
+<p>Полный список параметров:</p>
+<h2 id="алгоритм">Алгоритм</h2>
+<p><code class="language-plaintext highlighter-rouge">--algo</code> или краткий синоним этой команды <code class="language-plaintext highlighter-rouge">-a</code> - выбирает алгоритм майнинга.</p>
+<p class="notice--danger">Важно! Используйте либо длинный синоним, <code class="language-plaintext highlighter-rouge">--algo=</code> либо короткий <code class="language-plaintext highlighter-rouge">-a</code>. Вам не нужно использовать вместе два варианта одной и той же команды.</p>
+<p>Дальнейшие команды будут разделены запятыми. Сначала короткий синоним, а затем длинный. Не забудьте использовать только один вариант.</p>
+<p>Доступные на данный момент алгоритмы:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Алгоритм          Криптовалюта
+ethash            (eth, etp, others)
+etchash           (etc, alias for -a ethash --eth_variant_mode=etchash)
+kawpow            (ravencoin)
+firopow           (firo)
+mtp_firopow       (chooses firopow or mtp)
+autolykos2        (ergo)
+verthash          (vtc)
+nimiq             (nimiq)
+lyra2z      
+phi2              (lux, argoneum)
+lyra2rev3   
+x16r        
+x16rv2      
+x16s              (pgn, xsh)
+x16rt             (gin)
+mtp               (zcoin/firo before the firopow fork)
+cuckatoo31_grin   (grin)
+cuckarood29_grin  (grin)
+cnv8        
+cnr               (old monero)
+cnv8_half         (stellite, masari)
+cnv8_dbl          (x-cash)
+cnv8_rwz          (graft)
+cnv8_trtl         (old turtlecoin, loki)
+cnv8_upx2         (uplexa)
+cn_heavy          (classic CN heavy)
+cn_haven          (haven)
+cn_saber          (bittube)
+cn_conceal        (conceal)
+trtl_chukwa       (turtlecoin)
+trtl_chukwa2      (turtlecoin)
+</code></pre></div></div>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash</code></p>
+<h2 id="url-пула">URL пула</h2>
+<p><code class="language-plaintext highlighter-rouge">-o</code> - устанавливает URL пула и ПОРТ пула. В настоящее время поддерживаются протоколы <code class="language-plaintext highlighter-rouge">stratum+tcp</code> и <code class="language-plaintext highlighter-rouge">stratum+ssl</code> URL-адреса.</p>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-o stratum+tcp://ethash.poolbinance.com:8888</code></p>
+<p>В этом примере URL-адрес <code class="language-plaintext highlighter-rouge">ethash.poolbinance.com</code> и порт <code class="language-plaintext highlighter-rouge">8888</code>. Значения должны быть разделены знаком <code class="language-plaintext highlighter-rouge">:</code></p>
+<p>Каждый раз, когда указывается эта опция, будет запускаться новая конфигурация пула.</p>
+<p>Параметры для каждого пула (например <code class="language-plaintext highlighter-rouge">-u</code>, <code class="language-plaintext highlighter-rouge">-p</code>) необходимо будет снова явно указывать для каждого нового пула. (См. пример файла <code class="language-plaintext highlighter-rouge">start_multipool.sh/bat</code>).</p>
+<p>Стратегия нескольких пулов для майнера устанавливается с <code class="language-plaintext highlighter-rouge">--pool_strategy</code> опцией.</p>
+<h2 id="ssltls-для-продвинутых-пользователей">SSL/TLS (для продвинутых пользователей)</h2>
+<p>Также имеется специальная поддержка расширенных настроек SSL/TLS, когда вам нужно передать имя хоста SNI конечной точке SSL. Например, это необходимо для конечных точек SSL, которые действуют как интерфейсы для нескольких хостов и должны знать, для какого из них предоставить сертификат. В таких случаях используйте следующий формат:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-o stratum+ssl://pool.tunnel.com/pool.realhostname.com:3333</code></p>
+<p>Это подключится к <code class="language-plaintext highlighter-rouge">pool.tunnel.com:3333</code>, но передаст <code class="language-plaintext highlighter-rouge">pool.realhostname.com</code> в качестве имени хоста SNI на этапе подтверждения SSL. Разумеется, два имени хоста также могут быть идентичными.</p>
+<h2 id="имя-пользователя-логин-пула-или-адрес-кошелька">Имя пользователя (логин пула) или адрес кошелька</h2>
+<p><code class="language-plaintext highlighter-rouge">-u</code>, <code class="language-plaintext highlighter-rouge">--user=USERNAME</code> - устанавливает имя пользователя или адрес кошелька для авторизации майнинг-пула.</p>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-u MyBinanceUsername</code></p>
+<p>Если на пуле нет регистрации, то вместо логина нужно указать адрес кошелька.</p>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d</code></p>
+<h2 id="пароль-необязательно">Пароль (необязательно)</h2>
+<p><code class="language-plaintext highlighter-rouge">-p, --pass=PASSWORD</code> - устанавливает пароль для авторизации пула.</p>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-p x</code></p>
+<h2 id="имя-воркера-worker-name">Имя воркера (worker name)</h2>
+<p>Воркер - это название вашего виртуального “рабочего”. Это название указывается для простоты отслеживания статистики.</p>
+<p><code class="language-plaintext highlighter-rouge">.worker</code> - установите простое имя воркера для отслеживания вашего рига (фермы) в пуле. Имя работника указывается после знака <code class="language-plaintext highlighter-rouge">wallet_address</code> и перед ним ставится точка.</p>
+<p>Пример:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">-u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name</code></p>
+<p>Минимальная настройка для запуска должна обеспечить только:</p>
 <ul>
- <li>Navi - RX 5700(XT)/5600(XT)/5500(XT) for supported algos in the table below.
+ <li>адрес пула,
  </li>
-<li>Vega - RX Vega 64/56, Vega FE, Radeon VII (Vega 2)
+<li>адрес кошелька и
  </li>
-<li>Polaris - RX 580/480/570/470/560/460/550
+<li>имя воркера.
 </li>
 </ul>
-<p>Some algorithms are not supported on some GPU architectures and/or drivers.  Below is the compatiblity table:</p>
-<table>
-<thead>
-   <tr>
-     <th> 
-     </th>
-<th style="text-align: center">Navi
-     </th>
-<th style="text-align: center">Vega
-     </th>
-<th style="text-align: center">Polaris
- </th>
-</tr>
-</thead>
-<tbody>
-   <tr>
-     <td>Ethash
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Kawpow
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Nimiq
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight R
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 upx2
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 turtle
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 half
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 double
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8 rwz
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight v8
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight heavy
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight haven
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight saber
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Cryptonight conceal
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Chukwa-512
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Chukwa-1024
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>x16r
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>x16rv2
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>x16s
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>x16rt
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>MTP
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Cuckatoo31
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Cuckarood29
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">Y
-     </td>
-<td style="text-align: center">Y
-   </td>
-</tr>
-<tr>
-     <td>Lyra2rev3
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Lyra2z
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-   </td>
-</tr>
-<tr>
-     <td>Phi2
-     </td>
-<td style="text-align: center">N
-     </td>
-<td style="text-align: center">L
-     </td>
-<td style="text-align: center">L
-</td>
-</tr>
-</tbody>
-</table>
-<p>Support legend:</p>
-<ul>
- <li>Y = Supported
- </li>
-<li>N = Not supported
- </li>
-<li>L = Limited support: algos are supported on windows and linux with amdgpu-pro drivers, not supported on ROCm drivers.
-</li>
-</ul>
-<p>The miner reports GPU hash rates every 30 seconds.  These are the full GPU hash rates before dev fee deduction (your pool hashrate will be slightly lower).</p>
-<p>The miner includes a read-only api based on the sgminer-5.5 API.  Both the json and text formats are supported.  For more details, we refer to the sgminer api documentation.
-The miner also includes a Claymore miner compatible API with support for a subset of the API.</p>
-<p>For reporting bugs and/or for features requests, please open an issue on this project’s github <a href="https://github.com/todxx/teamredminer/issues" rel="nofollow noopener" target="_blank">issue tracker</a>.</p>
-<p>For example command lines please see the batch/shell scripts in the miner download packages.
-For command line options see the USAGE.txt file that comes with the miner.</p>
-<p>TRM discord server: https://discord.gg/RGykKqB</p>
-<p>Below is a list of mining operating systems and management software that have built-in support for teamredminer:</p>
+<p>Просто скопируйте и измените адрес кошелька на адрес вашего кошелька. Это пример для Ethermine:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name -p x</code></p>
+<p><a href="/assets/images/mining/mining_rig_1437.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1437.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
+<h2 id="список-аргументов-командной-строки">Список аргументов командной строки</h2>
+<p><code class="language-plaintext highlighter-rouge">-h</code>, <code class="language-plaintext highlighter-rouge">--help</code>          Display  help message and exit.</p>
+<p><code class="language-plaintext highlighter-rouge">--debug</code>               Enables debug log output.</p>
+<p><code class="language-plaintext highlighter-rouge">--disable_colors</code>      Disables console output colors.</p>
+<p><code class="language-plaintext highlighter-rouge">--force_colors</code>        Forces console color output even if the terminal does not seem to support them.</p>
+<p><code class="language-plaintext highlighter-rouge">--api_listen=IP:PORT</code>  Enables the sgminer compatible api. IP:PORT is optional. If present, the IP:PORT combo decides the interface(s) and port to listen to. Default is <code class="language-plaintext highlighter-rouge">127.0.0.1:4028</code>. For external access, use e.g. <code class="language-plaintext highlighter-rouge">0.0.0.0:4028</code>. It’s also valid to only specify the port, e.g. <code class="language-plaintext highlighter-rouge">4029</code>.</p>
+<p><code class="language-plaintext highlighter-rouge">--cm_api_listen=IP:PORT</code> Enables the claymore compatible api. IP:PORT is optional. If present, the <code class="language-plaintext highlighter-rouge">IP:PORT</code> combo decides the interface(s) and port to listen to. Default is <code class="language-plaintext highlighter-rouge">127.0.0.1:3333</code>. For external access, use e.g. <code class="language-plaintext highlighter-rouge">0.0.0.0:3333</code>. It’s also valid to only specify the port, e.g. <code class="language-plaintext highlighter-rouge">3334</code>.</p>
+<p><code class="language-plaintext highlighter-rouge">--cm_api_password=PSW</code> Sets the required password for the CM compatible api interface.</p>
+<h2 id="журнал-logs">Журнал (Logs)</h2>
+<p><img src="/assets/images/documentation/logs.png" style="width:200px;height:200px;" alt="Logs" loading="lazy" decoding="async"></p>
+<p><code class="language-plaintext highlighter-rouge">--log_file(=FILENAME)</code> Enables logging of miner output into the file specified by <code class="language-plaintext highlighter-rouge">FILENAME</code>.  If no filename is provided, the miner will log to <code class="language-plaintext highlighter-rouge">trm_&lt;algo&gt;_&lt;yyyymmdd_hhmmss&gt;</code>.log in the current working directory.  If the log file already exists, the miner will append.</p>
+<p><code class="language-plaintext highlighter-rouge">-l, --log_interval=SEC</code>    Set the time interval in seconds for averaging and printing GPU hashrates. SEC sets the interval in seconds, and must be &gt; 0.</p>
+<p><code class="language-plaintext highlighter-rouge">--log_rotate=SZ[,CNT]</code> Enables log rotation. The SZ value sets the log size after which a new log file will be created.  The SZ value supports the suffixes ‘k’, ‘M’, and ‘G’ and will multiply the value by <code class="language-plaintext highlighter-rouge">1024</code>, <code class="language-plaintext highlighter-rouge">1048576</code>, and <code class="language-plaintext highlighter-rouge">1073741824</code> respectively.</p>
+<p>The optional CNT value sets the  maximum number of old log files to keep.  For example the option <code class="language-plaintext highlighter-rouge">--log_rotate=4M,16</code> will cause the miner to switch to a new log file once the current log file exceeds  <code class="language-plaintext highlighter-rouge">4194304</code> bytes in size, and the miner will keep the last <code class="language-plaintext highlighter-rouge">16</code> such files and delete  older ones.</p>
+<p><code class="language-plaintext highlighter-rouge">--short_stats</code>         Disables the full gpu state output in each hashrate output, like it was before 0.7.10.</p>
+<p><code class="language-plaintext highlighter-rouge">--long_timestamps</code>     Enables microsec timestamps in the logs instead of seconds only.</p>
+<p><code class="language-plaintext highlighter-rouge">--high_score</code>          Enables printouts of the top 15 shares found since miner start in the stats output.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_debug</code>          Logs all pool traffic.</p>
+<h2 id="комиссия-devfee">Комиссия (DevFee)</h2>
+<p><code class="language-plaintext highlighter-rouge">--dev_location=LOC</code>    Selects a specific location for the dev fee connection. Only use this if you see continuous dev fee connection issues reported by the miner. The connection management normally works well in all locations.</p>
+<p>Available options are:</p>
 <ul>
  <li>
-<a href="https://mmpos.eu/" rel="nofollow noopener" target="_blank">MMPOS</a>
+<code class="language-plaintext highlighter-rouge">world</code>     - Anywhere in the world except for mainland China.
  </li>
 <li>
-<a href="https://simplemining.net/" rel="nofollow noopener" target="_blank">SimpleMining OS</a>
+<code class="language-plaintext highlighter-rouge">cn</code>        - Mainland China.
  </li>
 <li>
-<a href="https://hiveos.farm/" rel="nofollow noopener" target="_blank">Hive OS</a>
- </li>
-<li>
-<a href="https://minerstat.com/" rel="nofollow noopener" target="_blank">Minerstat</a>
- </li>
-<li>
-<a href="https://www.awesomeminer.com/" rel="nofollow noopener" target="_blank">Awesome Miner</a>
- </li>
-<li>
-<a href="https://getpimp.org/" rel="nofollow noopener" target="_blank">PiMP OS</a>
- </li>
-<li>
-<a href="https://raveos.com/" rel="nofollow noopener" target="_blank">RaveOS</a>
+<code class="language-plaintext highlighter-rouge">non-gcp</code>   - Countries with blocked access to Google Services (e.g. Iran, Cuba).
 </li>
 </ul>
+<h2 id="производительность">Производительность</h2>
+<p><code class="language-plaintext highlighter-rouge">--enable_compute</code>      (Windows only) Enables compute mode and disables crossfire on necessary gpus.</p>
+<p><code class="language-plaintext highlighter-rouge">--restart_gpus</code>        (Windows only) Restarts all configured gpus before mining, i.e. disable+enable PCI device.</p>
+<p><code class="language-plaintext highlighter-rouge">--uac</code>                (Windows only) Enable privilege escalation when the miner runs tasks like restarting gpus.</p>
+<p class="notice--success">You can always avoid this by running the miner directly as Administrator.  This will trigger the standard Windows escalation prompt, so you have to be available to click ‘Yes’.</p>
+<p>If this is not enabled, tasks that require Administrator privileges will fail when the miner is running under a basic user account.</p>
+<p class="notice--ya">Note: this might not be enabled for all algos.</p>
+<p><code class="language-plaintext highlighter-rouge">--allow_dup_bus_ids</code>   Allows multiple gpus using the same pci bus id.  This should only be used for Radeon Pro Duo
+cards and similar hardware, it’s normally an indication of a broken OpenCL environment.</p>
+<p><a href="/assets/images/mining/mining_rig_1430.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1430.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
+<h2 id="подключение-к-пулу">Подключение к пулу</h2>
+<p><code class="language-plaintext highlighter-rouge">-o, --url=URL</code>             Sets the pool URL.  Currently stratum+tcp and stratum+ssl URLs are supported.</p>
+<ul>
+ <li>Each additional time this option is specified will start a new pool config.
+ </li>
+<li>Per-pool options (such as -u, -p) will need to be explicitly specified again for each new pool.  (See the example start_multipool.sh/bat file)
+ </li>
+<li>The multi-pool strategy for the miner is set with the –pool_strategy option.
+</li>
+</ul>
+<p>There is also special support for advanced SSL/TLS setups where you need to pass a SNI hostname to the SSL endpoint. For example, this is necessary for SSL endpoints that act as frontends for multiple hosts and need to know which one
+to provide a certificate for. In such cases, use the following format:</p>
+<p><code class="language-plaintext highlighter-rouge">-o stratum+ssl://pool.tunnel.com/pool.realhostname.com:3333</code></p>
+<p>This will connect to <code class="language-plaintext highlighter-rouge">pool.tunnel.com:3333</code> but pass <code class="language-plaintext highlighter-rouge">pool.realhostname.com</code> as the SNI hostname in the SSL handshake phase. The two hostnames can of course be identical as well.</p>
+<p><code class="language-plaintext highlighter-rouge">-u</code>, <code class="language-plaintext highlighter-rouge">--user=USERNAME</code>       Sets the username for pool authorization.</p>
+<p><code class="language-plaintext highlighter-rouge">-p</code>, <code class="language-plaintext highlighter-rouge">--pass=PASSWORD </code>      Sets the password for pool authorization.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_force_ensub</code>    Forces an extranonce subscribe request for supported pools unknown to the miner.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_no_ensub</code>       Prevent miner from sending extranonce subscribe request to the pool.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_broken_rpc</code>     Tells the miner to only allow a single outstanding rpc request on the pool connection.  This is a work-around for pools that violate the json rpc specification regarding rpc IDs.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_ratio=RATIO</code>    Sets the hashrate ratio between pools when using multiple pools with the the <code class="language-plaintext highlighter-rouge">load_balance</code> or <code class="language-plaintext highlighter-rouge">quota</code> pool strategies (see <code class="language-plaintext highlighter-rouge">--pool_strategy</code>).  By default all pools use the ratio value 1.  For example, using this option with a value of 2 on just one pool will make that pool receive twice the hashrate as the other pools since their ratio will still be the default value of 1.</p>
+<p><a href="/assets/images/mining/mining_rig_1432.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1432.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
+<h2 id="глобальные-опции-пула">Глобальные опции пула</h2>
+<p><code class="language-plaintext highlighter-rouge">--pool_connect_TO=SEC</code> Set the time-out for attempting to connect to a pool. SEC is the time to wait in
+seconds. Default is 10.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_rpc_TO=SEC</code>     Set how long the miner will wait for an unanswered RPC to the pool.  After this
+time, the miner will reconnect to the pool.  SEC is the time to wait in seconds.<br>
+Default is 60.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_max_rejects=N</code>  If a pool rejects N shares in a row, the pool connection is reset. This is to prevent
+against pools that invalidates mining sessions without disconnecting the user.<br>
+Default value is 5.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_share_limit_ms=N</code>  If a pool takes longer than N ms to accept or reject a share, kill the current connection and reconnect.  This is intended for pools that often get issues with some of their servers, but reconnecting means being load-balanced to a different and hopefully better server.  Default value is no timeout.</p>
+<p><code class="language-plaintext highlighter-rouge">--pool_strategy=STRAT</code> Sets the strategy for selecting pools when running with multiple pools.</p>
+<p>The available values are:</p>
+<ul>
+ <li>priority,
+ </li>
+<li>load_balance,
+ </li>
+<li>quota, and
+ </li>
+<li>min_epoch.
+</li>
+</ul>
+<p>The default is priority.</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">priority</code>: The miner will use pools in the order they are listed, only moving on to the next pool if the previous cannot establish a connection.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">load_balance</code>: The miner will evenly balance the hashrate across all currentlyconnected pools.  The ratio of hashrate between pools can be set with <code class="language-plaintext highlighter-rouge">--pool_ratio</code>.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">quota</code>: The miner will evenly balance the total hashes completed across all pools.  If a pool disconnects and later reconnects, the miner will move hashrate to the pool until the total hashes for each pool is balanced.
+</li>
+</ul>
+<p>The ratio of hashrate between pools can be set with <code class="language-plaintext highlighter-rouge">--pool_ratio</code>.</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">min_epoch</code>: ETH + ZIL switching strategy.  The miner will always mine the lowest epoch among all connected pools, and in case of a tie, the first connected pool.
+</li>
+</ul>
+<p>Therefore, specify your ETH mining pool as the first/primary pool, then the ZIL pool as the second pool.  You can also use ‘eth_zil’ as the name for this strategy.</p>
+<p><code class="language-plaintext highlighter-rouge">--no_ntime_roll</code>       Prevents the miner from rolling ntime in the block header, only using the value provided by the pool. This needs to be enabled for some pools when mining <code class="language-plaintext highlighter-rouge">x16rt</code>.</p>
+<p><code class="language-plaintext highlighter-rouge">--no_stale_submit</code>     Prevents the miner from submitting shares that are not for the most current pool job.</p>
+<p><a href="/assets/images/mining/mining_rig_1433.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1433.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
+<h2 id="опция-выбора-видеокарт">Опция выбора видеокарт</h2>
+<p><code class="language-plaintext highlighter-rouge">--platform=INDEX</code>      Sets the index of the OpenCL platform to use. If not specified, platform will be auto-detected. Linux with multiple platforms is only supported using no <code class="language-plaintext highlighter-rouge">--platform</code> arg but instead adding <code class="language-plaintext highlighter-rouge">--bus_reorder</code>.</p>
+<p><code class="language-plaintext highlighter-rouge">-d</code>, <code class="language-plaintext highlighter-rouge">--devices=DEVLIST</code>     Sets gpu devices to use from detected list. DEVLIST should be a comma-separated list of device indices, e.g. -d 0,1,2,4.  If not specified, alldevices on the platform(s) will be used.  NOTE: by default the devices are orderedby pcie bus ordering. Use <code class="language-plaintext highlighter-rouge">--list_devices</code> to show indices.</p>
+<p><code class="language-plaintext highlighter-rouge">--init_style=1/2/3</code>    Specified the init style (1 is default):</p>
+<ol>
+ <li>One gpu at the time, complete all before mining.
+ </li>
+<li>Three gpus at the time, complete all before mining.
+ </li>
+<li>All gpus in parallel, start mining immediately.
+</li>
+</ol>
+<p><code class="language-plaintext highlighter-rouge">--pcie_fmt=FORMAT</code>     Sets print format for pcie bus numbers.  The accepted values for FORMAT are either <code class="language-plaintext highlighter-rouge">hex</code> or <code class="language-plaintext highlighter-rouge">dec</code>.  The default is dec for windows and hex for linux.</p>
+<p><code class="language-plaintext highlighter-rouge">--bus_reorder</code>         Reorders the detected or specified devices after their pcie bus id.  If noplatform is specified, devices will be collected from all detected AMD OpenCLplatforms.  Note: As of version v0.7.0 this is the default behavior.</p>
+<p><code class="language-plaintext highlighter-rouge">--opencl_order</code>        Orders the detected or specified devices in the order OpenCL presents them.</p>
+<p><code class="language-plaintext highlighter-rouge">--list_devices</code>        Lists the available devices for the detected or specified platform and exits immediately.  Bus reordering will be implemented in the displayed order.</p>
+<p><code class="language-plaintext highlighter-rouge">--nr_cu_override=X,Y,...</code> Overrides the nr compute units per gpu as presented by the OpenCL API. This is primarily useful for Vega 64s flashed with 56 biosed and where the driver is reporting 56 CU instead of the true count.  Provide a comma-separated list of the override CU count per gpu as value for the argument.</p>
+<p>You can skip gpus and do not need to provide values for all gpus in the rig.  Example for a mixed rig of two Vegas at index 1 and 3 and two other gpus: –nr_cu_override=,64,,64.  You can verify your argument by also adding <code class="language-plaintext highlighter-rouge">--list_devices</code> before mining.</p>
+<h2 id="варианты-управления-разгоном--напряжением-только-для-windows-beta-функциональность">Варианты управления разгоном / напряжением (только для Windows, BETA функциональность)</h2>
+<p>The miner has basic functionality for setting core and mem clks and their respective voltage, as well as selecting between the win driver’s built-in timings.  For each available argument below, you enumerate values for gpu(s) in the rig in a comma-separated list.</p>
+<p>Some arguments are not used for certain gpus.  You can skip gpus in the list.</p>
+<p>The miner always sets and uses the highest p-state for both core and mem for GCN gpus (Polaris, Vega).  Please note that Rx Vega gpus <em>must</em> have a powerplay table modification of the mem p2 state before being able to run a voltage lower than 900mV.  Moreover, Big Navi gpus also still need to use e.g. MorePowerTool to make powerplay table modifications, for example for enabling setting a lower voltage.  The miner <em>might</em> add support for powerplay table-related functionality in the future.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_debug</code>                 Enable start-up log printouts related to setting clocks/voltages/timings.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_core_mhz=MHZ1,MHZ2,...</code> Sets the core clk per gpu in MHz.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_core_mv=MV1,MV2,...</code>    Sets the core voltage per gpu in mV.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_mem_mhz=MHZ1,MHZ2,...</code>  Sets the mem clk per gpu in MHz.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_mem_mv=MV1,MV2,...</code>     Sets the mem voltage per gpu in mV.  Not used for Navi or Big Navi gpus.</p>
+<p><code class="language-plaintext highlighter-rouge">--clk_timing=V1,V2,...</code>       Selects between the driver’s available mem timing sets.  Not available on all gpus and drivers.</p>
+<p>Example of a partial command line for a four gpu system where with a Rx Vega 64, 580, 5700XT and 6800 mining ethash or similar.   We only specify mem voltage for the Vega and 580, and only select a driver timing value for the Big Navi:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe ... --clk_core_mhz=1100,1000,1275,1000 --clk_core_mv=875,850,725,675
+--clk_mem_mhz=1107,2100,1820,2130 --clk_mem_mv=875,850,, --clk_timing=,,,1</code></p>
+<h2 id="варианты-управления-вентилятором">Варианты управления вентилятором</h2>
+<p><code class="language-plaintext highlighter-rouge">--fan_control(=CFG1,CFG2,...)</code>  This argument enables gpu fan control by the miner.  TRM supports auto-adjusting the gpu fan speed(s) based on core, junction and/or mem temp.</p>
+<p class="notice--ya">We also support setting a static fan speed in percent.</p>
+<p>Each gpu type has a fan configuration that will be used by default.  We support both overriding the default configuration per gpu type as well as setting a specific config per gpu in the rig.</p>
+<p>A fan config consists of (max) six values, separate by the ‘:’ (colon) char.  The values are: core target temp, junction target temp, mem target temp, initial fan speed in percent, min fan speed in percent, max fan speed in percent.  Any value can be left empty.</p>
+<p>These are a few examples:</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">::70:50:25</code>   Target mem temp to 70C, start fan at 50% speed, min fan speed 25%.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">55::::20:80</code>  Target core temp to 55C, start fan at default configuration’s speed, always keep fan between 20% and 80%.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">55::75:80</code>    Adjust fan so that core temp is &lt;= 55C and mem temp is &lt;= 75C, start fan at 80%.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">:::100 </code>      Set static fan speed to 100%, never adjust based on temps.
+</li>
+</ul>
+<p>The fan configuration used for a gpu is derived in the following precedence order:</p>
+<ol>
+ <li>The <code class="language-plaintext highlighter-rouge">--fan_control</code> argument was passed a list of configurations and included an
+entry for gpu X.
+ </li>
+<li>The default fan configuration for this gpu type was overridden with a <code class="language-plaintext highlighter-rouge">--fan_default_&lt;type&gt;=...</code> parameter.
+ </li>
+<li>Use the built-in default fan configuration for this gpu type.
+</li>
+</ol>
+<p>In the list above, if the chosen configuration is missing the start value for the fan the setting from the next configuration is used.</p>
+<p class="notice--warning">NOTE: fan support is a beta feature and will not work better than the support the drivers provide.  For example, many times the drivers under linux don’t allow forcing a fan to 100% using the sysfs pwm support.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_default_polaris=CFG</code> Set the default config used for all Polaris gpus (450/460/550/560/470/480/570/580/590).</p>
+<p>The built-in default is 55:::50 for 55C core temp and fan starting at 50%.</p>
+<p class="notice--ya">Note: this setting is also reused for Tonga gpus.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_default_vega=CFG</code>    Set the default config used for all Vega gpus (Vega 56/Vega 64).</p>
+<p>The built-in default is <code class="language-plaintext highlighter-rouge">55::70:50</code> for 55C core temp, 70C mem temp and fan at 50%.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_default_vega2=CFG</code>   Set the default config used for all Radeon VII gpus.</p>
+<p>The built-in default is <code class="language-plaintext highlighter-rouge">70::75:80</code> for 70C core temp, 75C mem temp and fan at 80%.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_default_navi=CFG</code>    Set the default config used for all Navi (Navi10).</p>
+<p>The built-in default is <code class="language-plaintext highlighter-rouge">60::80:70</code> for 60C core temp, 80C mem temp and fan at 70%.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_default_big_navi=CFG</code>  Set the default config used for all Big Navi (Navi21).</p>
+<p>The built-in default is <code class="language-plaintext highlighter-rouge">50:::70</code> for 50C core temp and fan at 70%. The reason for not including mem temp is a missing sensor in the Windows ADL library.</p>
+<p><code class="language-plaintext highlighter-rouge">--fan_debug</code>               Enable log printouts related to adjustments.</p>
+<h2 id="параметры-сторожевого-таймера">Параметры сторожевого таймера</h2>
+<p><code class="language-plaintext highlighter-rouge">--no_gpu_monitor</code>      Disables the ADL (Windows) or sysfs (Linux) GPU monitor for temperature and fan speed.</p>
+<p><code class="language-plaintext highlighter-rouge">--temp_limit=TEMP</code>     Sets the core temperature at which the miner will stop GPUs that are too hot.</p>
+<p>Default is 85C.  Gpu-specific values can be provided using a comma-separated list, one value per gpu.  If a gpu doesn’t have a defined value, the first value in the listis used.</p>
+<p><code class="language-plaintext highlighter-rouge">--temp_resume=TEMP</code>    Sets the core temperature below which the miner will resume GPUs that were previously
+stopped due to the core temperature exceeding limit.</p>
+<p>Default is 60C.  Gpu-specific values can be provided using a comma-separated list, one value per gpu.  If a gpu doesn’t have a defined value, the first value in the list is used.</p>
+<p><code class="language-plaintext highlighter-rouge">--mem_temp_limit=TEMP</code> Sets the mem temperature at which the miner will stop GPUs that are too hot.</p>
+<p>Default is not enabled.  Only used if the gpu provides a mem temperature sensor.</p>
+<p>Gpu-specific values can be provided using a comma-separated list, one value per gpu.</p>
+<p>If a gpu doesn’t have a defined value, the first value in the list is used.</p>
+<p><code class="language-plaintext highlighter-rouge">--mem_temp_resume=TEMP</code> Sets the mem temperature below which the miner will resume GPUs that were previously
+stopped due to mem temperature exceeding limit.</p>
+<p>Default is not enabled.  Only used if the gpu provides a mem temperature sensor.  Gpu-specific values can be provided using a comma-separated list, one value per gpu.  If a gpu doesn’t have a defined value, the first value in the list is used.</p>
+<p><code class="language-plaintext highlighter-rouge">--watchdog_script(=X)</code> Configures the gpu watchdog to shut down the miner and run the specified platform and exits immediately. The default script is watchdog.bat/watchdog.sh in the current directory, but a different script can be provided as an optional argument, potentially with a absolute or relative path as well.</p>
+<p><code class="language-plaintext highlighter-rouge">--watchdog_test</code>       Tests the configured watchdog script by triggering the same action as a dead gpu after ~20 secs of mining.</p>
+<p><code class="language-plaintext highlighter-rouge">--watchdog_disabled</code>   Forces the watchdog to not execute. Can be used to disable the watchdog in mining os that always run with the watchdog enabled.</p>
+<h2 id="ethash-опции">Ethash опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--eth_config=CONFIG</code>   Manual ethash configuration for the miner.  CONFIG must be in the form <code class="language-plaintext highlighter-rouge">[X][M][L]</code>.</p>
+<ul>
+ <li>The <code class="language-plaintext highlighter-rouge">[M]</code> value selects the mode which can be ‘A’,’B’, or ‘C’.
+ </li>
+<li>The <code class="language-plaintext highlighter-rouge">B</code> mode uses additional memory and will only work on 8+GB cards.
+ </li>
+<li>The <code class="language-plaintext highlighter-rouge">C</code> mode uses additional memory and will only work on 16+GB cards, such as the VII, with a correctly configured system.  See the ETHASH_TUNING_GUIDE.txt for more details.
+ </li>
+<li>The <code class="language-plaintext highlighter-rouge">[L]</code> value selects the intensity and it’s range will depend on the GPU architecture.
+ </li>
+<li>The <code class="language-plaintext highlighter-rouge">[X]</code> prefix is optional and is Navi/Big Navi only, it enables more mem operations and leads to a lower tuning [L] value. It can be beneficial whenever the auto-tuner repeatedly hits a value close to the max possible tuning value for the gpu.
+</li>
+</ul>
+<p>Both values are optional, but if <code class="language-plaintext highlighter-rouge">[L]</code> is specified, <code class="language-plaintext highlighter-rouge">[M]</code> must also be specified.</p>
+<p>Example configs:</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--eth_config=A</code>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--eth_config=B750</code>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--eth_config=XB</code>
+</li>
+</ul>
+<p>CONFIG can also be a comma separated list of config values where each is applied to each GPU.</p>
+<p>For example:</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_config=A,B750,,A288</code></p>
+<p>Any gpu that does not have a specific config in the list will use the first config in the list.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_variant_mode=X</code>  This argument controls activation of the ethash changes for ETC from epoch 390 as described in ecip-1099.</p>
+<p>The following modes are available:</p>
+<p><code class="language-plaintext highlighter-rouge">pool</code>      - Default mode. Only activates if the pool sends an algo flag containing etchash.</p>
+<p>Once this flag is seen, all pool jobs will be assumed to be etchash unless another.</p>
+<p><code class="language-plaintext highlighter-rouge">algo flag</code> containing ethash is received.</p>
+<p><code class="language-plaintext highlighter-rouge">etchash</code>   - Etchash mode. Epoch &gt;= 390 will be assumed to be etchash, lower epochs ethash. Pool algo flags are not used.</p>
+<p><code class="language-plaintext highlighter-rouge">deduce</code>    - Ignore pool algo flags and only apply a heuristics based on the current system time and known heights and times for ETC and ETH. This mode should work as a generic approach when ETH reaches epoch 390 in Jan 2021. The system clock needs to be correct.</p>
+<p>It should also handle any profit switching setups that switch freely between ethash and etchash jobs by proxying underlying pools.</p>
+<p><code class="language-plaintext highlighter-rouge">auto</code>      - As long as the pool hasn’t passed an algo flag, use deduce mode. When an algo flag is seen, switch to pool mode.</p>
+<p><code class="language-plaintext highlighter-rouge">ethash</code>    - Forced ethash mode. Never apply ecip-1099.</p>
+<p><code class="language-plaintext highlighter-rouge">force_etc</code> - Forced etchash mode. Always apply ecip-1099 rules. Use for ETC testnet mining.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_aggr_mode</code>       Enables automatic use of the ‘B’ mode for all Polaris 8GB cards, unless they have a different config provided by the <code class="language-plaintext highlighter-rouge">--eth_config</code> argument.  This is the same thing as  manually setting all Polaris 8GB gpus in the rig to ‘B’ mode using <code class="language-plaintext highlighter-rouge">--eth_config</code>.</p>
+<p>For most gpus, this adds 0.1-0.2 MH/s of hashrate.</p>
+<p class="notice--success">NOTE: 20-25% of rigs becomes less stable in this mode which is the reason it isn’t the default mode.  If you experience
+dead gpus, you should remove this argument and run the gpus in the ‘A’ mode.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_stratum_mode=MODE</code> Sets a fixed stratum mode for ethash pools.</p>
+<p>By default the miner will attempt to automatically determine the type of stratum the pool supports and use that mode.
+This automatic detection can be overriden by specifying this option.  The MODE can be set to one of the following options: stratum, nicehash, ethproxy.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_worker</code>          Set the worker id that will be sent to pool.  This only applies to pools with ethproxy stratum mode.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_hash_report=X</code>   Controls hashrate reports to the configure pools.  This value is applied for all pools.</p>
+<p>Values:</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">default</code>   - let the miner decide based on stratum protocol used for each pool.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">force</code>     - always send hashrate reports, even if the pool rejects them.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">on</code>        - send a first hashrate report, disable for any pool that rejects the message.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">off</code>       - never send hashrate reports.
+</li>
+</ul>
+<p><code class="language-plaintext highlighter-rouge">--eth_epoch</code>           Tests a specific ethash epoch. NOTE: you still need to provide a pool as if you were mining, but no shares will be submitted. Simulated mining only.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_alloc_epoch=N</code>   Allocates enough memory for the given epoch from the start.  The miner will try to allocate more if it needs to later during mining.  It’s recommended for rigs with one or more 4GB cards to test and set this to the max possible value to avoid reallocations at epoch switches.  Optimal Linux rigs should be able to handle epoch 380, Windows rigs a little less (373-374).</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_buf=X,Y,...</code> The miner can allocate a single or dual buffers for the DAG.  For now, the default is DUAL buffers, which
+matches the behavior in all recent TRM releases.  However, a single buffer is slightly better, leading to a small power save for all gpu types.  Only recent drivers support single large allocations larger than 4GiB, typically from Adrenalin 20.9.1 and amdgpu-pro 20.x. The miner can automatically use single buffer mode when possible using this argument, as well a force single or dual buffers per gpu.</p>
+<p>Supported values are</p>
+<ul>
+ <li>A(uto),
+ </li>
+<li>S(ingle),
+ </li>
+<li>D(ual).
+</li>
+</ul>
+<p>You can enumerate a comma-separated list for all gpus in the rig, or a single value for all gpus.  A gpu that does not have a value in the comma-separated list will use the first value.  Hence, to enable auto mode for all gpus, pass <code class="language-plaintext highlighter-rouge">--eth_dag_buf=A</code>
+NOTE: 4GB gpus will be forced to use dual buffers.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_big_mode_adjust=X,Y,...</code>  When using B- or C-modes, the miner runs better the more vram it can allocate.  Unfortunately the drivers aren’t accurate reporting how much memory it’s possible to allocate, especially on Windows.</p>
+<p>The miner will use a safe conservative number of 256MiB (Linux) and 512MiB (Windows) as an offset from the available vram size.  If you want change this number, you can do so using this argument by providing.</p>
+<p>a comma-separated list with values for one or more gpus.  Values for gpus not running B/C-mode will be ignored.  If a gpu doesn’t have a value in the list, the first provided value is used instead.</p>
+<p>The allowed interval is [-64, 2048]. The higher number, the less vram is allocated on the gpu.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_4g_max_alloc=X,Y,...</code>  This argument allows mining on 4GB gpus after they no longer can store the full DAG in vram.</p>
+<p>You pass either the max epoch to allocate memory for, or the raw nr of MB to allocate.  You can provide a single value that applies to all 4GB gpus in the rig, or use a comma-separated list for specifying different values per gpu.  Values for non-4GB gpus are ignored.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_slowdown=N</code>  Slows down the DAG generation.  Pass a single digit 0-9. 0 means no slowdown (&lt;= 0.7.9 behavior),
+1 means minimal slowdown, 9 means max.  Default value: 4 for a slight slowdown.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_stagger</code>         Enables staggering of gpus when building a new DAG.  This is more lean on PSUs that don’t like going from 0-100% load on all gpus at the same time.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_no_stagger</code>      Disables –eth_stagger.  Already the default behavior from 0.7.18.  Argument kept for backwards compatibility only.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_ramp_up</code>        Adds ramping up the intensity on all gpus after a DAG build, gpu disable/enable or network outage. Can help rigs with crashes right between the DAG build and starting mining.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_no_ramp_up</code>      Disables <code class="language-plaintext highlighter-rouge">--eth_ramp_up</code>.  Already the default behavior from 0.7.18.  Argument kept for backwards compatibility only.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_direct_abort</code>    Uses a different mechanism to abort ongoing gpu jobs.  Recommended for Vegas in ROCm environments to minimize stale shares.  Will apply to Vega and Polaris gpus in the rig only.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_alloc_patch</code> Some motherboards with outdated bios can see hw errs typically on the first or last gpu in the system.</p>
+<p>Use this argument to force a patched dag allocation strategy that most often solves the issue.</p>
+<p>Upgrading your bios often solves the issue as well.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_hashwatch(=M,M)</code> Defines a min/max watchdog hashrate in MH/s expected when gpus are hashing.  If a GPU falls outside
+of this range for too long it will be considered faulty and the watchdog will be triggered.  The default min/max values are 2 MH/s and 150 MH/s.</p>
+<p>To activate with default values, use <code class="language-plaintext highlighter-rouge">--eth_hashwatch</code>.  To set your own values, use e.g. <code class="language-plaintext highlighter-rouge">--eth_hashwatch=1.25,60</code>.  The same range is used for all gpus in the rig.  A negative value for one side disables it, e.g. use <code class="language-plaintext highlighter-rouge">--eth_hashwatch=-1,1000</code> to handle gpu resets that result in huge fake hashrates but no minimum check.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_cache(=EPOCH)</code> Enables saving eth DAGs from jobs with different epochs to prevent having to rebuild them in the future if jobs with the old epochs are received again.  At most one DAG will be saved if GPU memory  space allows.  This is useful for switching pools such as eth+zil mining.</p>
+<p>If you want to prebuild a certain epoch immediately at startup, add the optional value. Eth+zil switching miners should use <code class="language-plaintext highlighter-rouge">--eth_dag_cache=0</code>.  Only ethash (and not etchash) epochs can be prebuilt at this time.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_cache_resv=MEM</code>  Sets the amount of GPU memory the miner will attempt to leave unused when running with DAG caching
+enabled (see –eth_dag_cache).  The argument MEM is the amount of memory to leave unused in mebibytes.  The default value is 256.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_dag_cache_verify</code>    Enable dag cache read and verification after a finished dag build.  This will detect situations
+where the dag cache had bit errors and the resulting dag is partially broken.</p>
+<p>We have seen this happen increasingly on Vegas as the dag has grown bigger.  When detected, a new buffer will be allocated for the dag cache and the dag build restarted.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_no_4gb_kernels</code>      Disable the ethash 4GB kernels and always use the regular kernels that assume the DAG will always
+fit in available vram on all gpus.</p>
+<p>This is useful when mining ETC or ethash coins at lower epochs than ETH since the regular kernels have a better performance profile.</p>
+<p><code class="language-plaintext highlighter-rouge">--eth_micro_delay=VAL</code>     Navi gpus only: adds a delay (measured in microseconds) when reenqueueing work on the gpu(s).</p>
+<p>Weaker PSUs driving many gpus can sometimes not handle the “slew rate” when multiple gpus happen to reenqueue work at exactly the same time.  Setting this to e.g. 32 will smoothen out the transition from no load to 100% load enough to lower the slew rate on such rigs.</p>
+<p>The typical indication of this issue is hard hangs where the rig becomes unresponsive requiring a power cycle to reboot, but it can also be regular gpu crashes.  Valid values are 1-128. Not using this argument means no delay, value zero.</p>
+<h2 id="progpow--опции-kawpow-firopow">Progpow  опции (kawpow, firopow)</h2>
+<p><code class="language-plaintext highlighter-rouge">--prog_config=CONFIG</code>  Manual progpow configuration for the miner.  CONFIG must be in the form [M][L].</p>
+<ul>
+ <li>The [M] value selects the mode which can be either ‘A’ or ‘B’.
+ </li>
+<li>The ‘B’ mode typically results in better performance but is only available for
+ </li>
+<li>Vega on linux and Navi (linux or windows).
+ </li>
+<li>The [L] value selects the intensity and it’s range will depend on the GPU architecture.
+</li>
+</ul>
+<p>Both values are optional, but if [L] is specified, [M] must also be specified.</p>
+<p>Example configs:</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--prog_config=A</code>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--prog_config=B750</code>
+</li>
+</ul>
+<p>CONFIG can also be a comma separated list of config values where each is applied to each GPU. For example: <code class="language-plaintext highlighter-rouge">--prog_config=A,B750,,A288</code></p>
+<p>Any gpu that does not have a specific config in the list will use the first.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_height=VALUE</code>   Sets a fixed block height for progpow algorithms for benchmarking purposes.</p>
+<p class="notice--success">Note that using this option needs a pool connection but will not submit shares.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_strict</code>         Forces miner to always generate strictly accurate kernels.  By default the miner will generate relaxed kernels that use less computation power but can result in  occasional invalid shares.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_dag_slowdown=N</code>  Slows down the DAG generation.  Pass a single digit 0-9.  0 means no slowdown (&lt;= 0.7.9 behavior),
+1 means minimal slowdown, 9 means max.  Default value: 4 for a slight slowdown.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_stagger</code>         See `–eth_stagger.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_ramp_up</code>       See `–eth_ramp_up.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_no_stagger</code>      See `–eth_no_stagger.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_no_ramp_up</code>      See `–eth_no_ramp_up.</p>
+<p><code class="language-plaintext highlighter-rouge">--prog_micro_tune=X,Y,...</code> This option enables a small retuning session for every new random code block.  This is important
+for Polaris gpus to run at their max speed.  For Vegas and Navis it usually does not improve performance.  The default AUTO mode enables it for all Polaris gpus but disables it otherwise.</p>
+<p>The only reason to disable it would be for stability purposes.  The argument value is a comma-separated list of values, one per gpu.  If a gpu is missing a value, the value for the first gpu is used.  Please note that setting a manual prog_config will effectively disable the micro-tuner as well.  Available values are:</p>
+<ol>
+ <li>
+   <ul>
+     <li>turn OFF progpow micro-tuning for this gpu.
+   </li>
+</ul>
+ </li>
+<li>
+   <ul>
+     <li>turn ON progpow micro-tuning for this gpu.
+   </li>
+</ul>
+ </li>
+<li>
+   <ul>
+     <li>let the miner decide if micro-tuning should be enabled (AUTO).
+   </li>
+</ul>
+</li>
+</ol>
+<h2 id="cryptonight--опции">Cryptonight  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--rig_id</code>              Set the rig identifier that will be sent to the pool. This is only used for cryptonight pools.</p>
+<p><code class="language-plaintext highlighter-rouge">--cn_config=CONFIG</code>    Manual cryptonight configuration for the miner.  CONFIG must be in the form [P][I0][M][I1][:xyz], where [P] is an optional prefix and [:xyz] is an optional suffix.</p>
+<p>For [P], only the value of ‘L’ is supported for low-end GPUs like Lexa/Baffin.  [I0] and [I1] are the thread intensity values normally ranging from 1 to 16, but larger values are possible for 16GB gpus.</p>
+<p>[M] is the mode which can be either ‘.’, -‘, ‘+’ or ‘*’.  Mode ‘.’ means that the miner should choose or scan for the best mode.</p>
+<p>Mode ‘*’ both a good default more and <em>should</em> be used if you mine on a Vega 56/64 with modded mem timings.</p>
+<p>The exceptions to this rule are small pad variants (cnv8_trtl and cnv8_upx2), they should still use ‘+’. For Polaris gpus, only the ‘-‘ and ‘+’ modes are available.</p>
+<p class="notice--success">NOTE: in TRM 0.5.0 auto-tuning functionality was added, making manual configuration of the CN config modes unnecessary except for rare corner cases.  For more info,  see the tuning docs and how-to documents bundled with the release.</p>
+<p>Example configs:</p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--cn_config=15*15:AAA</code>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cn_config=14-14</code>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cn_config=L4+3</code>
+</li>
+</ul>
+<p>CONFIG can also be a comma separated list of config values where each is applied to each GPU.</p>
+<p>For example:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">--cn_config=8-8,16+14:CBB,15*15,14-14</code></p>
+<p>Any gpu that does not have a specific config in the list will use the first config in the list.</p>
+<p><code class="language-plaintext highlighter-rouge">--no_cpu_check</code>        Disables cpu verification of found shares before they are submitted to the pool.</p>
+<p class="notice--info">Note: only CN algos currently supports cpu verification.</p>
+<p><code class="language-plaintext highlighter-rouge">--no_lean </code>            Disables the CN lean mode where ramp up threads slowly on start or restart after network issues or gpu temp throttling.</p>
+<p><code class="language-plaintext highlighter-rouge">--no_interleave=DEVS</code>  Lists gpu devices where CN thread interleave logic should be not be used.</p>
+<p>The argument is a comma-separated list of devices like for the <code class="language-plaintext highlighter-rouge">-d</code> option.</p>
+<p>Use this argument if some device(s) get a worse hashrate together with a lot of interleave adjust log messages.</p>
+<p><code class="language-plaintext highlighter-rouge">--alloc_patch=DEVS</code>    Lists gpu devices that loses hashrate between TRM v0.4.5 and later versions. With this  argument a simpler mem allocation strategy is used, and the old (higher) hashrate should be restored. Auto-tuning mode can still be used.</p>
+<p><code class="language-plaintext highlighter-rouge">--auto_tune=MODE</code>      Enable the auto-tune mode upon startup. Only available for CN variants. MODE must  be either NONE, QUICK or SCAN. The QUICK mode checks a few known good configurations and completes within 1 min. The SCAN mode will check all possible combos and will run for 20-30 mins. Setting MODE to NONE disable the auto-tune feature. The default
+mode is QUICK.</p>
+<p><code class="language-plaintext highlighter-rouge">--auto_tune_runs(=N)</code>  Executes multiple runs for the auto tune, each time decreasing the unit of pads used -1
+in one of the threads (15+15 -&gt; 15+14 -&gt; 14+14 -&gt; 14+13 -&gt; …). You can specify the explicit nr of runs or let the miner choose a default value per gpu type (typically 3-4).</p>
+<p><code class="language-plaintext highlighter-rouge">--auto_tune_exit</code>      If present, the miner will exit after completing the auto-tuning process. This is helpful when you want to scan for optimal settings and then use the resulting command line arg printed by the miner.</p>
+<p><code class="language-plaintext highlighter-rouge">--allow_large_alloc</code>   If present, and when the driver indicates there is enough GPU vram available, the miner will be more aggressive with the initial memory allocation. In practice, this option means that Vega GPUs under Linux will start the auto-tuning process at 16<em>15 rather than 16</em>14 or 15*15.</p>
+<h2 id="mtp--опции">MTP  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--allow_all_devices</code>   Some algos can’t be mined on e.g. 4GB gpus. Those gpus will be disabled automatically by the miner. This argument overrides this logic and allows mining on all specified or detected devices.</p>
+<h2 id="x16--опции">X16*  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--hash_order=VALUE</code>    Sets a fixed hash order for algorithms like x16r for benchmarking purposes.</p>
+<p class="notice--info">Note that using this option needs a pool connection but will not submit shares.</p>
+<p>The standard benchmark hash order for x16r is <code class="language-plaintext highlighter-rouge">--hash_order=0123456789abcdef</code>.</p>
+<h2 id="nimiq--опции">Nimiq  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--nimiq_worker=VALUE</code>  Sets the worker/device name for nimiq to pass to the pool(s).</p>
+<p><code class="language-plaintext highlighter-rouge">--nimiq_no_proxy</code>      Disables the automatic Nimiq proxy executed as a separate process. This means that the host and port passed to the miner must be pointing to a proxy.</p>
+<p><code class="language-plaintext highlighter-rouge">--nimiq_proxy=VALUE</code>   Overrides the default path to the Nimiq proxy. The default is trm_nimiq_proxy-win.exe. and trm_nimiq_proxy-linux in the current miner director.</p>
+<p><code class="language-plaintext highlighter-rouge">--nimiq_port=VALUE</code>    Overrides the default local port (4444) used for the Nimiq proxy. This can be used if your system is already using port 4444 for some other tcp/ip service.</p>
+<h2 id="verthash--опции">Verthash  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--verthash_file=FILE</code>  Sets the filename to be used to load/store the verthash data file.  If this option is specified when the verthash algo is used, the miner will attempt to load the verthash data from the file.  If the file does not exist, the miner will generate the verthash data and then save it in the file for future use.</p>
+<p>If this option is not specified the miner will generate the verthash data in system memory on every start.</p>
+<p><code class="language-plaintext highlighter-rouge">--verthash_max_uploads=N</code>  Some motherboards have issues with all gpus in the rig uploading the verthash table at the same time.  This argument limits the number of concurrent gpus that are uploading the table at the same time at startup.  Allowed values are 1-32.  The default value is 4.</p>
+<h2 id="autolykos2--опции">Autolykos2  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--autolykos_mem_adjust=N</code>  Sets the amount of memory in MiB that the miner should leave unused when allocating GPU buffers for autolykos.  The default value is 384 on linux and 512 on windows.</p>
+<p>For GPUs with displays attached, the default is increased by 512.  If dual mining with ZIL, the  default value is increased by 1024.  The option can also be provided with a comma separated list of values where each value is applied to each GPU.  If an empty value is specified in the list, the default will be used for that GPU.  If a value is not specified for a GPU it will use the first value in the list.</p>
+<p>For example:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">--autolykos_mem_adjust=256,512,,256</code></p>
+<p><code class="language-plaintext highlighter-rouge">--autolykos_slowdown=N</code>  Adds a slowdown of the pad build process.  Valid values are 0-100. The default is 0, no slowdown.</p>
+<p><code class="language-plaintext highlighter-rouge">--autolykos_ignore_diff</code> Ignores the difficulty sent by the pool and only uses the 256-bit target provided in jobs.</p>
+<p>Some pools don’t follow the ERGO reference miner pool implementation, in which case this argument <em>might</em> help. NOTE: this will be applied to all pools.</p>
+<h2 id="zil-dual-mining--опции">ZIL dual mining  опции</h2>
+<p><code class="language-plaintext highlighter-rouge">--zil_start</code> or <code class="language-plaintext highlighter-rouge">--zil</code>  Starts the ZIL dual mining config.  Between this and the <code class="language-plaintext highlighter-rouge">--zil_end marker</code>, all arguments are applied to the ZIL mining rather than the primary algo.  It’s expected that the primary algo has been set up in earlier arguments.  The intention is that you can add a <code class="language-plaintext highlighter-rouge">--zil ...</code> <code class="language-plaintext highlighter-rouge">--zil_end</code> configuration to any working TRM configuration algo and things will work out of the box.</p>
+<p>This argument automatically sets a range of default settings you want to use for ZIL:</p>
+<ul>
+ <li>Cached copy of the ZIL epoch 0 DAG.
+ </li>
+<li>Adjustment of memory allocated for the primary algo to fit the ZIL DAG.
+ </li>
+<li>Choose ethash A-mode for the ZIL mining.
+ </li>
+<li>Use the standard faster kernels for 4GB gpus since the DAG is max 1GB.
+</li>
+</ul>
+<p>The minimal working setup is to only provide a ZIL pool that is ok with the miner ignoring the primary coin jobs and only mines during the ZIL windows.  This is an example for ezil.me:</p>
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">--zil -o stratum+tcp://eu.ezil.me:5555 -u &lt;eth wallet&gt;.&lt;zil wallet&gt;.&lt;worker name&gt; -p x --zil_end</code></p>
+<p>For more info, read the ZIL dual mining guide packaged with the TRM release.</p>
+<p><code class="language-plaintext highlighter-rouge">--zil_end</code>             Marks that we’re done with the ZIL mining config and all following arguments are for the primary algo.  This argument isn’t strictly necessary, but should be included for mining distros since the user has no guarantee what arguments will be added automatically at the end of the command line by the distro.</p>
+<p><code class="language-plaintext highlighter-rouge">--stats_mode=single/dual</code>  When adding ZIL dual mining, the stats output will by default be duplicated to add info for the ZIL mining.  Some contexts might get confused by this if they are parsing the TRM outut or log files.  To switch to the default output, add <code class="language-plaintext highlighter-rouge">--stats_mode=single</code>.</p>
      </section>
 </div>
    </article>
@@ -739,7 +814,7 @@ File: *teamredminer.exe, <br>
 <div class="tim-vi2">	
  <!-- related_posts -->
    <div class="page__related">
-     <h4 class="page__related-title">You may also enjoy</h4>
+     <h4 class="page__related-title">Вам также может понравиться</h4>
      <div class="grid__wrapper">
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
@@ -747,17 +822,17 @@ File: *teamredminer.exe, <br>
         <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/0.8.6.3/" rel="permalink">Download TeamRedMiner 0.8.6.3 - AMD GPU Miner [2021]
+        <a href="/download/0.8.6.3/" rel="permalink">Скачать ТимРэдМайнер 0.8.6.3 - AMD GPU Miner [2021]
 </a>
    </h2>
      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  less than 1 minute read
+  менее 1 мин на чтение
 </p>
    <p class="archive__item-excerpt" itemprop="description">
-Get started with TeamRedMiner
-		Version: 0.8.6.3
-		File: *TeamRedMiner.exe,  
-		SHA256: 001d25f63a1bb89f60f7bb615a648096d2f0943596bd6cf9d6af63dc9902...</p>
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.8.6.3
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 001d25f63a1bb89f60f7bb615a648096d2f0943...</p>
  </article>
 </div>
 <div class="grid__item">
@@ -766,17 +841,17 @@ Get started with TeamRedMiner
         <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/0.8.6.2/" rel="permalink">Download TeamRedMiner 0.8.6.2 - AMD GPU Miner [2021]
+        <a href="/download/0.8.6.2/" rel="permalink">Скачать ТимРэдМайнер 0.8.6.2 - AMD GPU Miner [2021]
 </a>
    </h2>
      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  less than 1 minute read
+  менее 1 мин на чтение
 </p>
    <p class="archive__item-excerpt" itemprop="description">
-Get started with TeamRedMiner
-		Version: 0.8.6.2
-		File: *TeamRedMiner.exe,  
-		SHA256: 77efd0d12f565ef3cd975671267aa46d5850ccfc7ed2c63aa73ffb1f286c...</p>
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.8.6.2
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 77efd0d12f565ef3cd975671267aa46d5850ccf...</p>
  </article>
 </div>
 <div class="grid__item">
@@ -785,17 +860,17 @@ Get started with TeamRedMiner
         <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/0.8.6/" rel="permalink">Download TeamRedMiner 0.8.6 - AMD GPU Miner [2021]
+        <a href="/download/0.8.6/" rel="permalink">Скачать ТимРэдМайнер 0.8.6 - AMD GPU Miner [2021]
 </a>
    </h2>
      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  less than 1 minute read
+  менее 1 мин на чтение
 </p>
    <p class="archive__item-excerpt" itemprop="description">
-Get started with TeamRedMiner
-		Version: 0.8.6
-		File: *TeamRedMiner.exe,  
-		SHA256: 6ff0002ac4cb307ea2d47b8ee0023e8e48f7b15bf02c6038585f275114fa50...</p>
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.8.6
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 6ff0002ac4cb307ea2d47b8ee0023e8e48f7b15bf...</p>
  </article>
 </div>
 <div class="grid__item">
@@ -804,35 +879,33 @@ Get started with TeamRedMiner
         <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/latest/" rel="permalink">Download the latest version TeamRedMiner (0.8.6.3) - AMD [2021]
+        <a href="/ru/articles/bide-09-30/" rel="permalink">Дефолт В США 2021 - Что Будет с Долларом?
 </a>
    </h2>
      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 minute read
+  2 мин на чтение
 </p>
    <p class="archive__item-excerpt" itemprop="description">
-Get started with TeamRedMiner
-		Latest version is 0.8.6.3
-		SHA256: 001d25f63a1bb89f60f7bb615a648096d2f0943596bd6cf9d6af63dc990217f3 *TeamRedMiner0....</p>
+</p>
  </article>
 </div>
      </div>
    </div>
     <!-- post navigation footer -->
       <footer class="page__meta">
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-11-06T00:00:00+00:00">06.11.2021</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-11-06T00:00:00+00:00">06.11.2021</time></p>
      </footer>
      <section class="page__share">
-   <h4 class="page__share-title">Share on</h4>
-  <a href="https://twitter.com/intent/tweet?via=teamredminer&amp;text=TeamRedMiner%26%2358%3B+Setup+-+Readme+%5Binstall%5D+%282021%29%20https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+   <h4 class="page__share-title">Поделиться</h4>
+  <a href="https://twitter.com/intent/tweet?via=teamredminer&amp;text=TeamRedMiner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B+%D0%B8+%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0%20https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
  <nav class="pagination">
-      <a href="/documentation/changelog/" class="pagination--pager" title="TeamRedMiner: Changelog
-">Previous</a>
-      <a href="/download/0.8.3/" class="pagination--pager" title="Download TeamRedMiner  0.8.3 - AMD GPU Miner [2021]
-">Next</a>
+      <a href="/ru/articles/prediction-29-05/" class="pagination--pager" title="Прогнозы на Биткоин и Криптовалюту: Как Они Работают?
+">Предыдущая</a>
+      <a href="/documentation/setup/" class="pagination--pager" title="TeamRedMiner: Настройка Батника [2021]
+">Следующая</a>
  </nav>
   <!-- comments -->
       <!--      -->
