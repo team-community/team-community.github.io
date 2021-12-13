@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="zh" class="no-js">
+<html lang="ru" class="no-js">
    <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
-<title>Cookies政策</title>
-<meta name="description" content="listings.meta_description">
+<title>TeamRedMiner - FPGA майнинг Эфира</title>
+<meta name="description" content="Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).">
  <meta name="author" content="TeamRedMiner">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="TeamRedMiner">
-<meta property="og:title" content="Cookies政策">
-<meta property="og:url" content="https://teamredminer.info/cookie/">
- <meta property="og:description" content="listings.meta_description">
+<meta property="og:title" content="TeamRedMiner - FPGA майнинг Эфира">
+<meta property="og:url" content="https://teamredminer.info/documentation/fpga-guide/">
+ <meta property="og:description" content="Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).">
  <meta property="og:image" content="https://teamredminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@teamredminer">
- <meta name="twitter:title" content="pages.cookie.title">
- <meta name="twitter:description" content="listings.meta_description">
- <meta name="twitter:url" content="https://teamredminer.info/cookie/">
+ <meta name="twitter:title" content="TeamRedMiner - FPGA майнинг Эфира">
+ <meta name="twitter:description" content="Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).">
+ <meta name="twitter:url" content="https://teamredminer.info/documentation/fpga-guide/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://teamredminer.info/assets/images/site-logo.png">
-<link rel="canonical" href="https://teamredminer.info/zh/cookie/">
+ <meta property="article:published_time" content="2021-12-13T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-12-13T00:00:00+00:00">
+<link rel="canonical" href="https://teamredminer.info/ru/documentation/fpga-guide/">
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -33,7 +35,7 @@
  <meta name="google-site-verification" content="WLESE2hqeUs9Zis9Ug_IWbm4nQNFofxcUj68NFnM-p0">
  <meta name="yandex-verification" content="b9e5bf6ac3a15279">
 <!-- end _includes/seo.html -->
-<meta name="description" content="listings.meta_description">
+<meta name="description" content="Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).">
  <meta name="author" content="TeamRedMiner">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TeamRedMiner Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,10 +73,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <meta name="theme-color" content="#ffffff">
 <!-- end custom head snippets -->
 	<!-- link alternate -->
-		<link rel="alternate" hreflang="en" href="https://teamredminer.info/cookie/">
-		<link rel="alternate" hreflang="ru" href="https://teamredminer.info/ru/cookie/">
-		<link rel="alternate" hreflang="es" href="https://teamredminer.info/es/cookie/">
-		<link rel="alternate" hreflang="zh" href="https://teamredminer.info/zh/cookie/">
+		<link rel="alternate" hreflang="en" href="https://teamredminer.info/documentation/fpga-guide/">
+		<link rel="alternate" hreflang="ru" href="https://teamredminer.info/ru/documentation/fpga-guide/">
+		<link rel="alternate" hreflang="es" href="https://teamredminer.info/es/documentation/fpga-guide/">
+		<link rel="alternate" hreflang="zh" href="https://teamredminer.info/zh/documentation/fpga-guide/">
  </head>
 <body class="layout--single">
     <!--[if lt IE 9]>
@@ -84,17 +86,17 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  <div class="masthead__inner-wrap">
    <div class="masthead__menu">
      <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/zh">
+        <a class="site-title" href="/ru">
           TeamRedMiner
         </a>
 		<ul class="visible-links">
            <li class="masthead__menu-item">
  </li>
 <li>
-    <a href="/zh/documentation/setup/">快速入门</a>
+    <a href="/ru/documentation/setup/">Быстрый Старт</a>
  </li>
 <li>
-    <a href="/download/">我的平衡</a>
+    <a href="/ru/download/">Скачать</a>
        </li>
 </ul>
         <button class="search__toggle" type="button">
@@ -104,7 +106,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
           </svg>
         </button>
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">切换菜单</span>
+          <span class="visually-hidden">Выпадающее меню</span>
          <div class="navicon"></div>
         </button>
        <ul class="hidden-links hidden"></ul>
@@ -114,52 +116,112 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </div>
 <div class="lang-nav">	
 	<nav id="lang-sel">
-		<a href="/cookie/" class="footer__link">en</a>
-		<a href="/ru/cookie/" class="footer__link">ru</a>
-		<a href="/es/cookie/" class="footer__link">es</a>
-		<a href="/zh/cookie/" class="footer__link">zh</a>
+		<a href="/documentation/fpga-guide/" class="footer__link">en</a>
+		<a href="/ru/documentation/fpga-guide/" class="footer__link">ru</a>
+		<a href="/es/documentation/fpga-guide/" class="footer__link">es</a>
+		<a href="/zh/documentation/fpga-guide/" class="footer__link">zh</a>
 	</nav>	
 </div>
    <div class="initial-content">
      <div id="main" role="main">
  <div class="sidebar nosticky">
-<div itemscope itemtype="https://schema.org/Person">
-   <div class="author__avatar">
-        <img src="/assets/images/teamredminer.png" alt="TeamRedMiner" itemprop="image" loading="lazy" decoding="async">
-   </div>
- <div class="author__content">
-     <h3 class="author__name" itemprop="name">TeamRedMiner</h3>
-     <p class="author__bio" itemprop="description">
-        Miners developer
-     </p>
- </div>
- <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-   <ul class="author__urls social-icons">
-       <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">USA</span>
-           </li>
+<nav class="nav__list">
+ <h3 class="nav__title" style="padding-left: 0;">Содержание</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+ <ul class="nav__items">
+     <li>
+          <a href="/documentation/setup/"><span class="nav__sub-title">Setup</span></a>
+     </li>
 <li>
-<a href="https://teamredminer.info/" rel="nofollow noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> teamredminer</a>
-           </li>
+          <a href="/documentation/arguments/"><span class="nav__sub-title">Command Line Arguments</span></a>
+     </li>
 <li>
-<a href="https://discord.gg/RGykKqB" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i> Discord</a>
-           </li>
+          <a href="/documentation/fpga-guide/"><span class="nav__sub-title">FPGA Guide</span></a>
+     </li>
 <li>
-<a href="https://github.com/todxx/teamredminer" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
-   </li>
+          <a href="/documentation/changelog/"><span class="nav__sub-title">Changelog</span></a>
+ </li>
 </ul>
- </div>
-</div>
+</nav>
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-   <meta itemprop="headline" content="pages.cookie.title">
+   <meta itemprop="headline" content="TeamRedMiner - FPGA майнинг Эфира">
+   <meta itemprop="description" content="Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).">
+   <meta itemprop="datePublished" content="December 13, 2021">
+   <meta itemprop="dateModified" content="December 13, 2021"> 
    <div class="page__inner-wrap">
       <header>
+		 <h1 id="page-title" class="page__title" itemprop="headline">TeamRedMiner - FPGA майнинг Эфира
+</h1>
+           <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  4 мин на чтение
+</p>
        </header>
      <section class="page__content" itemprop="text">
-       <p>Privacy Statement</p>
-<p>This is simple: We care about our users first. That means your information will never be sold, used to spam you or anything that might seem offensive.</p>
+         <aside class="sidebar__right sticky">
+           <nav class="toc">
+            <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> Содержание</h4></header>
+             <ul class="toc__menu">
+ <li>
+<a href="#%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80">Общий обзор</a>
+ </li>
+<li>
+<a href="#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%BF%D0%BE-%D0%BC%D0%B0%D0%B9%D0%BD%D0%BD%D0%B3%D1%83">Инструкции по майннгу</a>
+ </li>
+<li>
+<a href="#%D1%82%D1%8E%D0%BD%D0%B8%D0%BD%D0%B3-xilinx-varium-c1100">Тюнинг Xilinx Varium C1100</a>
+ </li>
+<li>
+<a href="#%D1%82%D1%8E%D0%BD%D0%B8%D0%BD%D0%B3-sqrl-forest-kitten-33">Тюнинг SQRL Forest Kitten 33</a>
+</li>
+</ul>
+           </nav>
+         </aside>
+       <p><em>Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).</em>
+<img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
+<h2 id="общий-обзор">Общий обзор</h2>
+<p>Начиная с версии v0.9.0 TeamRedMiner (TRM) теперь поддерживает майнинг ethash на двух продуктах FPGA, основанных на Xilinx FPGA: Xilinx Varium C1100 и SQRL Forest Kitten 33.</p>
+<p class="notice--info">Майнинг с помощью FPGA официально поддерживается только в Linux, однако пользователи Windows могут также использовать виртуальную машину Linux с USB-переходом для соединений FPGA USB JTAG.</p>
+<p>В настоящее время TRM не поддерживает установку напряжений на платах FPGA и может считывать только некоторые из доступных на плате данных телеметрии (напряжение памяти, питание платы и т. д.).</p>
+<p>В результате доступно не так много рычагов для настройки, хотя те, которые есть, будут обсуждаться в отдельных разделах платы ниже. Далее мы обсудим общую настройку майнинга FPGA.</p>
+<h2 id="инструкции-по-майннгу">Инструкции по майннгу</h2>
+<p>В настоящее время TRM связывается с ПЛИС только через порты USB JTAG, имеющиеся на платах.</p>
+<p class="notice--ya">Убедитесь, что порты USB JTAG ваших плат FPGA подключены к хост-системе, на которой будет работать TRM.</p>
+<p class="notice--ya">Убедитесь, что TRM может обнаруживать подключенные устройства, запустив <code class="language-plaintext highlighter-rouge">sudo ./teamredminer --list_devices</code> и проверив, что ожидаемые устройства отображаются в выходных данных.</p>
+<p>Затем вам нужно будет подготовить необходимые аргументы командной строки для TRM, такие как выбор алгоритма, адрес вашего пула майнинга, имя пользователя / адрес кошелька пула и пароль, а затем использовать их для создания команды для запуска TRM. Например:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">sudo</span> ./teamredminer <span class="na">-a </span><span class="kd">ethash</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://eu1.ethermine.org:4444 <span class="na">-u </span><span class="mh">0x02197021fefa795fec661a45f60e47a6f6605281</span>.trmtest <span class="na">-p </span><span class="kd">x</span>
+</code></pre></div></div>
+<p class="notice--ya">Это минимальный набор аргументов команды, необходимых для запуска TRM-майнинга с помощью ПЛИС.</p>
+<p>При первом запуске TRM он загрузит необходимые битовые потоки для работающих плат FPGA и сохранит их в локальном каталоге битов.</p>
+<p>Выполнение этой команды запустит TRM и начнет майнинг на всех доступных FPGA (и графических процессорах AMD) с использованием значений тактовой частоты по умолчанию 450 МГц для частоты ядра и 900 МГц для частоты памяти.</p>
+<p>TRM можно ограничить запуском на определенных устройствах FPGA с помощью опции <code class="language-plaintext highlighter-rouge">--fpga_devices</code> (подробности см. В <code class="language-plaintext highlighter-rouge">--help</code> или <code class="language-plaintext highlighter-rouge">USAGE.txt</code>).</p>
+<p>Большинство пользователей, вероятно, захотят увеличить эти значения по умолчанию, используя параметры <code class="language-plaintext highlighter-rouge">--fpga_clk_core</code> и <code class="language-plaintext highlighter-rouge">--fpga_clk_mem</code>.</p>
+<p>Кроме того, TRM контролирует температуру ядра ПЛИС и температуру памяти и регулирует скорость майнинга, чтобы поддерживать температуру в установленных пределах.</p>
+<p>По умолчанию оба ограничения установлены на 90 ° C, но их можно настроить с помощью параметров <code class="language-plaintext highlighter-rouge">--fpga_tcore_limit</code> и <code class="language-plaintext highlighter-rouge">--fpga_tmem_limit</code>. При работе в системе с графическими процессорами и FPGA опцию <code class="language-plaintext highlighter-rouge">--hardware</code> можно использовать для выбора, будет ли TRM запускать только графические процессоры или только FPGA.</p>
+<p>Типичная команда для запуска TRM может выглядеть так:</p>
+<div class="language-batch highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">sudo</span> ./teamredminer <span class="na">-a </span><span class="kd">ethash</span> <span class="na">-o </span><span class="kd">stratum</span><span class="na">+tcp</span>://eu1.ethermine.org:4444 <span class="na">-u </span><span class="mh">0x02197021fefa795fec661a45f60e47a6f6605281</span>.trmtest_f <span class="na">-p </span><span class="kd">x</span> <span class="sb">`--fpga_clk_core=505 `</span><span class="na">--fpga</span>_clk_mem<span class="o">=</span><span class="m">1000</span> <span class="sb">`--fpga_tmem_limit=70 `</span><span class="na">--log</span>_file
+</code></pre></div></div>
+<p class="notice--success">При выборе тактовой частоты ядра и памяти лучше всего придерживаться отношения 1:2 между тактовой частотой ядра и памяти. Именно здесь конструкция TRM FPGA лучше всего сбалансирована и дает оптимальные результаты.</p>
+<h2 id="тюнинг-xilinx-varium-c1100">Тюнинг Xilinx Varium C1100</h2>
+<p>Xilinx Varium C1100 - очень хорошо спроектированная карта с точки зрения подачи питания, но ее охлаждение может быть затруднено из-за пассивной конструкции охлаждения с одним слотом.</p>
+<p>Обычного охлаждения майнинг-фермы для этой карты будет недостаточно, и карте необходимо обеспечить дополнительное охлаждение.</p>
+<p class="notice--success">Шасси сервера с высоким статическим давлением иногда может обеспечить хорошие результаты, но наиболее надежным решением является прямое присоединение воздуходувки (например, SanAce B97) к задней части карты.</p>
+<p>Многие пользователи обнаружили, что лучший способ сделать это - использовать монтажный кронштейн, напечатанный на 3D-принтере, однако многие пользователи добились успеха с помощью нетехнологичных методов, таких как широкое использование ленты.</p>
+<p class="notice--danger">ВАЖНО: C1100 должен получать питание как через слот PCIe, так и через разъем питания AUX. Отсутствие подключения слота PCIe и питания AUX может привести к перегреву компонентов платы.</p>
+<p>Несмотря на то, что встроенная подача питания хорошо спроектирована, она потребляет ток 12 В как от края PCIe, так и от разъемов AUX и требует обоих для работы с более мощными нагрузками.</p>
+<p>Если предположить, что C1100 должным образом охлаждается, большинство карт будут стабильно работать с частотой ядра 610 МГц и тактовой частотой памяти 1220 МГц.</p>
+<p class="notice--success">Карты с исключительно хорошим охлаждением или очень хорошим качеством кремния могут иметь тактовую частоту ядра до 660 МГц и памяти 1310 МГц.</p>
+<h2 id="тюнинг-sqrl-forest-kitten-33">Тюнинг SQRL Forest Kitten 33</h2>
+<p>Большинство FK33 поставляются с активным радиатором, который хорошо охлаждает карты во время типичной работы. К сожалению, схема подачи питания на карте несколько не хватает, когда дело доходит до работы проектов, использующих большие объемы пропускной способности памяти HBM, например TRM ethash.</p>
+<p>Поскольку регулятор VCCHBM на карте рассчитан только на выходной ток 20 А, TRM реализует ограничение в 1000 МГц для тактовой частоты памяти на этой карте.</p>
+<p class="notice--info">Из-за ограничения тактовой частоты памяти 1000 МГц мы рекомендуем пользователям использовать тактовую частоту ядра 505 МГц, чтобы максимизировать производительность при минимальном потреблении энергии.</p>
+<p>Хотя TRM в настоящее время не поддерживает регулировку напряжений на FK33, можно регулировать напряжения на карте до запуска TRM с помощью внешних инструментов, таких как мост SQRL.</p>
+<p>Из-за более низких тактовых частот памяти и ядра, необходимых для регулятора vcchbm меньшего размера, мы рекомендуем пользователям снизить напряжение на своих платах до настолько низкого, насколько они способны работать на платах FK33: 0,777 В для vccint, 0,821 В для vccbram и 1,164 В. для vcchbm.</p>
+<p class="notice--danger">Эти настройки сэкономят электроэнергию и помогут сохранить регулятор vcchbm в холодном состоянии (и снизят вероятность повреждения регулятора).</p>
+<p class="notice--danger">ВАЖНО: хотя ограничение тактовой частоты памяти 1000 МГц не позволит большинству плат повредить регуляторы vcchbm, важно поддерживать низкое напряжение vcchbm, чтобы минимизировать ток на шине.</p>
+<p>Работа на частоте памяти 1000 МГц с высоким напряжением vcchbm может привести к появлению достаточно большого тока, чтобы повредить регулятор.</p>
      </section>
 </div>
    </article>
@@ -202,9 +264,97 @@ File: *teamredminer.exe, <br>
 </div>
 <div class="tim-vi2">	
  <!-- related_posts -->
+   <div class="page__related">
+     <h4 class="page__related-title">Вам также может понравиться</h4>
+     <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/0.9.0/" rel="permalink">Скачать ТимРэдМайнер 0.9.0 - AMD GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  менее 1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.9.0
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 0ef4e80695f5fc00b3981d5ba4cab1f6051fccd13...</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/0.8.7/" rel="permalink">Скачать ТимРэдМайнер 0.8.7 - AMD GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  менее 1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Начните добывать криптовалюту с помощью TeamRedMiner
+		Версия: 0.8.7
+		Файл: *TeamRedMiner.exe, 
+		SHA256: 5851fa22f34157cf2376b596273f856b845d8e815...</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/ru/articles/frs-11-25/" rel="permalink">Инфляция в США в 2021 -  Что Будет Дальше?
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/ru/articles/eth-11-17/" rel="permalink">Прогноз цены Биткоина и Ethereum на Декабрь 2021
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  1 мин на чтение
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+</p>
+ </article>
+</div>
+     </div>
+   </div>
     <!-- post navigation footer -->
       <footer class="page__meta">
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2021-12-13T00:00:00+00:00">13.12.2021</time></p>
      </footer>
+     <section class="page__share">
+   <h4 class="page__share-title">Поделиться</h4>
+  <a href="https://twitter.com/intent/tweet?via=teamredminer&amp;text=TeamRedMiner+-+FPGA+%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3+%D0%AD%D1%84%D0%B8%D1%80%D0%B0%20https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Ffpga-guide%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Ffpga-guide%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fteamredminer.info%2Fdocumentation%2Ffpga-guide%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+ <nav class="pagination">
+      <a href="/download/0.8.7/" class="pagination--pager" title="Скачать ТимРэдМайнер 0.8.7 - AMD GPU Miner [2021]
+">Предыдущая</a>
+      <a href="/download/0.9.0/" class="pagination--pager" title="Скачать ТимРэдМайнер 0.9.0 - AMD GPU Miner [2021]
+">Следующая</a>
+ </nav>
   <!-- comments -->
       <!--      -->
 </div>
