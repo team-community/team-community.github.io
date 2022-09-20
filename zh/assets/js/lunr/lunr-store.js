@@ -1,6 +1,6 @@
 var store = [{
         "title": "TeamRedMiner Setup Guide [2021]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 0.10.3 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 0.10.3.1 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["TeamRedMiner"],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"
