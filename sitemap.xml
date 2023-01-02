@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+<<<<<<< HEAD
+    <loc>https://teamredminer.info/download/0.10.7/</loc>
+    
+    <lastmod>2022-12-31T00:00:00-05:00</lastmod>
+=======
+    <loc>https://teamredminer.info/download/0.10.5.1/</loc>
+    
+    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.4.1/</loc>
+    
+    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.3.1/</loc>
+    
+    <lastmod>2022-09-20T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.3/</loc>
+    
+    <lastmod>2022-09-16T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.2/</loc>
+    
+    <lastmod>2022-06-24T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.1/</loc>
+    
+    <lastmod>2022-06-15T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.10.0/</loc>
+    
+    <lastmod>2022-05-19T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.4.2/</loc>
+    
+    <lastmod>2022-03-30T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.4/</loc>
+    
+    <lastmod>2022-02-26T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.3/</loc>
+    
+    <lastmod>2022-02-21T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.2.2/</loc>
+    
+    <lastmod>2022-02-20T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.2.1/</loc>
+    
+    <lastmod>2022-02-15T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.2/</loc>
+    
+    <lastmod>2022-02-11T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.1/</loc>
+    
+    <lastmod>2022-01-22T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.9.0/</loc>
+    
+    <lastmod>2021-12-13T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/documentation/fpga-guide/</loc>
+    
+    <lastmod>2021-12-13T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.7/</loc>
+    
+    <lastmod>2021-12-09T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.6.3/</loc>
+    
+    <lastmod>2021-11-06T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.6.2/</loc>
+    
+    <lastmod>2021-11-03T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.6/</loc>
+    
+    <lastmod>2021-10-07T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/latest/</loc>
+    
+    <lastmod>2021-09-11T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.5/</loc>
+    
+    <lastmod>2021-09-11T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.4/</loc>
+    
+    <lastmod>2021-07-22T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/download/0.8.3/</loc>
+    
+    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/documentation/setup/</loc>
+    
+    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/documentation/changelog/</loc>
+    
+    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://teamredminer.info/documentation/arguments/</loc>
+    
+    <lastmod>2021-05-29T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/about/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/cookie/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/privacy/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/articles/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/blog/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/documentation/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/download/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/download/page2/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/download/page3/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://teamredminer.info/video/</loc>
+      
+<<<<<<< HEAD
+        <lastmod>2022-12-31T09:43:08-05:00</lastmod>
+=======
+        <lastmod>2022-10-21T16:25:22+00:00</lastmod>
+>>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+</urlset>
