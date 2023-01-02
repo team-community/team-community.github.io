@@ -1,10 +1,6 @@
 var store = [{
         "title": "Argumentos de la línea de comandos de TeamRedMiner [2021]",
-<<<<<<< HEAD
         "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 0.10.7 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
-=======
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by TeamRedMiner.    You can download TeamRedMiner 0.10.5.1 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace TeamRedMiner.exe with ./TeamRedMiner in the command-line examples below.   ","categories": ["documentation"],
->>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
         "tags": ["TeamRedMiner"],
         "url": "https://teamredminer.info/documentation/setup/",
         "teaser": "https://teamredminer.info/assets/images/thumbs/500x300.png"

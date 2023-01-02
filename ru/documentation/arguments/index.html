@@ -3,7 +3,8 @@
    <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<!-- begin _includes/seo.html --><title>TeamRedMiner: Команды и Параметры для майнинга</title>
+<!-- begin _includes/seo.html -->
+<title>TeamRedMiner: Команды и Параметры для майнинга</title>
 <meta name="description" content="Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.">
  <meta name="author" content="TeamRedMiner">
 <meta property="og:type" content="article">
@@ -256,7 +257,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
            </nav>
          </aside>
        <p><em>Аргументы командной строки - это аргументы, которые указываются после имени программы в системной командной строке, и значения этих аргументов передаются вашей программе во время выполнения.</em>
-<img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy"></p>
+<img srcset="/assets/images/documentation/mobile/teamred.webp 323w,              /assets/images/documentation/webp/teamred.webp 517w,              /assets/images/documentation/large/teamred.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/teamred.png" alt="TeamRedMiner" loading="lazy" decoding="async"></p>
 <p>Использование: <code class="language-plaintext highlighter-rouge">teamredminer.exe -команда1 -команда2 -команда3</code></p>
 <p>Пример для Ravencoin:</p>
 <p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RKAeArXkWLNERjWo5YF3R1xFnYCwKf11sX.worker_name -p x</code></p>
@@ -340,7 +341,7 @@ trtl_chukwa2      (turtlecoin)
 </ul>
 <p>Просто скопируйте и измените адрес кошелька на адрес вашего кошелька. Это пример для Ethermine:</p>
 <p class="notice--info"><code class="language-plaintext highlighter-rouge">teamredminer.exe -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d.worker_name -p x</code></p>
-<p><a href="/assets/images/mining/mining_rig_1437.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1437.jpg" alt="mining rig" loading="lazy"> </a></p>
+<p><a href="/assets/images/mining/mining_rig_1437.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1437.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <h2 id="список-аргументов-командной-строки">Список аргументов командной строки</h2>
 <p><code class="language-plaintext highlighter-rouge">-h</code>, <code class="language-plaintext highlighter-rouge">--help</code>          Display  help message and exit.</p>
 <p><code class="language-plaintext highlighter-rouge">--debug</code>               Enables debug log output.</p>
@@ -350,7 +351,7 @@ trtl_chukwa2      (turtlecoin)
 <p><code class="language-plaintext highlighter-rouge">--cm_api_listen=IP:PORT</code> Enables the claymore compatible api. IP:PORT is optional. If present, the <code class="language-plaintext highlighter-rouge">IP:PORT</code> combo decides the interface(s) and port to listen to. Default is <code class="language-plaintext highlighter-rouge">127.0.0.1:3333</code>. For external access, use e.g. <code class="language-plaintext highlighter-rouge">0.0.0.0:3333</code>. It’s also valid to only specify the port, e.g. <code class="language-plaintext highlighter-rouge">3334</code>.</p>
 <p><code class="language-plaintext highlighter-rouge">--cm_api_password=PSW</code> Sets the required password for the CM compatible api interface.</p>
 <h2 id="журнал-logs">Журнал (Logs)</h2>
-<p><img src="/assets/images/documentation/logs.png" style="width:200px;height:200px;" alt="Logs" loading="lazy"></p>
+<p><img src="/assets/images/documentation/logs.png" style="width:200px;height:200px;" alt="Logs" loading="lazy" decoding="async"></p>
 <p><code class="language-plaintext highlighter-rouge">--log_file(=FILENAME)</code> Enables logging of miner output into the file specified by <code class="language-plaintext highlighter-rouge">FILENAME</code>.  If no filename is provided, the miner will log to <code class="language-plaintext highlighter-rouge">trm_&lt;algo&gt;_&lt;yyyymmdd_hhmmss&gt;</code>.log in the current working directory.  If the log file already exists, the miner will append.</p>
 <p><code class="language-plaintext highlighter-rouge">-l, --log_interval=SEC</code>    Set the time interval in seconds for averaging and printing GPU hashrates. SEC sets the interval in seconds, and must be &gt; 0.</p>
 <p><code class="language-plaintext highlighter-rouge">--log_rotate=SZ[,CNT]</code> Enables log rotation. The SZ value sets the log size after which a new log file will be created.  The SZ value supports the suffixes ‘k’, ‘M’, and ‘G’ and will multiply the value by <code class="language-plaintext highlighter-rouge">1024</code>, <code class="language-plaintext highlighter-rouge">1048576</code>, and <code class="language-plaintext highlighter-rouge">1073741824</code> respectively.</p>
@@ -382,7 +383,7 @@ trtl_chukwa2      (turtlecoin)
 <p class="notice--ya">Note: this might not be enabled for all algos.</p>
 <p><code class="language-plaintext highlighter-rouge">--allow_dup_bus_ids</code>   Allows multiple gpus using the same pci bus id.  This should only be used for Radeon Pro Duo
 cards and similar hardware, it’s normally an indication of a broken OpenCL environment.</p>
-<p><a href="/assets/images/mining/mining_rig_1430.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1430.jpg" alt="mining rig" loading="lazy"> </a></p>
+<p><a href="/assets/images/mining/mining_rig_1430.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1430.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <h2 id="подключение-к-пулу">Подключение к пулу</h2>
 <p><code class="language-plaintext highlighter-rouge">-o, --url=URL</code>             Sets the pool URL.  Currently stratum+tcp and stratum+ssl URLs are supported.</p>
 <ul>
@@ -403,7 +404,7 @@ to provide a certificate for. In such cases, use the following format:</p>
 <p><code class="language-plaintext highlighter-rouge">--pool_no_ensub</code>       Prevent miner from sending extranonce subscribe request to the pool.</p>
 <p><code class="language-plaintext highlighter-rouge">--pool_broken_rpc</code>     Tells the miner to only allow a single outstanding rpc request on the pool connection.  This is a work-around for pools that violate the json rpc specification regarding rpc IDs.</p>
 <p><code class="language-plaintext highlighter-rouge">--pool_ratio=RATIO</code>    Sets the hashrate ratio between pools when using multiple pools with the the <code class="language-plaintext highlighter-rouge">load_balance</code> or <code class="language-plaintext highlighter-rouge">quota</code> pool strategies (see <code class="language-plaintext highlighter-rouge">--pool_strategy</code>).  By default all pools use the ratio value 1.  For example, using this option with a value of 2 on just one pool will make that pool receive twice the hashrate as the other pools since their ratio will still be the default value of 1.</p>
-<p><a href="/assets/images/mining/mining_rig_1432.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1432.jpg" alt="mining rig" loading="lazy"> </a></p>
+<p><a href="/assets/images/mining/mining_rig_1432.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1432.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <h2 id="глобальные-опции-пула">Глобальные опции пула</h2>
 <p><code class="language-plaintext highlighter-rouge">--pool_connect_TO=SEC</code> Set the time-out for attempting to connect to a pool. SEC is the time to wait in
 seconds. Default is 10.</p>
@@ -447,7 +448,7 @@ Default value is 5.</p>
 <p>Therefore, specify your ETH mining pool as the first/primary pool, then the ZIL pool as the second pool.  You can also use ‘eth_zil’ as the name for this strategy.</p>
 <p><code class="language-plaintext highlighter-rouge">--no_ntime_roll</code>       Prevents the miner from rolling ntime in the block header, only using the value provided by the pool. This needs to be enabled for some pools when mining <code class="language-plaintext highlighter-rouge">x16rt</code>.</p>
 <p><code class="language-plaintext highlighter-rouge">--no_stale_submit</code>     Prevents the miner from submitting shares that are not for the most current pool job.</p>
-<p><a href="/assets/images/mining/mining_rig_1433.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1433.jpg" alt="mining rig" loading="lazy"> </a></p>
+<p><a href="/assets/images/mining/mining_rig_1433.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1433.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
 <h2 id="опция-выбора-видеокарт">Опция выбора видеокарт</h2>
 <p><code class="language-plaintext highlighter-rouge">--platform=INDEX</code>      Sets the index of the OpenCL platform to use. If not specified, platform will be auto-detected. Linux with multiple platforms is only supported using no <code class="language-plaintext highlighter-rouge">--platform</code> arg but instead adding <code class="language-plaintext highlighter-rouge">--bus_reorder</code>.</p>
 <p><code class="language-plaintext highlighter-rouge">-d</code>, <code class="language-plaintext highlighter-rouge">--devices=DEVLIST</code>     Sets gpu devices to use from detected list. DEVLIST should be a comma-separated list of device indices, e.g. -d 0,1,2,4.  If not specified, alldevices on the platform(s) will be used.  NOTE: by default the devices are orderedby pcie bus ordering. Use <code class="language-plaintext highlighter-rouge">--list_devices</code> to show indices.</p>
@@ -798,15 +799,9 @@ in one of the threads (15+15 -&gt; 15+14 -&gt; 14+14 -&gt; 14+13 -&gt; …). You
    <div class="row">
      <div class="down-inner">
        <h2 class="h2 mb-4 pb-2">Download now</h2>
-<<<<<<< HEAD
        <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.10.7<br>
 File: *teamredminer.exe, <br>
 <span class="break">SHA256: 887b67fdc26f5977954b5856d1c21d10f8e4e00b846197145b63eadda66e7fa9</span><br></p>
-=======
-       <p class="text-center mx-auto mb-4 pb-2">Latest version is 0.10.5.1<br>
-File: *teamredminer.exe, <br>
-<span class="break">SHA256: 2377e69aadfe5029e1bb39e61bc000db70b354cade216196f2d31be5a3f5e800</span><br></p>
->>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
        <hr class="hr-light" style="width: 3rem;">
        <ul class="rating mt-4 pt-2 mb-1">
 <li>
@@ -826,13 +821,8 @@ File: *teamredminer.exe, <br>
 </li>
 </ul>
        <p class="mb-4 pb-2"><small>Based on 3,200+ reviews</small></p>
-<<<<<<< HEAD
         <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.10.7/teamredminer-v0.10.7-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
 				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.10.7/teamredminer-v0.10.7-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
-=======
-        <button type="button" class="front-but win"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.10.5.1/teamredminer-v0.10.5.1-win.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
-				<button type="button" class="front-but lin"> <a href="https://github.com/todxx/teamredminer/releases/download/v0.10.5.1/teamredminer-v0.10.5.1-linux.tgz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
->>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
      </div>
    </div>
  </section>
@@ -846,45 +836,7 @@ File: *teamredminer.exe, <br>
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy">
-     </div>
-   <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/0.10.5.1/" rel="permalink">Скачать ТимРэдМайнер 0.10.5.1 - AMD GPU Miner [2022]
-</a>
-   </h2>
-     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
-</p>
-   <p class="archive__item-excerpt" itemprop="description">
-Начните добывать криптовалюту с помощью TeamRedMiner
-		Версия: 0.10.5.1
-		Файл: *TeamRedMiner.exe, 
-		SHA256: 2377e69aadfe5029e1bb39e61bc000db70b354...</p>
- </article>
-</div>
-<div class="grid__item">
- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-     <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy">
-     </div>
-   <h2 class="archive__item-title" itemprop="headline">
-        <a href="/download/0.10.4.1/" rel="permalink">Скачать ТимРэдМайнер 0.10.4.1 - AMD GPU Miner [2022]
-</a>
-   </h2>
-     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
-</p>
-   <p class="archive__item-excerpt" itemprop="description">
-Начните добывать криптовалюту с помощью TeamRedMiner
-		Версия: 0.10.4.1
-		Файл: *TeamRedMiner.exe, 
-		SHA256: 58b7f8e2eeceb87dd98b36a3596ff282b82a49...</p>
- </article>
-</div>
-<div class="grid__item">
- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-     <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
         <a href="/download/0.10.7/" rel="permalink">Скачать ТимРэдМайнер 0.10.7 - AMD GPU Miner [2023]
@@ -922,7 +874,7 @@ File: *teamredminer.exe, <br>
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
      </div>
    <h2 class="archive__item-title" itemprop="headline">
         <a href="/download/0.10.3/" rel="permalink">Скачать ТимРэдМайнер 0.10.3 - AMD GPU Miner [2022]
@@ -938,7 +890,6 @@ File: *teamredminer.exe, <br>
 		SHA256: 03152a7c800268c8bc864d6b3d8956919ca71cc6...</p>
  </article>
 </div>
-<<<<<<< HEAD
 <div class="grid__item">
  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
      <div class="archive__item-teaser">
@@ -958,8 +909,6 @@ File: *teamredminer.exe, <br>
 		SHA256: e35abaee6131910e4a8753ebba74c2a3628714db...</p>
  </article>
 </div>
-=======
->>>>>>> 390176fe6a2c496c46b7fa2c0a50edc93d84d9fa
      </div>
    </div>
     <!-- post navigation footer -->
@@ -1046,7 +995,7 @@ File: *teamredminer.exe, <br>
 	</div>
 	<div class="page__footer-copyright">
 			<p><a href="#" class="back_to_top">Back to top</a></p>
-	© 2022 TeamRedMiner. 
+	© 2023 TeamRedMiner. 
 		<p class="diclamer"></p>
 	</div>
 </section>
@@ -1072,7 +1021,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <script defer src="/assets/js/youtube-custom-lazy.js"></script>	
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57XZBSH" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57XZBSH" height="0" width="0" style="display:none;visibility:hidden" loading="lazy" decoding="async"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   
 </body>
