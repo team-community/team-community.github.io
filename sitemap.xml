@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://teamredminer.info/download/0.10.8/</loc>
+    
+    <lastmod>2023-01-28T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://teamredminer.info/download/0.10.7/</loc>
     
     <lastmod>2022-12-31T00:00:00-05:00</lastmod>
@@ -242,7 +251,7 @@
   <url>
     <loc>https://teamredminer.info/about/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -254,7 +263,7 @@
   <url>
     <loc>https://teamredminer.info/cookie/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -266,7 +275,7 @@
   <url>
     <loc>https://teamredminer.info/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -290,7 +299,7 @@
   <url>
     <loc>https://teamredminer.info/privacy/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -304,7 +313,7 @@
   <url>
     <loc>https://teamredminer.info/articles/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -316,7 +325,7 @@
   <url>
     <loc>https://teamredminer.info/blog/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -328,7 +337,7 @@
   <url>
     <loc>https://teamredminer.info/documentation/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -340,7 +349,7 @@
   <url>
     <loc>https://teamredminer.info/download/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -352,7 +361,7 @@
   <url>
     <loc>https://teamredminer.info/download/page2/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -364,7 +373,7 @@
   <url>
     <loc>https://teamredminer.info/download/page3/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -376,7 +385,7 @@
   <url>
     <loc>https://teamredminer.info/video/</loc>
       
-        <lastmod>2023-01-02T04:15:16-05:00</lastmod>
+        <lastmod>2023-01-28T15:05:05-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
